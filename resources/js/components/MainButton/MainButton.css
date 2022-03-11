@@ -1,0 +1,41 @@
+.main_button {
+  width: 230px;
+  height: 64px;
+  background-color: #202387;
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.main_button::before {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fd5d14;
+  border-radius: 35px;
+  transition: 0.3s;
+  transform: translateX(-100%);
+  overflow: hidden;
+  z-index: 0;
+}
+.main_button svg,
+.main_button .bold {
+  position: relative;
+  z-index: 10;
+}
+.main_button svg {
+  margin-left: 7px;
+}
+.main_button:hover::before {
+  transform: translateX(0);
+}
+@media screen and (max-width: 800px) {
+  .main_button {
+    width: 200px;
+    height: 49px;
+    font-size: 15px;
+  }
+}

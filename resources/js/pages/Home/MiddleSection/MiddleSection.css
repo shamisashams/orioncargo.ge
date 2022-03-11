@@ -1,0 +1,121 @@
+.middle_section {
+  padding: 75px 0;
+  background: url(/img/other/lines.png) no-repeat;
+  background-position: center;
+}
+.middle_section .gil30 {
+  margin-bottom: 25px;
+}
+.middle_section p {
+  margin-bottom: 30px;
+  max-width: 536px;
+}
+.middle_section .project_flex {
+  margin-bottom: 75px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.middle_section .gallery_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+  width: 45%;
+  flex-shrink: 0;
+  overflow: hidden;
+  margin-right: 60px;
+  height: 600px;
+}
+.middle_section .gallery_grid .img {
+  width: 100%;
+  height: 100%;
+}
+.middle_section .gallery_grid .img:first-child {
+  grid-row: span 2;
+}
+.middle_section .who_we_are {
+  align-items: flex-start;
+}
+.middle_section .who_we_are .left {
+  width: 674px;
+  margin-right: 40px;
+}
+.middle_section .who_we_are .left .img {
+  margin-top: 40px;
+  width: 100%;
+}
+.middle_section .who_we_are .right .img {
+  width: 100%;
+}
+.middle_section .who_we_are .form {
+  margin: auto;
+  margin-right: 0;
+  margin-top: 50px;
+}
+.middle_section .who_we_are .margin_bottom {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+  .middle_section .gallery_grid {
+    height: 410px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .middle_section .who_we_are .left {
+    width: 485px;
+    margin-right: 30px;
+    flex-shrink: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .middle_section .who_we_are {
+    flex-direction: column;
+  }
+  .middle_section .who_we_are .left {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .middle_section .who_we_are .right {
+    width: 100%;
+  }
+  .middle_section .who_we_are .form {
+    margin: auto;
+    margin-top: 25px;
+  }
+  .middle_section .gallery_grid {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .middle_section .gallery_grid {
+    height: 281px;
+    grid-gap: 6px;
+    margin-right: 17px;
+  }
+  .middle_section .gil30 {
+    margin-bottom: 13px;
+  }
+  .middle_section p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .middle_section {
+    padding: 44px 0;
+  }
+  .middle_section .project_flex {
+    margin-bottom: 44px;
+    flex-direction: column-reverse;
+  }
+  .middle_section .gallery_grid {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+  }
+  .gil30 {
+    font-size: 24px;
+  }
+}

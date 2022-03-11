@@ -1,0 +1,15 @@
+.projectsPage .project_track {
+  display: block;
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 840px) {
+  .project_box {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .project_box .img {
+    height: auto;
+  }
+}

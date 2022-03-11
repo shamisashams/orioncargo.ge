@@ -1,0 +1,85 @@
+.project_box {
+  width: 380px;
+  margin-right: 16px;
+  margin-bottom: 30px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  color: #222530;
+}
+.project_box .img {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.project_box .img img {
+  transition: 0.4s;
+}
+.project_box .img::before {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: 0.4s;
+  background-color: #141517;
+  opacity: 0;
+}
+.project_box .img .plus {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1.3);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: 0.4s;
+  border: 3px solid #fff;
+  opacity: 0;
+}
+.project_box .img .plus img {
+  width: 16px;
+  height: auto;
+  transition: 0.4s;
+  margin: auto;
+  transform: scale(0.5);
+}
+.project_box:hover .img .plus {
+  opacity: 1;
+  transform: scale(1) translate(-50%, -50%);
+}
+.project_box:hover .project_img {
+  transform: scale(1.2);
+  position: relative;
+  z-index: -1;
+}
+.project_box:hover .img::before {
+  opacity: 0.6;
+}
+.project_box:hover .img .plus img {
+  transform: scale(1);
+}
+.project_box h5 {
+  font-size: 18px;
+  position: relative;
+  padding: 0 12px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  transition: 0.4s;
+  width: fit-content;
+}
+.project_box h5::before {
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+  background-color: #202387;
+  width: 5px;
+  transition: 0.4s;
+}
+.project_box:hover h5::before {
+  width: 100%;
+}
+.project_box:hover h5 {
+  color: #fff;
+}

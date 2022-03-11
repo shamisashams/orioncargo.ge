@@ -1,0 +1,32 @@
+.contact_info {
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #fff;
+}
+.contact_info .column {
+  margin-right: 60px;
+}
+.contact_info h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.contact_info p {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 700px) {
+  .contact_info .column {
+    margin-right: 45px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact_info {
+    display: block;
+  }
+  .contact_info .column {
+    display: inline-block;
+    margin-bottom: 40px;
+    vertical-align: top;
+  }
+}

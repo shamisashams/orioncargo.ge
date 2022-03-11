@@ -1,0 +1,31 @@
+.gallery_home {
+  width: 100%;
+  overflow: hidden;
+}
+.gallery_home .slick-slider .slick-list {
+  height: 400px;
+}
+
+.gallery_home .img {
+  outline: none;
+  height: 400px;
+}
+.gallery_home .slick-initialized .slick-slide {
+  margin: 0 8px;
+}
+.gallery_slide {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .gallery_home .slick-slider .slick-list,
+  .gallery_home .img {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gallery_home .slick-slider .slick-list,
+  .gallery_home .img {
+    height: 240px;
+  }
+}

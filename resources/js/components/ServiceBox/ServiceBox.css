@@ -1,0 +1,57 @@
+.service_box {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  transition: 0.4s;
+  position: relative;
+  padding: 30px;
+}
+.service_box svg {
+  transition: 0.4s;
+  fill: #202387;
+}
+.service_box:hover {
+  background-color: #fff;
+  box-shadow: #2d2f3428 0 3px 15px;
+}
+.service_box:hover svg {
+  fill: #fe5e15 !important;
+}
+.service_box:hover .gilroy {
+  color: #fe5e15;
+}
+.service_box .gilroy {
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: 0.4s;
+  margin: 16px 0;
+}
+.service_box p {
+  opacity: 0.5;
+}
+.service_box.bg {
+  background-color: #fff;
+  box-shadow: #2d2f341f 0 3px 15px;
+}
+.service_box.bg .gilroy {
+  color: #2a3f9c;
+}
+.service_box.bg svg {
+  fill: #202387 !important;
+}
+
+.service_box .circle_arrow {
+  display: none;
+}
+.service_box.bg .circle_arrow {
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 68px;
+  transition: 0.4s;
+  opacity: 0;
+}
+.service_box.bg:hover .circle_arrow {
+  opacity: 1;
+  right: 30px;
+}

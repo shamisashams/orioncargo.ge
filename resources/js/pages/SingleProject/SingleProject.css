@@ -1,0 +1,67 @@
+.singleProject {
+  color: #20202e;
+  margin-bottom: 90px;
+}
+.singleProject .main {
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.singleProject .main p {
+  margin-bottom: 20px;
+}
+.singleProject .img {
+  width: 500px;
+  flex-shrink: 0;
+  height: auto;
+}
+.singleProject .context {
+  max-width: 670px;
+  margin: 0 60px;
+  text-align: justify;
+}
+.singleProject .main .arrow.flex {
+  margin: auto;
+}
+.singleProject .arrow.flex .bold {
+  margin: 0 15px;
+  text-transform: uppercase;
+  line-height: 100%;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+.singleProject .arrow.flex:hover .bold {
+  margin: 0 22px;
+}
+
+@media screen and (max-width: 1400px) {
+  .singleProject .img {
+    width: 30%;
+  }
+  .singleProject .context {
+    margin: 0 30px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .singleProject .main {
+    flex-direction: column;
+  }
+  .singleProject .context {
+    margin: 30px 0;
+    max-width: none;
+  }
+  .singleProject .img {
+    width: 500px;
+    margin: auto;
+  }
+  .singleProject .main .arrow.flex {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .singleProject .img {
+    width: 100%;
+  }
+  .singleProject .arrow.flex .bold {
+    margin: 0 8px;
+  }
+}

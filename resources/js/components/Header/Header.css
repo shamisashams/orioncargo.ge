@@ -1,0 +1,115 @@
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding-top: 13px;
+}
+.menu_btn {
+  display: none;
+}
+.header .navbar {
+  margin-left: 50px;
+}
+.header .navbar .nav_link {
+  margin: 0 30px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.header .navbar .nav_link.active {
+  opacity: 1;
+}
+.header .navbar .nav_link:hover {
+  opacity: 1;
+}
+.header .languages {
+  position: relative;
+  cursor: default;
+  text-transform: uppercase;
+  font-family: "poppins-bold";
+}
+.header .languages .drop {
+  position: absolute;
+  left: 30.25px;
+  top: 100%;
+  padding-top: 5px;
+  opacity: 0;
+  transform: scaleY(0.3);
+  transform-origin: top;
+  transition: 0.3s;
+}
+.header .languages .drop button {
+  display: block;
+  font-family: "poppins-bold";
+}
+.header .languages .on div {
+  margin: 0 10px;
+  font-family: "poppins-bold";
+}
+.header .languages .arrow {
+  transition: 0.3s;
+  transform-origin: center;
+}
+.header .languages:hover .arrow {
+  transform: rotate(180deg) !important;
+}
+.header .languages:hover .drop {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+@media screen and (max-width: 1100px) {
+  .header .navbar {
+    margin-left: 5px;
+  }
+  .header .navbar .nav_link {
+    margin: 0 13px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .header .navbar {
+    position: absolute;
+    right: -20px;
+    top: 45px;
+    padding: 20px 35px;
+    background: linear-gradient(to bottom, #2023874f, #02031d57);
+    border-radius: 3px;
+    transition: 0.3s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  .header .navbar.show {
+    transform: scaleX(1);
+    right: 0;
+  }
+  .header .navbar .nav_link {
+    display: block;
+    margin: 5px 0;
+    color: #fff !important;
+  }
+  .header .wrapper {
+    align-items: flex-start;
+  }
+  .menu_btn {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .menu_btn .span {
+    height: 3px;
+    width: 25px;
+    opacity: 0.6;
+    margin: 5px 0;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  .menu_btn.clicked .span:first-child {
+    transform: rotate(-45deg);
+    margin: 0;
+  }
+  .menu_btn.clicked .span:last-child {
+    transform: rotate(45deg);
+    margin: -2px 0;
+  }
+}

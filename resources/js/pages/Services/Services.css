@@ -1,0 +1,20 @@
+.servicePage {
+  position: relative;
+}
+.servicePage .head {
+  margin-bottom: 44px;
+}
+.servicePage .grid .gil30 {
+  color: #fd5d14;
+  margin: 16px 0;
+}
+.servicePage .grid .main_button {
+  margin-left: 0;
+}
+.servicePage .grid .last {
+  vertical-align: middle;
+  margin: auto 0;
+}
+.servicePage .background {
+  top: 80px;
+}

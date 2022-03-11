@@ -1,0 +1,41 @@
+.form {
+  max-width: 674px;
+}
+.form input,
+.form textarea {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 15px #2526331a;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  height: 56px;
+  display: block;
+  width: 100%;
+}
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #c6cadf;
+}
+.form textarea {
+  height: 160px;
+  padding-top: 17px;
+  margin-bottom: 28px;
+}
+.form .main_button {
+  margin: auto;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .form input {
+    padding-left: 11px;
+    margin-bottom: 9px;
+    height: 41px;
+  }
+  .form textarea {
+    padding-left: 11px;
+    height: 116px;
+    padding-top: 10px;
+    margin-bottom: 19px;
+  }
+}

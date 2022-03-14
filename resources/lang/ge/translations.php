@@ -1,6 +1,6 @@
 <?php
 return [
-    "home" => "Home",
+    "home" => "მთავარი",
     "about" => "about",
     "services" => "Services",
     "projects" => "Projects",

@@ -33,7 +33,7 @@ const GallerySlide = () => {
   return (
     <div className="gallery_home">
       <div className="wrapper">
-        <div className="gil30">Gallery</div>
+        <div className="gil30">{__("gallery")}</div>
       </div>
       <Slider {...settings} className="gallery_slide">
         {sliderData.map((img) => {

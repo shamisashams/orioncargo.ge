@@ -101,25 +101,25 @@ Route::group(
     });
     Route::middleware(['active'])->group(function () {
 
-        // Home Page
-//            Route::get('', [HomeController::class, 'index'])->name('client.home.index');
-        Route::get('/gallery', [\App\Http\Controllers\Client\GalleryController::class, 'index'])->name('client.gallery.index');
-//            Route::get('/doctors', [HomeController::class, 'doctors'])->name('client.doctors.index');
-//            Route::get('/choosefloor', [HomeController::class, 'choosefloor'])->name('client.choosefloor.index');
-        Route::get('/apartment/{apartment?}', [\App\Http\Controllers\Client\ApartmentController::class, 'show'])->name('client.apartment.index');
-        Route::get('/choose-floor', [\App\Http\Controllers\Client\ApartmentController::class, 'index'])->name('client.choosefloor.index');
-
-        // Floor Plan
-        Route::get('/choose-apartment/{floor?}', [\App\Http\Controllers\Client\ApartmentController::class, 'showFloor'])->name('client.showFloor.index');
-
-
-        // Contact Page
-        Route::get('/contact', [ContactController::class, 'index'])->name('client.contact.index');
-        Route::post('/contact-us', [ContactController::class, 'mail'])->name('client.contact.mail');
-
-
-        // About Page
-        Route::get('about', [AboutUsController::class, 'index'])->name('client.about.index');
+//        // Home Page
+////            Route::get('', [HomeController::class, 'index'])->name('client.home.index');
+//        Route::get('/gallery', [\App\Http\Controllers\Client\GalleryController::class, 'index'])->name('client.gallery.index');
+////            Route::get('/doctors', [HomeController::class, 'doctors'])->name('client.doctors.index');
+////            Route::get('/choosefloor', [HomeController::class, 'choosefloor'])->name('client.choosefloor.index');
+//        Route::get('/apartment/{apartment?}', [\App\Http\Controllers\Client\ApartmentController::class, 'show'])->name('client.apartment.index');
+//        Route::get('/choose-floor', [\App\Http\Controllers\Client\ApartmentController::class, 'index'])->name('client.choosefloor.index');
+//
+//        // Floor Plan
+//        Route::get('/choose-apartment/{floor?}', [\App\Http\Controllers\Client\ApartmentController::class, 'showFloor'])->name('client.showFloor.index');
+//
+//
+//        // Contact Page
+//        Route::get('/contact', [ContactController::class, 'index'])->name('client.contact.index');
+//        Route::post('/contact-us', [ContactController::class, 'mail'])->name('client.contact.mail');
+//
+//
+//        // About Page
+//        Route::get('about', [AboutUsController::class, 'index'])->name('client.about.index');
 
         // Product Page
 //            Route::get('product', [\App\Http\Controllers\Client\ProductController::class, 'index'])->name('client.product.index');
@@ -136,8 +136,8 @@ Route::group(
 //            Route::get('/project/{project}', [\App\Http\Controllers\Client\ProjectController::class, "show"])->name('client.project.show');
 
         // Service Page
-        Route::get('/service', [ServiceController::class, "index"])->name('client.service.index');
-        Route::get('/service/{service?}', [ServiceController::class, "show"])->name('client.service.show');
+//        Route::get('/service', [ServiceController::class, "index"])->name('client.service.index');
+//        Route::get('/service/{service?}', [ServiceController::class, "show"])->name('client.service.show');
         Route::get('', function () {
             return Inertia::render('Home/Home');
         })->name('client.home.index');
@@ -150,7 +150,7 @@ Route::group(
             return Inertia::render('Services/Services');
         })->name('client.services.index');
 
-        Route::get('/services/{service?}', function ($locale, $service) {
+        Route::get('/services/{service?}', function ($service) {
             return Inertia::render('SingleServices/' . $service);
         })->name('client.services.show');
 
@@ -158,7 +158,7 @@ Route::group(
             return Inertia::render('Projects/Projects');
         })->name('client.projects.index');
 
-        Route::get('/projects/{project?}', function ($locale, $project) {
+        Route::get('/projects/{project?}', function ($project) {
             return Inertia::render('SingleProject/SingleProject');
         })->name('client.projects.show');
 

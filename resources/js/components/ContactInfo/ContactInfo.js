@@ -4,19 +4,19 @@ import "./ContactInfo.css";
 export const ContactInfo = () => {
   const info = [
     {
-      title: "working hours",
-      p1: "Monday - friday",
-      p2: "09:00 - 19:00",
+      title: __("working_hours"),
+      p1: __("days"),
+      p2: __("hours"),
     },
     {
-      title: "Address",
-      p1: "street name #",
-      p2: "Tbilisi, Georgia",
+      title: __("address"),
+      p1: __("street_name"),
+      p2: __("country"),
     },
     {
-      title: "phone",
-      p1: "+995 0322 14 15 16",
-      p2: "+995 0322 14 15 16",
+      title: __("phone"),
+      p1: __("+995 0322 14 15 16"),
+      p2: __("+995 0322 14 15 16"),
     },
   ];
   return (

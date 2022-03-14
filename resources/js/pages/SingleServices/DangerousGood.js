@@ -28,38 +28,38 @@ const DangerousGoods = () => {
         {
             link: route('client.services.show', "AirFreight"),
             icon: <Plane />,
-            title: "Air freight",
-            para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
+            title: __("air_freight"),
+            para: __("air_freight_desc"),
         },
         {
             link: route('client.services.show', "LandFreight"),
             icon: <Truck />,
-            title: "land freight",
-            para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
+            title: __("land_freight"),
+            para: __("land_freight_desc"),
         },
         {
             link: route('client.services.show', "CargoShip"),
             icon: <Shipping />,
-            title: "Cargo shipping",
-            para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
+            title: __("cargo_shipping"),
+            para: __("cargo_shipping_desc"),
         },
         {
             link: route('client.services.show', "Refrigerated"),
             icon: <Cool />,
-            title: "Refrigerated cargo?",
-            para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
+            title: __("refrigerated_cargo"),
+            para: __("refrigerated_cargo_desc"),
         },
         {
             link: route('client.services.show', "CharterFlights"),
             icon: <Charter />,
-            title: "Charter flights",
-            para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
+            title: __("charter_flights"),
+            para: __("charter_flights_desc"),
         },
         {
             link: route('client.services.show', "Brokrtage"),
             icon: <Document />,
-            title: "Customs brokerage services",
-            para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
+            title: __("customs_brokerage_services"),
+            para: __("customs_brokerage_services_desc"),
         },
     ];
 
@@ -71,10 +71,10 @@ const DangerousGoods = () => {
                   <div className="wrapper">
                       <div className="title">
                           <Danger color="#fff" />
-                          <div className="gilroy">Dangerous Goods Shipping</div>
+                          <div className="gilroy">{__("good_shipping")}</div>
                       </div>
                       <p style={{ opacity: "0.5" }}>
-                          We Offer A Wide Range Of Logistic Services To Our Clients
+                          {__("we_offer")}
                       </p>
                   </div>
               </div>

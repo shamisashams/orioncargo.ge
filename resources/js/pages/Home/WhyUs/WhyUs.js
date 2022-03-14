@@ -6,23 +6,22 @@ const WhyUs = () => {
   const benefitList = [
     {
       icon: "/img/icons/benefit/clock.svg",
-      title: "Time",
-      para: "We value our customer time and offer the best planning for each project individually, in agreement with you we go to the ideal service that is a dream come true for all customers, which means unloading and timely transportation of cargo.",
+      title: __("benefit_list_title_1"),
+      para: __("benefit_list_description_1"),
     },
     {
       icon: "/img/icons/benefit/budget.svg",
-      title: "Cost",
-      para: "effectiveness and minimization – With the help of our team, transporting your cargo will be not only safe but also economical financially, which is literally beneficial for your business.",
-    },
+        title: __("benefit_list_title_2"),
+        para: __("benefit_list_description_2"),    },
     {
       icon: "/img/icons/benefit/global.svg",
-      title: "International Partnership Network",
-      para: "With the help of our fleet and our partners, you will always receive the highest quality service from anywhere in the world, with constant cargo handling and status notification.",
+        title: __("benefit_list_title_3"),
+        para: __("benefit_list_description_3"),
     },
     {
       icon: "/img/icons/benefit/shield.svg",
-      title: "Reliability",
-      para: "Our team’s niche is experience and professionalism.",
+        title: __("benefit_list_title_4"),
+        para: __("benefit_list_description_4"),
     },
   ];
   return (
@@ -30,8 +29,8 @@ const WhyUs = () => {
       ]
       <div className="wrapper">
         <div className="head">
-          <div className="gil30">WHY CHOOSE US</div>
-          <p>We deliever your package in no time</p>
+          <div className="gil30">{__("why_choose_us")}</div>
+          <p>{__("package_deliver")}</p>
         </div>
         <div className="grid">
           {benefitList.map((item) => {

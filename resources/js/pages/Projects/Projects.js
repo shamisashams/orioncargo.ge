@@ -9,30 +9,27 @@ const Projects = () => {
   const projectList = [
     {
       img: "/img/gallery/1.png",
-      name: "project sdf name",
-      slug: "project_1",
-      para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
+      name: __("project_1"),
+      slug: __("project_slug_1"),
+      para: __("project_para_1"),
     },
     {
       img: "/img/gallery/2.png",
-      name: "project name akljsdin",
-        slug: "project_2",
-
-        para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
+        name: __("project_2"),
+        slug: __("project_slug_2"),
+        para: __("project_para_2"),
     },
     {
       img: "/img/gallery/3.png",
-      name: "project ",
-      para: "Leve provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
-        slug: "project_3",
-
+        name: __("project_3"),
+        slug: __("project_slug_3"),
+        para: __("project_para_3"),
     },
     {
       img: "/img/gallery/4.png",
-      name: "project  asfd name",
-        slug: "project_4",
-
-      para: "Leverage agile to provLeverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.el overviews. Iterative approaches to strategy.",
+        name: __("project_4"),
+        slug: __("project_slug_4"),
+        para: __("project_para_4"),
     },
   ];
   return (

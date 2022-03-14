@@ -6,17 +6,17 @@ import Layout from "../../Layouts/Layout";
 import {usePage} from "@inertiajs/inertia-react";
 
 const AboutUs = () => {
-    const sharedData = usePage().props.localizations;
-
-    function __(key, replace = {}) {
-        let translation = sharedData[key] || key;
-
-        Object.keys(replace).forEach(function (key) {
-            translation = translation.replace(":" + key, replace[key]);
-        });
-
-        return translation;
-    }
+    // const sharedData = usePage().props.localizations;
+    //
+    // function __(key, replace = {}) {
+    //     let translation = sharedData[key] || key;
+    //
+    //     Object.keys(replace).forEach(function (key) {
+    //         translation = translation.replace(":" + key, replace[key]);
+    //     });
+    //
+    //     return translation;
+    // }
   return (
       <Layout>
           <div className="pages aboutPage">
@@ -26,10 +26,9 @@ const AboutUs = () => {
                   <div className="flex line">
                       <div className="context">
                           <PageHead title={__("about_us")} />
-                          <div className="gil30">history</div>
+                          <div className="gil30">{__("about_us_title_1")}</div>
                           <p>
-                              Leverage agile frameworks to provide a robust synopsis for high
-                              level overviews. Iterative approaches to strategy.
+                              {__("about_us_content_1")}
                           </p>
                       </div>
                       <div className="shape shape_1"></div>
@@ -39,31 +38,21 @@ const AboutUs = () => {
                       <div className="shape shape_3"></div>
                       <div className="shape shape_4"></div>
                       <div className="context">
-                          <div className="gil30">our mission</div>
+                          <div className="gil30">{__("about_us_title_2")}</div>
                           <p>
-                              Leverage agile frameworks to provide a robust synopsis for high
-                              level overviews. Iterative approaches to strategy. Leverage agile
-                              frameworks to provide a robust synopsis for high level overviews.
-                              Iterative approaches to strategy. Leverage agile frameworks to
-                              provide a robust synopsis for high level overviews. Iterative
-                              approaches to strategy.
+                              {__("about_us_content_2")}
                           </p>
                       </div>
                   </div>
                   <div className="flex line">
                       <div className="context">
-                          <div className="gil30">our vision</div>
+                          <div className="gil30">{__("about_us_title_3")}</div>
                           <p>
-                              Leverage agile frameworks to provide a robust synopsis for high
-                              level overviews. Iterative approaches to strategy. Leverage agile
-                              frameworks to provide a robust synopsis for high level overviews.
-                              Iterative approaches to strategy. Leverage agile frameworks to
-                              provide a robust synopsis for high level overviews. Iterative
-                              approaches to strategy.
+                              {__("about_us_title_3")}
                           </p>
                       </div>
                       <div className="shape shape_5"></div>
-                      <MainButton text="contact us" link={route('client.contact.index')} />
+                      <MainButton text={__("contact_us")} link={route('client.contact.index')} />
                   </div>
               </div>
           </div>

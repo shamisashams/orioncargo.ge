@@ -8,31 +8,31 @@ const MiddleSection = () => {
   const imgGrid = ["/img/gallery/4.png", '/img/gallery/3.png', "/img/gallery/2.png"];
   const questions = [
     {
-      q: "What options exist for late, lost, or no delivery?",
-      a: "ng-term partnerships with customers in the marketplace with whom we share common values, both personally and in business, not just in business, but in building friendly relationships with existing and future partners. We will give you a small overview of our services to new / potential customers at the start of the partnership.We answer questions from the customer in a timely manner.In agreement with you, we offer several types of cargo transportation.We formulate all the necessary documents in official and legal terms.Provide cargo location status by email and telephone communication.We set flexible and individual payment terms.",
+      q: __("question_1"),
+      a: __("answer_1"),
     },
-    {
-      q: "Change of address - the basics",
-      a: "mely manner.In agreement with you, we offer several types of cargo transportation.We formulate all the necessary documents in official and legal terms.Provide cargo location status by email and telephone communication.We set flexible and individual",
-    },
-    {
-      q: "What is priority mail express?",
-      a: "nersl give you a small overview of our services to new / potential customers at the start of the partnership.We answer questions from the customer in a timely manner",
-    },
-    {
-      q: "How do I obtain and manage premium services",
-      a: " marketplace with whom we share common values, both personally and in business, not just in business, but in building friendly relationships with existing and future partners. We will give you a small overview of our services to new / potential customers at the start of the partnership.We answer questions from the customer in a timely manner.In agreement with you, we offer several types of cargo transportation.We formulate all the necessary documents in official and legal terms.Provide cargo location status by email and telephone communication.We set flexibl",
-    },
-    {
-      q: "What options exist for late, lost, or no delivery?",
-      a: "ps with customers in the marketplace with whom we share common values, both personally and in business, not just in business, but in building friendly relationships with existing and future partners. We will give you a small overview of our services to new / potential customers at the start of the partnership.We answer questions from the customer in a timely manner.In agreeme",
-    },
+      {
+          q: __("question_2"),
+          a: __("answer_2"),
+      },
+      {
+          q: __("question_3"),
+          a: __("answer_3"),
+      },
+      {
+          q: __("question_4"),
+          a: __("answer_4"),
+      },
+      {
+          q: __("question_5"),
+          a: __("answer_5"),
+      },
   ];
 
   return (
     <div className="middle_section">
       <div className="wrapper">
-        <div className="gil30">Our Projects</div>
+        <div className="gil30">{__('our_projects')}</div>
         <div className="flex project_flex">
           <div className="gallery_grid">
             {imgGrid.map((img) => {
@@ -44,13 +44,9 @@ const MiddleSection = () => {
             })}
           </div>
           <div>
-            <div className="gil30">See Our Projects</div>
+            <div className="gil30">{__('see_our_projects')}</div>
             <p>
-              Since its inception, the company has been striving to attract and
-              sign up for long-term partnerships with customers in the
-              marketplace with whom we share common values, both personally and
-              in business, not just in business, but in building friendly
-              relationships with existing and future partners.
+                {__('see_our_projects_desc')}
             </p>
             <MainButton text="more details" link={route('client.projects.index')} />
           </div>
@@ -58,19 +54,16 @@ const MiddleSection = () => {
         <div className="flex who_we_are">
           <div className="left">
             <div className="margin_bottom">
-              <div className="gil30">Who We Are?</div>
+              <div className="gil30">{__('who_are_we')}</div>
               <p>
-                Since its inception, the company has been striving to attract
-                and sign up for long-term partnerships with customers in the
-                marketplace with whom we share common values, both personally
-                and in business, not just in business, but in building friendly
-                relationships with existing and future partners.
+                  {__('who_are_we_desc')}
               </p>
               <MainButton text="about us" link={route('client.about.index')} />
             </div>
             <div className="gil30">
-              Frequently Asked <br />
-              Questions
+                {__('frequently_asked')}
+              <br />
+                {__('questions')}
             </div>
             {questions.map((item) => {
               return <Question question={item.q} answer={item.a} />;

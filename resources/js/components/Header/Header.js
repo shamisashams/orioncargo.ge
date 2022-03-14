@@ -9,15 +9,17 @@ import { usePage } from "@inertiajs/inertia-react";
 // import { useTranslation } from "react-i18next";
 
 const Header = () => {
+
   const [showNav, setShowNav] = useState(false);
   // const { i18n, t } = useTranslation();
-
 
   const toggleNav = () => {
     setShowNav(!showNav);
   };
-  const { pathname } = usePage().props;
-  let theme = "#202387";
+  const { pathname, locales, currentLocale, locale_urls } = usePage().props;
+    console.log(locales);
+
+    let theme = "#202387";
 
   if (pathname === route("client.home.index")) {
     theme = "#fff";
@@ -25,32 +27,27 @@ const Header = () => {
 
   const navs = [
     {
-      name: 'home',
+      name: __('home'),
       link: route("client.home.index"),
     },
     {
-      name: "about",
+      name: __('about'),
       link: route("client.about.index"),
     },
     {
-      name: "Services",
+      name: __("Services"),
       link: route("client.services.index"),
     },
     {
-      name: "projects",
+      name: __("projects"),
       link: route("client.projects.index"),
     },
     {
-      name: "Contact",
+      name: __("Contact"),
       link: route("client.contact.index"),
     },
   ];
 
-  const languages = {
-    ge: { name: 'GEO' },
-    en: { name: 'ENG' },
-    ru: { name: 'RUS' }
-  };
 
   return (
     <Suspense fallback="loading">
@@ -95,18 +92,18 @@ const Header = () => {
             >
               <div className="on flex">
                 <Globe color={theme} />
-                {/* <div>{languages[i18n.language].name}</div> */}
+                  <a href={locale_urls[currentLocale]}>{locales[currentLocale].name}</a>
                 <Arrow color={theme} degree="0" />
               </div>
               <div className="drop">
-                {Object.keys(languages).map((lng) => {
-                  // if (lng !== i18n.language) {
-                    return (
-                        <button key={lng} type="submit">
-                          {languages[lng].name}
-                        </button>
-                    )
-                  // }
+                {Object.keys(locales).map((lng) => {
+                    if(lng !== currentLocale) {
+                        return (
+                            <a href={locale_urls[lng]} key={lng} type="submit">
+                                {locales[lng].name}
+                            </a>
+                        )
+                    }
                 })}
               </div>
             </div>

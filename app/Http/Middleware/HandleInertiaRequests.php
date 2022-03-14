@@ -44,7 +44,7 @@ class HandleInertiaRequests extends Middleware
         if (file_exists($path)){
 
             $localisations  = require $path;
-            Inertia::share("currentLocale", App::getLocale());
+//            Inertia::share("currentLocale", App::getLocale());
             Inertia::share( "localizations", $localisations);
 //        dd($content);
         }
@@ -62,6 +62,7 @@ class HandleInertiaRequests extends Middleware
             "pathname" => $currentRoute,
             "locale_urls" => $locale_urls,
             'urlPrev' => $urlPrev,
+            "currentLocale" => App::getLocale(),
 
         ]);
     }
@@ -84,11 +85,12 @@ class HandleInertiaRequests extends Middleware
      */
     protected function locale_urls()
     {
-        $locales = config("translatable.locales");
+        $locales = config("laravellocalization.supportedLocales");
         $routes = [];
         foreach ($locales as $key => $val) {
-            $routes[$key] = get_url($val);
+            $routes[$key] = get_url($key);
         }
+
         return $routes;
     }
 

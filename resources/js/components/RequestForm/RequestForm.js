@@ -8,30 +8,30 @@ import "./RequestForm.css";
 const RequestForm = () => {
   const inputs = [
     {
-      placeholder: "From",
+      placeholder: __("from"),
       icon: Pin,
       type: "text",
     },
     {
-      placeholder: "To",
+      placeholder: __("to"),
       icon: Pin,
       type: "text",
     },
     {
-      placeholder: "Date",
+      placeholder: __("Date"),
       icon: Calendar,
       type: "date",
     },
     {
-      placeholder: "Your email",
+      placeholder: __("Your email"),
       icon: Mail,
       type: "text",
     },
   ];
   return (
     <div className="request_form">
-      <h6 className="bold">Get a quote</h6>
-      <p>We deliever your package in no time</p>
+      <h6 className="bold">{__("get_a_quote")}</h6>
+      <p>{__("on_time_deliver")}</p>
       {inputs.map((item) => {
         return (
           <div className="input">
@@ -40,7 +40,7 @@ const RequestForm = () => {
           </div>
         );
       })}
-      <MainButton link="/" text="send request" />
+      <MainButton link="/" text={__("send_request")} />
     </div>
   );
 };

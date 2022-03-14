@@ -3028,17 +3028,17 @@ __webpack_require__.r(__webpack_exports__);
 
 var ContactInfo = function ContactInfo() {
   var info = [{
-    title: "working hours",
-    p1: "Monday - friday",
-    p2: "09:00 - 19:00"
+    title: __("working_hours"),
+    p1: __("days"),
+    p2: __("hours")
   }, {
-    title: "Address",
-    p1: "street name #",
-    p2: "Tbilisi, Georgia"
+    title: __("address"),
+    p1: __("street_name"),
+    p2: __("country")
   }, {
-    title: "phone",
-    p1: "+995 0322 14 15 16",
-    p2: "+995 0322 14 15 16"
+    title: __("phone"),
+    p1: __("+995 0322 14 15 16"),
+    p2: __("+995 0322 14 15 16")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "contact_info flex"
@@ -3079,19 +3079,19 @@ __webpack_require__.r(__webpack_exports__);
 
 var Footer = function Footer() {
   var navs = [{
-    name: "Home",
+    name: __("home"),
     link: route('client.home.index')
   }, {
-    name: "About us",
+    name: __("about"),
     link: route('client.about.index')
   }, {
-    name: "Services",
+    name: __("services"),
     link: route('client.services.index')
   }, {
-    name: "projects",
+    name: __("projects"),
     link: route('client.projects.index')
   }, {
-    name: "Contact",
+    name: __("contact"),
     link: route('client.contact.index')
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -3164,7 +3164,12 @@ var Header = function Header() {
     setShowNav(!showNav);
   };
 
-  var pathname = (0,_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.usePage)().props.pathname;
+  var _usePage$props = (0,_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.usePage)().props,
+      pathname = _usePage$props.pathname,
+      locales = _usePage$props.locales,
+      currentLocale = _usePage$props.currentLocale,
+      locale_urls = _usePage$props.locale_urls;
+  console.log(locales);
   var theme = "#202387";
 
   if (pathname === route("client.home.index")) {
@@ -3172,32 +3177,21 @@ var Header = function Header() {
   }
 
   var navs = [{
-    name: 'home',
+    name: __('home'),
     link: route("client.home.index")
   }, {
-    name: "about",
+    name: __('about'),
     link: route("client.about.index")
   }, {
-    name: "Services",
+    name: __("Services"),
     link: route("client.services.index")
   }, {
-    name: "projects",
+    name: __("projects"),
     link: route("client.projects.index")
   }, {
-    name: "Contact",
+    name: __("Contact"),
     link: route("client.contact.index")
   }];
-  var languages = {
-    ge: {
-      name: 'GEO'
-    },
-    en: {
-      name: 'ENG'
-    },
-    ru: {
-      name: 'RUS'
-    }
-  };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Suspense, {
     fallback: "loading"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -3243,17 +3237,21 @@ var Header = function Header() {
     className: "on flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Icons_Icons__WEBPACK_IMPORTED_MODULE_4__.Globe, {
     color: theme
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Icons_Icons__WEBPACK_IMPORTED_MODULE_4__.Arrow, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: locale_urls[currentLocale]
+  }, locales[currentLocale].name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Icons_Icons__WEBPACK_IMPORTED_MODULE_4__.Arrow, {
     color: theme,
     degree: "0"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "drop"
-  }, Object.keys(languages).map(function (lng) {
-    // if (lng !== i18n.language) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-      key: lng,
-      type: "submit"
-    }, languages[lng].name); // }
+  }, Object.keys(locales).map(function (lng) {
+    if (lng !== currentLocale) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+        href: locale_urls[lng],
+        key: lng,
+        type: "submit"
+      }, locales[lng].name);
+    }
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: showNav ? "menu_btn clicked" : "menu_btn ",
     onClick: function onClick() {
@@ -3866,17 +3864,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AboutUs = function AboutUs() {
-  var sharedData = (0,_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__.usePage)().props.localizations;
-
-  function __(key) {
-    var replace = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-    var translation = sharedData[key] || key;
-    Object.keys(replace).forEach(function (key) {
-      translation = translation.replace(":" + key, replace[key]);
-    });
-    return translation;
-  }
-
+  // const sharedData = usePage().props.localizations;
+  //
+  // function __(key, replace = {}) {
+  //     let translation = sharedData[key] || key;
+  //
+  //     Object.keys(replace).forEach(function (key) {
+  //         translation = translation.replace(":" + key, replace[key]);
+  //     });
+  //
+  //     return translation;
+  // }
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pages aboutPage"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -3897,7 +3895,7 @@ var AboutUs = function AboutUs() {
     title: __("about_us")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "history"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("about_us_title_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("about_us_content_1"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "shape shape_1"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "shape shape_2"
@@ -3911,16 +3909,16 @@ var AboutUs = function AboutUs() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "our mission"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("about_us_title_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("about_us_content_2")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex line"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "our vision"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("about_us_title_3")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("about_us_title_3"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "shape shape_5"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_2__.MainButton, {
-    text: "contact us",
+    text: __("contact_us"),
     link: route('client.contact.index')
   })))));
 };
@@ -3954,19 +3952,19 @@ __webpack_require__.r(__webpack_exports__);
 var Contact = function Contact() {
   var contactDets = [{
     icon: "/img/icons/contact/1.svg",
-    title: "phone",
-    p1: "+995 0322 14 15 16",
-    p2: "+995 0322 14 15 16"
+    title: __("phone"),
+    p1: __("+995 0322 14 15 16"),
+    p2: __("+995 0322 14 15 16")
   }, {
     icon: "/img/icons/contact/2.svg",
-    title: "email address",
-    p1: "example@info.ge",
-    p2: "example@contact.ge"
+    title: __("email_address_contact"),
+    p1: __("email_1"),
+    p2: __("email_2")
   }, {
     icon: "/img/icons/contact/3.svg",
-    title: "Address",
-    p1: "example street name # 123",
-    p2: "Tbilisi, Georgia"
+    title: __("address"),
+    p1: __("street_name"),
+    p2: __("country")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pages contactPage "
@@ -3978,14 +3976,14 @@ var Contact = function Contact() {
     className: "wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_PageHead_PageHead__WEBPACK_IMPORTED_MODULE_1__.PageHead, {
     title: "Contact",
-    para: "Have Any Question? Get In Touch!"
+    para: __('any_questions')
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex main"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "info"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "bold head"
-  }, "find us on map"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("find_on_map")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "map"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("iframe", {
     src: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11909.044506590086!2d44.7621418!3d41.7364602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sge!4v1645099669885!5m2!1sen!2sge",
@@ -4068,7 +4066,7 @@ var GallerySlide = function GallerySlide() {
     className: "wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "Gallery")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_slick__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({}, settings, {
+  }, __("gallery"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_slick__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({}, settings, {
     className: "gallery_slide"
   }), sliderData.map(function (img) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -4119,7 +4117,7 @@ var HeroSection = function HeroSection() {
     className: "content"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil70"
-  }, "something goes here"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "We deliever your package in no time & it has grown into one of the world's leading logistics providers."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+  }, __("hero_title")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("hero_content")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     className: "play_video flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "circle flex centered"
@@ -4128,11 +4126,11 @@ var HeroSection = function HeroSection() {
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "border"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "Watch the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "video"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_RequestForm_RequestForm__WEBPACK_IMPORTED_MODULE_3__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, __("watch_the"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __("video")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_RequestForm_RequestForm__WEBPACK_IMPORTED_MODULE_3__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex second"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "sm flex"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "Social links"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, __('social_links')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_4__["default"], {
     background: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ContactInfo_ContactInfo__WEBPACK_IMPORTED_MODULE_5__.ContactInfo, null))));
 };
@@ -4202,20 +4200,20 @@ __webpack_require__.r(__webpack_exports__);
 var MiddleSection = function MiddleSection() {
   var imgGrid = ["/img/gallery/4.png", '/img/gallery/3.png', "/img/gallery/2.png"];
   var questions = [{
-    q: "What options exist for late, lost, or no delivery?",
-    a: "ng-term partnerships with customers in the marketplace with whom we share common values, both personally and in business, not just in business, but in building friendly relationships with existing and future partners. We will give you a small overview of our services to new / potential customers at the start of the partnership.We answer questions from the customer in a timely manner.In agreement with you, we offer several types of cargo transportation.We formulate all the necessary documents in official and legal terms.Provide cargo location status by email and telephone communication.We set flexible and individual payment terms."
+    q: __("question_1"),
+    a: __("answer_1")
   }, {
-    q: "Change of address - the basics",
-    a: "mely manner.In agreement with you, we offer several types of cargo transportation.We formulate all the necessary documents in official and legal terms.Provide cargo location status by email and telephone communication.We set flexible and individual"
+    q: __("question_2"),
+    a: __("answer_2")
   }, {
-    q: "What is priority mail express?",
-    a: "nersl give you a small overview of our services to new / potential customers at the start of the partnership.We answer questions from the customer in a timely manner"
+    q: __("question_3"),
+    a: __("answer_3")
   }, {
-    q: "How do I obtain and manage premium services",
-    a: " marketplace with whom we share common values, both personally and in business, not just in business, but in building friendly relationships with existing and future partners. We will give you a small overview of our services to new / potential customers at the start of the partnership.We answer questions from the customer in a timely manner.In agreement with you, we offer several types of cargo transportation.We formulate all the necessary documents in official and legal terms.Provide cargo location status by email and telephone communication.We set flexibl"
+    q: __("question_4"),
+    a: __("answer_4")
   }, {
-    q: "What options exist for late, lost, or no delivery?",
-    a: "ps with customers in the marketplace with whom we share common values, both personally and in business, not just in business, but in building friendly relationships with existing and future partners. We will give you a small overview of our services to new / potential customers at the start of the partnership.We answer questions from the customer in a timely manner.In agreeme"
+    q: __("question_5"),
+    a: __("answer_5")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "middle_section"
@@ -4223,7 +4221,7 @@ var MiddleSection = function MiddleSection() {
     className: "wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "Our Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __('our_projects')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex project_flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gallery_grid"
@@ -4236,7 +4234,7 @@ var MiddleSection = function MiddleSection() {
     }));
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "See Our Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Since its inception, the company has been striving to attract and sign up for long-term partnerships with customers in the marketplace with whom we share common values, both personally and in business, not just in business, but in building friendly relationships with existing and future partners."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_1__.MainButton, {
+  }, __('see_our_projects')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __('see_our_projects_desc')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_1__.MainButton, {
     text: "more details",
     link: route('client.projects.index')
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -4247,12 +4245,12 @@ var MiddleSection = function MiddleSection() {
     className: "margin_bottom"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "Who We Are?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Since its inception, the company has been striving to attract and sign up for long-term partnerships with customers in the marketplace with whom we share common values, both personally and in business, not just in business, but in building friendly relationships with existing and future partners."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_1__.MainButton, {
+  }, __('who_are_we')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __('who_are_we_desc')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_1__.MainButton, {
     text: "about us",
     link: route('client.about.index')
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "Frequently Asked ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "Questions"), questions.map(function (item) {
+  }, __('frequently_asked'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __('questions')), questions.map(function (item) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Question_Question__WEBPACK_IMPORTED_MODULE_3__.Question, {
       question: item.q,
       answer: item.a
@@ -4302,38 +4300,38 @@ var ServiceHome = function ServiceHome() {
   var services = [{
     link: route('client.services.show', "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Plane, null),
-    title: "Air freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("air_freight"),
+    para: __("air_freight_desc")
   }, {
     link: route('client.services.show', "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Truck, null),
-    title: "land freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("land_freight"),
+    para: __("land_freight_desc")
   }, {
     link: route('client.services.show', "CargoShip"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Shipping, null),
-    title: "Cargo shipping",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("cargo_shipping"),
+    para: __("cargo_shipping_desc")
   }, {
     link: route('client.services.show', "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Cool, null),
-    title: "Refrigerated cargo?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("refrigerated_cargo"),
+    para: __("refrigerated_cargo_desc")
   }, {
     link: route('client.services.show', "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Charter, null),
-    title: "Charter flights",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("charter_flights"),
+    para: __("charter_flights_desc")
   }, {
     link: route('client.services.show', "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Danger, null),
-    title: "Dangerous goods shipping?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("good_shipping"),
+    para: __("good_shipping_desc")
   }, {
     link: route('client.services.show', "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Document, null),
-    title: "Customs brokerage services",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("customs_brokerage_services"),
+    para: __("customs_brokerage_services_desc")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "service_home"
@@ -4345,9 +4343,9 @@ var ServiceHome = function ServiceHome() {
     className: "wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "Our Services"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
+  }, __("our_Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     className: "gilroy"
-  }, "You Have A Need, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "We Have The SOLUTION"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("need"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __("solution")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "grid"
   }, services.map(function (item) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_2__.ServiceBox, {
@@ -4388,20 +4386,20 @@ __webpack_require__.r(__webpack_exports__);
 var WhyUs = function WhyUs() {
   var benefitList = [{
     icon: "/img/icons/benefit/clock.svg",
-    title: "Time",
-    para: "We value our customer time and offer the best planning for each project individually, in agreement with you we go to the ideal service that is a dream come true for all customers, which means unloading and timely transportation of cargo."
+    title: __("benefit_list_title_1"),
+    para: __("benefit_list_description_1")
   }, {
     icon: "/img/icons/benefit/budget.svg",
-    title: "Cost",
-    para: "effectiveness and minimization – With the help of our team, transporting your cargo will be not only safe but also economical financially, which is literally beneficial for your business."
+    title: __("benefit_list_title_2"),
+    para: __("benefit_list_description_2")
   }, {
     icon: "/img/icons/benefit/global.svg",
-    title: "International Partnership Network",
-    para: "With the help of our fleet and our partners, you will always receive the highest quality service from anywhere in the world, with constant cargo handling and status notification."
+    title: __("benefit_list_title_3"),
+    para: __("benefit_list_description_3")
   }, {
     icon: "/img/icons/benefit/shield.svg",
-    title: "Reliability",
-    para: "Our team’s niche is experience and professionalism."
+    title: __("benefit_list_title_4"),
+    para: __("benefit_list_description_4")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "why_choose_us"
@@ -4411,7 +4409,7 @@ var WhyUs = function WhyUs() {
     className: "head"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "WHY CHOOSE US"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "We deliever your package in no time")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("why_choose_us")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("package_deliver"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "grid"
   }, benefitList.map(function (item) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_BenefitBox_BenefitBox__WEBPACK_IMPORTED_MODULE_1__.BenefitBox, {
@@ -4453,24 +4451,24 @@ __webpack_require__.r(__webpack_exports__);
 var Projects = function Projects() {
   var projectList = [{
     img: "/img/gallery/1.png",
-    name: "project sdf name",
-    slug: "project_1",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    name: __("project_1"),
+    slug: __("project_slug_1"),
+    para: __("project_para_1")
   }, {
     img: "/img/gallery/2.png",
-    name: "project name akljsdin",
-    slug: "project_2",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    name: __("project_2"),
+    slug: __("project_slug_2"),
+    para: __("project_para_2")
   }, {
     img: "/img/gallery/3.png",
-    name: "project ",
-    para: "Leve provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
-    slug: "project_3"
+    name: __("project_3"),
+    slug: __("project_slug_3"),
+    para: __("project_para_3")
   }, {
     img: "/img/gallery/4.png",
-    name: "project  asfd name",
-    slug: "project_4",
-    para: "Leverage agile to provLeverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.el overviews. Iterative approaches to strategy."
+    name: __("project_4"),
+    slug: __("project_slug_4"),
+    para: __("project_para_4")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pages projectsPage "
@@ -4528,38 +4526,38 @@ var Services = function Services() {
   var services = [{
     link: route('client.services.show', "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Plane, null),
-    title: "Air freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("air_freight"),
+    para: __("air_freight_desc")
   }, {
     link: route('client.services.show', "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Truck, null),
-    title: "land freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("land_freight"),
+    para: __("land_freight_desc")
   }, {
     link: route('client.services.show', "CargoShip"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Shipping, null),
-    title: "Cargo shipping",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("cargo_shipping"),
+    para: __("cargo_shipping_desc")
   }, {
     link: route('client.services.show', "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Cool, null),
-    title: "Refrigerated cargo?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("refrigerated_cargo"),
+    para: __("refrigerated_cargo_desc")
   }, {
     link: route('client.services.show', "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Charter, null),
-    title: "Charter flights",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("charter_flights"),
+    para: __("charter_flights_desc")
   }, {
     link: route('client.services.show', "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Danger, null),
-    title: "Dangerous goods shipping?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("good_shipping"),
+    para: __("good_shipping_desc")
   }, {
     link: route('client.services.show', "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Document, null),
-    title: "Customs brokerage services",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("customs_brokerage_services"),
+    para: __("customs_brokerage_services_desc")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_7__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "servicePage service_home pages"
@@ -4570,8 +4568,8 @@ var Services = function Services() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_PageHead_PageHead__WEBPACK_IMPORTED_MODULE_6__.PageHead, {
-    title: "Services",
-    para: "We Offer A Wide Range Of Logistic Services To Our Clients"
+    title: __("services"),
+    para: __("services_desc")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "grid"
   }, services.map(function (item) {
@@ -4585,11 +4583,11 @@ var Services = function Services() {
     className: "last"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "gilroy"
-  }, "You Have A Need, We Have The SOLUTION"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("need"), __("solution")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "Have Some More ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "Questions? Get In Touch!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_4__.MainButton, {
-    link: "/contact",
-    text: "contact us"
+  }, __("more_questions"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __("get_in_touch")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_4__.MainButton, {
+    link: route("client.contact.index"),
+    text: __("contact_us")
   }))))));
 };
 
@@ -4695,33 +4693,33 @@ var AirFreight = function AirFreight() {
   var services = [{
     link: route('client.services.show', "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
-    title: "land freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("land_freight"),
+    para: __("land_freight_desc")
   }, {
     link: route('client.services.show', "CargoShip"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: "Cargo shipping",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("cargo_shipping"),
+    para: __("cargo_shipping_desc")
   }, {
     link: route('client.services.show', "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
-    title: "Refrigerated cargo?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("refrigerated_cargo"),
+    para: __("refrigerated_cargo_desc")
   }, {
     link: route('client.services.show', "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
-    title: "Charter flights",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("charter_flights"),
+    para: __("charter_flights_desc")
   }, {
     link: route('client.services.show', "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
-    title: "Dangerous goods shipping?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("good_shipping"),
+    para: __("good_shipping_desc")
   }, {
     link: route('client.services.show', "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
-    title: "Customs brokerage services",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("customs_brokerage_services"),
+    para: __("customs_brokerage_services_desc")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pages singleService"
@@ -4739,11 +4737,11 @@ var AirFreight = function AirFreight() {
     color: "#fff"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Air Freight")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, __("air_freight"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     style: {
       opacity: "0.5"
     }
-  }, "We Offer A Wide Range Of Logistic Services To Our Clients"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("we_offer")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex main"
@@ -4807,33 +4805,33 @@ var Brokerage = function Brokerage() {
   var services = [{
     link: route('client.services.show', "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
-    title: "Air freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("air_freight"),
+    para: __("air_freight_desc")
   }, {
     link: route('client.services.show', "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
-    title: "land freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("land_freight"),
+    para: __("land_freight_desc")
   }, {
     link: route('client.services.show', "CargoShip"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: "Cargo shipping",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("cargo_shipping"),
+    para: __("cargo_shipping_desc")
   }, {
     link: route('client.services.show', "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
-    title: "Refrigerated cargo?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("refrigerated_cargo"),
+    para: __("refrigerated_cargo_desc")
   }, {
     link: route('client.services.show', "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
-    title: "Charter flights",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("charter_flights"),
+    para: __("charter_flights_desc")
   }, {
     link: route('client.services.show', "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
-    title: "Dangerous goods shipping?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("good_shipping"),
+    para: __("good_shipping_desc")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pages singleService"
@@ -4851,11 +4849,11 @@ var Brokerage = function Brokerage() {
     color: "#fff"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Customs Brokerage Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, __("customs_brokerage_services"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     style: {
       opacity: "0.5"
     }
-  }, "We Offer A Wide Range Of Logistic Services To Our Clients"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("we_offer")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex main"
@@ -4919,33 +4917,33 @@ var CargoShip = function CargoShip() {
   var services = [{
     link: route('client.services.show', "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
-    title: "Air freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("air_freight"),
+    para: __("air_freight_desc")
   }, {
     link: route('client.services.show', "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
-    title: "land freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("land_freight"),
+    para: __("land_freight_desc")
   }, {
     link: route('client.services.show', "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
-    title: "Refrigerated cargo?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("refrigerated_cargo"),
+    para: __("refrigerated_cargo_desc")
   }, {
     link: route('client.services.show', "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
-    title: "Charter flights",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("charter_flights"),
+    para: __("charter_flights_desc")
   }, {
     link: route('client.services.show', "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
-    title: "Dangerous goods shipping?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("good_shipping"),
+    para: __("good_shipping_desc")
   }, {
     link: route('client.services.show', "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
-    title: "Customs brokerage services",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("customs_brokerage_services"),
+    para: __("customs_brokerage_services_desc")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pages singleService"
@@ -4963,11 +4961,11 @@ var CargoShip = function CargoShip() {
     color: "#fff"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Cargo Shipping")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, __("cargo_shipping"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     style: {
       opacity: "0.5"
     }
-  }, "We Offer A Wide Range Of Logistic Services To Our Clients"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("we_offer")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex main"
@@ -5031,33 +5029,33 @@ var CharterFlights = function CharterFlights() {
   var services = [{
     link: route('client.services.show', "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
-    title: "Air freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("air_freight"),
+    para: __("air_freight_desc")
   }, {
     link: route('client.services.show', "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
-    title: "land freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("land_freight"),
+    para: __("land_freight_desc")
   }, {
     link: route('client.services.show', "CargoShip"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: "Cargo shipping",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("cargo_shipping"),
+    para: __("cargo_shipping_desc")
   }, {
     link: route('client.services.show', "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
-    title: "Refrigerated cargo?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("refrigerated_cargo"),
+    para: __("refrigerated_cargo_desc")
   }, {
     link: route('client.services.show', "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
-    title: "Dangerous goods shipping?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("good_shipping"),
+    para: __("good_shipping_desc")
   }, {
     link: route('client.services.show', "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
-    title: "Customs brokerage services",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("customs_brokerage_services"),
+    para: __("customs_brokerage_services_desc")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pages singleService"
@@ -5075,11 +5073,11 @@ var CharterFlights = function CharterFlights() {
     color: "#fff"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Charter Flights")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, __("charter_flights"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     style: {
       opacity: "0.5"
     }
-  }, "We Offer A Wide Range Of Logistic Services To Our Clients"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("we_offer")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex main"
@@ -5143,33 +5141,33 @@ var DangerousGoods = function DangerousGoods() {
   var services = [{
     link: route('client.services.show', "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
-    title: "Air freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("air_freight"),
+    para: __("air_freight_desc")
   }, {
     link: route('client.services.show', "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
-    title: "land freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("land_freight"),
+    para: __("land_freight_desc")
   }, {
     link: route('client.services.show', "CargoShip"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: "Cargo shipping",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("cargo_shipping"),
+    para: __("cargo_shipping_desc")
   }, {
     link: route('client.services.show', "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
-    title: "Refrigerated cargo?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("refrigerated_cargo"),
+    para: __("refrigerated_cargo_desc")
   }, {
     link: route('client.services.show', "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
-    title: "Charter flights",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("charter_flights"),
+    para: __("charter_flights_desc")
   }, {
     link: route('client.services.show', "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
-    title: "Customs brokerage services",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("customs_brokerage_services"),
+    para: __("customs_brokerage_services_desc")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pages singleService"
@@ -5187,11 +5185,11 @@ var DangerousGoods = function DangerousGoods() {
     color: "#fff"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Dangerous Goods Shipping")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, __("good_shipping"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     style: {
       opacity: "0.5"
     }
-  }, "We Offer A Wide Range Of Logistic Services To Our Clients"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("we_offer")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex main"
@@ -5255,33 +5253,33 @@ var LandFreight = function LandFreight() {
   var services = [{
     link: route('client.services.show', "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
-    title: "Air freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("air_freight"),
+    para: __("air_freight_desc")
   }, {
     link: route('client.services.show', "CargoShip"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: "Cargo shipping",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("cargo_shipping"),
+    para: __("cargo_shipping_desc")
   }, {
     link: route('client.services.show', "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
-    title: "Refrigerated cargo?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("refrigerated_cargo"),
+    para: __("refrigerated_cargo_desc")
   }, {
     link: route('client.services.show', "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
-    title: "Charter flights",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("charter_flights"),
+    para: __("charter_flights_desc")
   }, {
     link: route('client.services.show', "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
-    title: "Dangerous goods shipping?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("good_shipping"),
+    para: __("good_shipping_desc")
   }, {
     link: route('client.services.show', "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
-    title: "Customs brokerage services",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("customs_brokerage_services"),
+    para: __("customs_brokerage_services_desc")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pages singleService"
@@ -5299,11 +5297,11 @@ var LandFreight = function LandFreight() {
     color: "#fff"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Land Freight")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, __("land_freight"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     style: {
       opacity: "0.5"
     }
-  }, "We Offer A Wide Range Of Logistic Services To Our Clients"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("we_offer")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex main"
@@ -5367,33 +5365,33 @@ var Refrigerated = function Refrigerated() {
   var services = [{
     link: route('client.services.show', "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
-    title: "Air freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("air_freight"),
+    para: __("air_freight_desc")
   }, {
     link: route('client.services.show', "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
-    title: "land freight",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("land_freight"),
+    para: __("land_freight_desc")
   }, {
     link: route('client.services.show', "CargoShip"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: "Cargo shipping",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("cargo_shipping"),
+    para: __("cargo_shipping_desc")
   }, {
     link: route('client.services.show', "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
-    title: "Charter flights",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("charter_flights"),
+    para: __("charter_flights_desc")
   }, {
     link: route('client.services.show', "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
-    title: "Dangerous goods shipping?",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("good_shipping"),
+    para: __("good_shipping_desc")
   }, {
     link: route('client.services.show', "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
-    title: "Customs brokerage services",
-    para: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."
+    title: __("customs_brokerage_services"),
+    para: __("customs_brokerage_services_desc")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pages singleService"
@@ -5411,11 +5409,11 @@ var Refrigerated = function Refrigerated() {
     color: "#fff"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Refrigerated Cargo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, __("refrigerated_cargo"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     style: {
       opacity: "0.5"
     }
-  }, "We Offer A Wide Range Of Logistic Services To Our Clients"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("we_offer")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex main"
@@ -5535,17 +5533,17 @@ __webpack_require__.r(__webpack_exports__);
 
 var ContactInfo = function ContactInfo() {
   var info = [{
-    title: "working hours",
-    p1: "Monday - friday",
-    p2: "09:00 - 19:00"
+    title: __("working_hours"),
+    p1: __("days"),
+    p2: __("hours")
   }, {
-    title: "Address",
-    p1: "street name #",
-    p2: "Tbilisi, Georgia"
+    title: __("address"),
+    p1: __("street_name"),
+    p2: __("country")
   }, {
-    title: "phone",
-    p1: "+995 0322 14 15 16",
-    p2: "+995 0322 14 15 16"
+    title: __("phone"),
+    p1: __("+995 0322 14 15 16"),
+    p2: __("+995 0322 14 15 16")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "contact_info flex"
@@ -5582,28 +5580,28 @@ __webpack_require__.r(__webpack_exports__);
 
 var Form = function Form() {
   var inputs = [{
-    placeholder: "Enter your name and surname here",
+    placeholder: __("name_surname"),
     type: "text"
   }, {
-    placeholder: "Your phone number is",
+    placeholder: __("phone_number"),
     type: "tel"
   }, {
-    placeholder: "Tell us your email address",
+    placeholder: __("email_address"),
     type: "text"
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "form"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, "Have Some More Questions? ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "Get In Touch!"), inputs.map(function (item) {
+  }, __("more_questions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __("get_in_touch")), inputs.map(function (item) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
       type: item.type,
       placeholder: item.placeholder
     });
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
-    placeholder: "You can leave your message here"
+    placeholder: __("your_message_here")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_1__.MainButton, {
-    text: "send message",
+    text: __("send_message"),
     link: "/"
   }));
 };
@@ -6228,19 +6226,19 @@ __webpack_require__.r(__webpack_exports__);
 
 var RequestForm = function RequestForm() {
   var inputs = [{
-    placeholder: "From",
+    placeholder: __("from"),
     icon: _img_icons_form_pin_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
     type: "text"
   }, {
-    placeholder: "To",
+    placeholder: __("to"),
     icon: _img_icons_form_pin_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
     type: "text"
   }, {
-    placeholder: "Date",
+    placeholder: __("Date"),
     icon: _img_icons_form_calendar_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
     type: "date"
   }, {
-    placeholder: "Your email",
+    placeholder: __("Your email"),
     icon: _img_icons_form_mail_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
     type: "text"
   }];
@@ -6248,7 +6246,7 @@ var RequestForm = function RequestForm() {
     className: "request_form"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
     className: "bold"
-  }, "Get a quote"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "We deliever your package in no time"), inputs.map(function (item) {
+  }, __("get_a_quote")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("on_time_deliver")), inputs.map(function (item) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       className: "input"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -6260,7 +6258,7 @@ var RequestForm = function RequestForm() {
     }));
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_4__.MainButton, {
     link: "/",
-    text: "send request"
+    text: __("send_request")
   }));
 };
 

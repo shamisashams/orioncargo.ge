@@ -7,23 +7,23 @@ import "./Footer.css";
 const Footer = () => {
   const navs = [
     {
-      name: "Home",
+      name: __("home"),
       link: route('client.home.index'),
     },
     {
-      name: "About us",
+      name: __("about"),
       link: route('client.about.index'),
     },
     {
-      name: "Services",
+      name: __("services"),
       link: route('client.services.index'),
     },
     {
-      name: "projects",
+      name: __("projects"),
       link: route('client.projects.index'),
     },
     {
-      name: "Contact",
+      name: __("contact"),
       link: route('client.contact.index'),
     },
   ];

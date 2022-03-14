@@ -11,10 +11,9 @@ const HeroSection = () => {
       <div className="wrapper">
         <div className="flex first ">
           <div className="content">
-            <div className="gil70">something goes here</div>
+            <div className="gil70">{__("hero_title")}</div>
             <p>
-              We deliever your package in no time & it has grown into one of the
-              world's leading logistics providers.
+                {__("hero_content")}
             </p>
             <button className="play_video flex">
               <div className="circle flex centered">
@@ -22,8 +21,8 @@ const HeroSection = () => {
                 <div className="border"></div>
               </div>
               <div>
-                Watch the <br />
-                video
+                  {__("watch_the")} <br />
+                  {__("video")}
               </div>
             </button>
           </div>
@@ -31,7 +30,7 @@ const HeroSection = () => {
         </div>
         <div className="flex second">
           <div className="sm flex">
-            <h6>Social links</h6>
+            <h6>{__('social_links')}</h6>
             <SocialMedia background />
           </div>
           <ContactInfo />

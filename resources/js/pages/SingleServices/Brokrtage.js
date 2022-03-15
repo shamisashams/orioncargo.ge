@@ -84,7 +84,6 @@ const Brokerage = () => {
                         </div>
                         <div className="context">
                             <div className="gilroy">
-                                {" "}
                                 {__("customs_brokerage_services")}
                             </div>
                             <p>{__("brokerage_para_1")}</p>

@@ -105,7 +105,7 @@ return [
               marketplace with whom we share common values, both personally and
               in business, not just in business, but in building friendly
               relationships with existing and future partners.",
-    "who_are_we" => "See Who We Are? Projects",
+    "who_are_we" => "See Who We Are? ",
     "who_are_we_desc" => "
                 Since its inception, the company has been striving to attract
                 and sign up for long-term partnerships with customers in the
@@ -113,7 +113,7 @@ return [
                 and in business, not just in business, but in building friendly
                 relationships with existing and future partners.
               ",
-    "frequently_asked" => "See Frequently Asked  We Are? Projects",
+    "frequently_asked" => "See Frequently Asked  We Are? ",
     "question" => "Questions",
     "question_1" => "Which should I choose: air or road shipping?",
     "answer_1" => "It depends on how fast you want to get your cargo. The company Orion Cargo will offer you the optimal shipping time in any case.",
@@ -180,10 +180,75 @@ Dimensions including packaging (length, width, height)
 
 
 
+    "int_head_1" => "",
+
+    "more_details" => "",
+    "your_email" => "Your Email",
+    "your_phone" => "Your Phone Number",
+    "" => "",
+    "" => "",
 
 
-
-"int_head_1" => ""
+    "airfreight_bullet_1" => "",
+    "airfreight_bullet_2" => "",
+    "airfreight_bullet_3" => "",
+    "airfreight_bullet_4" => "",
+    "airfreight_bullet_5" => "",
+    "airfreight_bullet_6" => "",
+    "airfreight_bullet_7" => "",
+    "airfreight_bullet_8" => "",
+    "airfreight_para_1" => "",
+    "airfreight_para_2" => "",
+    "brokerage_bullet_1" => "",
+    "brokerage_bullet_2" => "",
+    "brokerage_bullet_3" => "",
+    "brokerage_bullet_4" => "",
+    "brokerage_bullet_5" => "",
+    "brokerage_bullet_6" => "",
+    "brokerage_bullet_7" => "",
+    "brokerage_bullet_8" => "",
+    "brokerage_para_1" => "",
+    "brokerage_para_2" => "",
+    "charter_bullet_1" => "",
+    "charter_bullet_2" => "",
+    "charter_bullet_3" => "",
+    "charter_bullet_4" => "",
+    "charter_bullet_5" => "",
+    "charter_bullet_6" => "",
+    "charter_bullet_7" => "",
+    "charter_bullet_8" => "",
+    "charter_para_1" => "",
+    "charter_para_2" => "",
+    "danger_bullet_1" => "",
+    "danger_bullet_2" => "",
+    "danger_bullet_3" => "",
+    "danger_bullet_4" => "",
+    "danger_bullet_5" => "",
+    "danger_bullet_6" => "",
+    "danger_bullet_7" => "",
+    "danger_bullet_8" => "",
+    "shipping_para_1" => "",
+    "shipping_para_2" => "",
+    "landfreight_bullet_1" => "",
+    "landfreight_bullet_2" => "",
+    "landfreight_bullet_3" => "",
+    "landfreight_bullet_4" => "",
+    "landfreight_bullet_5" => "",
+    "landfreight_bullet_6" => "",
+    "landfreight_bullet_7" => "",
+    "landfreight_bullet_8" => "",
+    "landfreight_para_1" => "",
+    "landfreight_para_2" => "",
+    "refrigerated_bullet_1" => "",
+    "refrigerated_bullet_2" => "",
+    "refrigerated_bullet_3" => "",
+    "refrigerated_bullet_4" => "",
+    "refrigerated_bullet_5" => "",
+    "refrigerated_bullet_6" => "",
+    "refrigerated_bullet_7" => "",
+    "refrigerated_bullet_8" => "",
+    "refrigerated_para_1" => "",
+    "refrigerated_para_2" => "",
 
 
 

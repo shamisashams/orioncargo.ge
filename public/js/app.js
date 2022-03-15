@@ -4234,7 +4234,7 @@ var MiddleSection = function MiddleSection() {
     link: route("client.about.index")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, __("frequently_asked"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __("questions")), questions.map(function (item) {
+  }, __("frequently_asked")), questions.map(function (item) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Question_Question__WEBPACK_IMPORTED_MODULE_3__.Question, {
       question: item.q,
       answer: item.a
@@ -4854,7 +4854,7 @@ var Brokerage = function Brokerage() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, " ", __("customs_brokerage_services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("brokerage_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("brokerage_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("customs_brokerage_services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("brokerage_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("brokerage_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -6228,11 +6228,11 @@ var RequestForm = function RequestForm() {
     icon: _img_icons_form_calendar_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
     type: "date"
   }, {
-    placeholder: __("Your email"),
+    placeholder: __("your_email"),
     icon: _img_icons_form_mail_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
     type: "text"
   }, {
-    placeholder: __("Your phone number"),
+    placeholder: __("your_phone"),
     icon: _img_icons_form_tel_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
     type: "tel"
   }];

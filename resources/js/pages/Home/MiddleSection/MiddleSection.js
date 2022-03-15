@@ -65,11 +65,7 @@ const MiddleSection = () => {
                                 link={route("client.about.index")}
                             />
                         </div>
-                        <div className="gil30">
-                            {__("frequently_asked")}
-                            <br />
-                            {__("questions")}
-                        </div>
+                        <div className="gil30">{__("frequently_asked")}</div>
                         {questions.map((item) => {
                             return (
                                 <Question question={item.q} answer={item.a} />

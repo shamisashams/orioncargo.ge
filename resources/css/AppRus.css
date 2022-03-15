@@ -3,8 +3,8 @@
     src: url(/fonts/bpg-glaho-arial-webfont.ttf);
 }
 @font-face {
-    font-family: "imedi";
-    src: url(/fonts/ImediFLT2.ttf);
+    font-family: "akziden";
+    src: url(/fonts/AkzidenzGroteskPro-SuperUFC.ttf);
 }
 *,
 *::after,
@@ -15,14 +15,14 @@ body {
     font-family: "bpg";
 }
 .gilroy {
-    font-family: "imedi";
+    font-family: "akziden";
 }
 .bold {
-    font-family: "imedi";
+    font-family: "akziden";
 }
 .gil70 {
-    font-family: "imedi";
+    font-family: "akziden";
 }
 .gil30 {
-    font-family: "imedi";
+    font-family: "akziden";
 }

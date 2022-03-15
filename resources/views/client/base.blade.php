@@ -16,12 +16,11 @@
 {{--    <meta property="og:url" content="{{ request()->fullUrl() }}">--}}
 {{--    <meta property="og:type" content="page">--}}
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet"/>
-{{--    @if(app()->getLocale()=="ge")--}}
-{{--        <link href="{{ mix('/css/AppGeo.css') }}" rel="stylesheet"/>--}}
-{{--    @elseif(app()->getLocale()=="en")--}}
-{{--        <link href="{{ mix('/css/AppEng.css') }}" rel="stylesheet"/>--}}
-{{--    @endif--}}
-    {{--    @dd($page["props"]["page"]["meta_title"])--}}
+    @if(app()->getLocale()=="ge")
+        <link href="{{ mix('/css/AppGeo.css') }}" rel="stylesheet"/>
+    @elseif(app()->getLocale()=="ru")
+        <link href="{{ mix('/css/AppRus.css') }}" rel="stylesheet"/>
+    @endif
     @routes
     <script src="{{ mix('/js/app.js') }}" defer></script>
 </head>

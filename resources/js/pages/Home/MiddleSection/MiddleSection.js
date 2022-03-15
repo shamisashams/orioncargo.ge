@@ -5,34 +5,38 @@ import { Question } from "../../../components/Question/Question";
 import Form from "../../../components/Form/Form";
 
 const MiddleSection = () => {
-  const imgGrid = ["/img/gallery/4.png", '/img/gallery/3.png', "/img/gallery/2.png"];
-  const questions = [
-    {
-      q: __("question_1"),
-      a: __("answer_1"),
-    },
-      {
-          q: __("question_2"),
-          a: __("answer_2"),
-      },
-      {
-          q: __("question_3"),
-          a: __("answer_3"),
-      },
-      {
-          q: __("question_4"),
-          a: __("answer_4"),
-      },
-      {
-          q: __("question_5"),
-          a: __("answer_5"),
-      },
-  ];
+    const imgGrid = [
+        "/img/gallery/4.png",
+        "/img/gallery/3.png",
+        "/img/gallery/2.png",
+    ];
+    const questions = [
+        {
+            q: __("question_1"),
+            a: __("answer_1"),
+        },
+        {
+            q: __("question_2"),
+            a: __("answer_2"),
+        },
+        {
+            q: __("question_3"),
+            a: __("answer_3"),
+        },
+        {
+            q: __("question_4"),
+            a: __("answer_4"),
+        },
+        {
+            q: __("question_5"),
+            a: __("answer_5"),
+        },
+    ];
 
-  return (
-    <div className="middle_section">
-      <div className="wrapper">
-        <div className="gil30">{__('our_projects')}</div>
+    return (
+        <div className="middle_section">
+            <div className="wrapper">
+                {/* <div className="gil30">{__('our_projects')}</div>
         <div className="flex project_flex">
           <div className="gallery_grid">
             {imgGrid.map((img) => {
@@ -50,38 +54,41 @@ const MiddleSection = () => {
             </p>
             <MainButton text="more details" link={route('client.projects.index')} />
           </div>
+        </div> */}
+                <div className="flex who_we_are">
+                    <div className="left">
+                        <div className="margin_bottom">
+                            <div className="gil30">{__("who_are_we")}</div>
+                            <p>{__("who_are_we_desc")}</p>
+                            <MainButton
+                                text={__("about_us")}
+                                link={route("client.about.index")}
+                            />
+                        </div>
+                        <div className="gil30">
+                            {__("frequently_asked")}
+                            <br />
+                            {__("questions")}
+                        </div>
+                        {questions.map((item) => {
+                            return (
+                                <Question question={item.q} answer={item.a} />
+                            );
+                        })}
+                        <div className="img">
+                            <img src="/img/gallery/6.png" alt="" />
+                        </div>
+                    </div>
+                    <div className="right">
+                        <div className="img">
+                            <img src="/img/gallery/1.png" alt="" />
+                        </div>
+                        <Form />
+                    </div>
+                </div>
+            </div>
         </div>
-        <div className="flex who_we_are">
-          <div className="left">
-            <div className="margin_bottom">
-              <div className="gil30">{__('who_are_we')}</div>
-              <p>
-                  {__('who_are_we_desc')}
-              </p>
-              <MainButton text="about us" link={route('client.about.index')} />
-            </div>
-            <div className="gil30">
-                {__('frequently_asked')}
-              <br />
-                {__('questions')}
-            </div>
-            {questions.map((item) => {
-              return <Question question={item.q} answer={item.a} />;
-            })}
-            <div className="img">
-              <img src="/img/gallery/6.png" alt="" />
-            </div>
-          </div>
-          <div className="right">
-            <div className="img">
-              <img src="/img/gallery/1.png" alt="" />
-            </div>
-            <Form />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default MiddleSection;

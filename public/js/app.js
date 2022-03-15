@@ -3080,19 +3080,20 @@ __webpack_require__.r(__webpack_exports__);
 var Footer = function Footer() {
   var navs = [{
     name: __("home"),
-    link: route('client.home.index')
+    link: route("client.home.index")
   }, {
     name: __("about"),
-    link: route('client.about.index')
+    link: route("client.about.index")
   }, {
     name: __("services"),
-    link: route('client.services.index')
-  }, {
-    name: __("projects"),
-    link: route('client.projects.index')
-  }, {
+    link: route("client.services.index")
+  }, // {
+  //   name: __("projects"),
+  //   link: route('client.projects.index'),
+  // },
+  {
     name: __("contact"),
-    link: route('client.contact.index')
+    link: route("client.contact.index")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "footer"
@@ -3129,8 +3130,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
-/* harmony import */ var _img_logo_dark_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/logo/dark.svg */ "./public/img/logo/dark.svg");
-/* harmony import */ var _img_logo_white_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/logo/white.svg */ "./public/img/logo/white.svg");
+/* harmony import */ var _img_logo_dark_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/logo/dark.svg */ "./public/img/logo/dark.svg");
+/* harmony import */ var _img_logo_white_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/logo/white.svg */ "./public/img/logo/white.svg");
 /* harmony import */ var _Icons_Icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Icons/Icons */ "./resources/js/Components/Icons/Icons.js");
 /* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Header.css */ "./resources/js/Components/Header/Header.css");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
@@ -3177,18 +3178,19 @@ var Header = function Header() {
   }
 
   var navs = [{
-    name: __('home'),
+    name: __("home"),
     link: route("client.home.index")
   }, {
-    name: __('about'),
+    name: __("about"),
     link: route("client.about.index")
   }, {
     name: __("services"),
     link: route("client.services.index")
-  }, {
-    name: __("projects"),
-    link: route("client.projects.index")
-  }, {
+  }, // {
+  //   name: __("projects"),
+  //   link: route("client.projects.index"),
+  // },
+  {
     name: __("contact"),
     link: route("client.contact.index")
   }];
@@ -3704,10 +3706,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
-/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
-/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
-/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
+/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
+/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
+/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
+/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _SocialMedia_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./SocialMedia.css */ "./resources/js/Components/SocialMedia/SocialMedia.css");
 
@@ -4095,7 +4097,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _HeroSection_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HeroSection.css */ "./resources/js/Pages/Home/HeroSection/HeroSection.css");
-/* harmony import */ var _img_hero_play_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/hero/play.svg */ "./public/img/hero/play.svg");
+/* harmony import */ var _img_hero_play_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/hero/play.svg */ "./public/img/hero/play.svg");
 /* harmony import */ var _components_RequestForm_RequestForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/RequestForm/RequestForm */ "./resources/js/components/RequestForm/RequestForm.js");
 /* harmony import */ var _components_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/SocialMedia/SocialMedia */ "./resources/js/components/SocialMedia/SocialMedia.js");
 /* harmony import */ var _components_ContactInfo_ContactInfo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/ContactInfo/ContactInfo */ "./resources/js/components/ContactInfo/ContactInfo.js");
@@ -4198,7 +4200,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var MiddleSection = function MiddleSection() {
-  var imgGrid = ["/img/gallery/4.png", '/img/gallery/3.png', "/img/gallery/2.png"];
+  var imgGrid = ["/img/gallery/4.png", "/img/gallery/3.png", "/img/gallery/2.png"];
   var questions = [{
     q: __("question_1"),
     a: __("answer_1")
@@ -4220,24 +4222,6 @@ var MiddleSection = function MiddleSection() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "gil30"
-  }, __('our_projects')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex project_flex"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "gallery_grid"
-  }, imgGrid.map(function (img) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-      className: "img"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-      src: img,
-      alt: ""
-    }));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "gil30"
-  }, __('see_our_projects')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __('see_our_projects_desc')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_1__.MainButton, {
-    text: "more details",
-    link: route('client.projects.index')
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex who_we_are"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "left"
@@ -4245,12 +4229,12 @@ var MiddleSection = function MiddleSection() {
     className: "margin_bottom"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, __('who_are_we')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __('who_are_we_desc')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_1__.MainButton, {
-    text: "about us",
-    link: route('client.about.index')
+  }, __("who_are_we")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("who_are_we_desc")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_1__.MainButton, {
+    text: __("about_us"),
+    link: route("client.about.index")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, __('frequently_asked'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __('questions')), questions.map(function (item) {
+  }, __("frequently_asked"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __("questions")), questions.map(function (item) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Question_Question__WEBPACK_IMPORTED_MODULE_3__.Question, {
       question: item.q,
       answer: item.a
@@ -4298,37 +4282,38 @@ __webpack_require__.r(__webpack_exports__);
 
 var ServiceHome = function ServiceHome() {
   var services = [{
-    link: route('client.services.show', "AirFreight"),
+    link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Plane, null),
     title: __("air_freight") // para: __("air_freight_desc"),
 
   }, {
-    link: route('client.services.show', "LandFreight"),
+    link: route("client.services.show", "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Truck, null),
     title: __("land_freight") // para: __("land_freight_desc"),
 
-  }, {
-    link: route('client.services.show', "CargoShip"),
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Shipping, null),
-    title: __("cargo_shipping") // para: __("cargo_shipping_desc"),
-
-  }, {
-    link: route('client.services.show', "Refrigerated"),
+  }, // {
+  //   link: route('client.services.show', "CargoShip"),
+  //   icon: <Shipping />,
+  //     title: __("cargo_shipping"),
+  //     // para: __("cargo_shipping_desc"),
+  // },
+  {
+    link: route("client.services.show", "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Cool, null),
     title: __("refrigerated_cargo") // para: __("refrigerated_cargo_desc"),
 
   }, {
-    link: route('client.services.show', "CharterFlights"),
+    link: route("client.services.show", "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Charter, null),
     title: __("charter_flights") // para: __("charter_flights_desc"),
 
   }, {
-    link: route('client.services.show', "DangerousGood"),
+    link: route("client.services.show", "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Danger, null),
     title: __("good_shipping") // para: __("good_shipping_desc"),
 
   }, {
-    link: route('client.services.show', "Brokrtage"),
+    link: route("client.services.show", "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Document, null),
     title: __("customs_brokerage_services") // para: __("customs_brokerage_services_desc"),
 
@@ -4356,8 +4341,8 @@ var ServiceHome = function ServiceHome() {
       para: item.para
     });
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_4__.MainButton, {
-    link: route('client.services.index'),
-    text: "more details"
+    link: route("client.services.index"),
+    text: __("more_details")
   }))));
 };
 
@@ -4508,11 +4493,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/MainButton/MainButton */ "./resources/js/components/MainButton/MainButton.js");
 /* harmony import */ var _Services_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Services.css */ "./resources/js/Pages/Services/Services.css");
-/* harmony import */ var _components_PageHead_PageHead__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/PageHead/PageHead */ "./resources/js/components/PageHead/PageHead.js");
-/* harmony import */ var _Layouts_Layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Layouts/Layout */ "./resources/js/Layouts/Layout.js");
+/* harmony import */ var _Home_ServiceHome_ServiceHome_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Home/ServiceHome/ServiceHome.css */ "./resources/js/Pages/Home/ServiceHome/ServiceHome.css");
+/* harmony import */ var _components_PageHead_PageHead__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/PageHead/PageHead */ "./resources/js/components/PageHead/PageHead.js");
+/* harmony import */ var _Layouts_Layout__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../Layouts/Layout */ "./resources/js/Layouts/Layout.js");
+
 
 
 
@@ -4524,42 +4511,43 @@ __webpack_require__.r(__webpack_exports__);
 
 var Services = function Services() {
   var services = [{
-    link: route('client.services.show', "AirFreight"),
+    link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Plane, null),
     title: __("air_freight") // para: __("air_freight_desc"),
 
   }, {
-    link: route('client.services.show', "LandFreight"),
+    link: route("client.services.show", "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Truck, null),
     title: __("land_freight") // para: __("land_freight_desc"),
 
-  }, {
-    link: route('client.services.show', "CargoShip"),
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Shipping, null),
-    title: __("cargo_shipping") // para: __("cargo_shipping_desc"),
-
-  }, {
-    link: route('client.services.show', "Refrigerated"),
+  }, // {
+  //     link: route("client.services.show", "CargoShip"),
+  //     icon: <Shipping />,
+  //     title: __("cargo_shipping"),
+  //     // para: __("cargo_shipping_desc"),
+  // },
+  {
+    link: route("client.services.show", "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Cool, null),
     title: __("refrigerated_cargo") // para: __("refrigerated_cargo_desc"),
 
   }, {
-    link: route('client.services.show', "CharterFlights"),
+    link: route("client.services.show", "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Charter, null),
     title: __("charter_flights") // para: __("charter_flights_desc"),
 
   }, {
-    link: route('client.services.show', "DangerousGood"),
+    link: route("client.services.show", "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Danger, null),
     title: __("good_shipping") // para: __("good_shipping_desc"),
 
   }, {
-    link: route('client.services.show', "Brokrtage"),
+    link: route("client.services.show", "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Document, null),
     title: __("customs_brokerage_services") // para: __("customs_brokerage_services_desc"),
 
   }];
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_7__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_8__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "servicePage service_home pages"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     className: "background",
@@ -4567,7 +4555,7 @@ var Services = function Services() {
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_PageHead_PageHead__WEBPACK_IMPORTED_MODULE_6__.PageHead, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_PageHead_PageHead__WEBPACK_IMPORTED_MODULE_7__.PageHead, {
     title: __("services"),
     para: __("services_desc")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -4583,7 +4571,7 @@ var Services = function Services() {
     className: "last"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "gilroy"
-  }, __("need"), __("solution")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("need")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
   }, __("more_questions"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __("get_in_touch")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_4__.MainButton, {
     link: route("client.contact.index"),
@@ -4676,7 +4664,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -4689,34 +4677,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AirFreight = function AirFreight() {
-  var bullets = ["Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews", "Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews"];
+  var bullets = [__("airfreight_bullet_1"), __("airfreight_bullet_2"), __("airfreight_bullet_3"), __("airfreight_bullet_4"), __("airfreight_bullet_5"), __("airfreight_bullet_6"), __("airfreight_bullet_7"), __("airfreight_bullet_8")];
   var services = [{
-    link: route('client.services.show', "LandFreight"),
+    link: route("client.services.show", "AirFreight"),
+    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
+    title: __("air_freight"),
+    para: __("air_freight_desc")
+  }, {
+    link: route("client.services.show", "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
     title: __("land_freight"),
     para: __("land_freight_desc")
   }, {
-    link: route('client.services.show', "CargoShip"),
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: __("cargo_shipping"),
-    para: __("cargo_shipping_desc")
-  }, {
-    link: route('client.services.show', "Refrigerated"),
+    link: route("client.services.show", "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
     title: __("refrigerated_cargo"),
     para: __("refrigerated_cargo_desc")
   }, {
-    link: route('client.services.show', "CharterFlights"),
+    link: route("client.services.show", "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
     title: __("charter_flights"),
     para: __("charter_flights_desc")
   }, {
-    link: route('client.services.show', "DangerousGood"),
+    link: route("client.services.show", "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
     title: __("good_shipping"),
     para: __("good_shipping_desc")
   }, {
-    link: route('client.services.show', "Brokrtage"),
+    link: route("client.services.show", "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
     title: __("customs_brokerage_services"),
     para: __("customs_brokerage_services_desc")
@@ -4754,7 +4742,7 @@ var AirFreight = function AirFreight() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Lorem ipsum"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("air_freight")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("airfreight_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("airfreight_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -4766,8 +4754,8 @@ var AirFreight = function AirFreight() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
       link: item.link,
       icon: item.icon,
-      title: item.title,
-      para: item.para
+      title: item.title //   para={item.para}
+
     });
   })))));
 };
@@ -4788,7 +4776,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -4801,37 +4789,37 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Brokerage = function Brokerage() {
-  var bullets = ["Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews", "Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews"];
+  var bullets = [__("brokerage_bullet_1"), __("brokerage_bullet_2"), __("brokerage_bullet_3"), __("brokerage_bullet_4"), __("brokerage_bullet_5"), __("brokerage_bullet_6"), __("brokerage_bullet_7"), __("brokerage_bullet_8")];
   var services = [{
-    link: route('client.services.show', "AirFreight"),
+    link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
     title: __("air_freight"),
     para: __("air_freight_desc")
   }, {
-    link: route('client.services.show', "LandFreight"),
+    link: route("client.services.show", "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
     title: __("land_freight"),
     para: __("land_freight_desc")
   }, {
-    link: route('client.services.show', "CargoShip"),
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: __("cargo_shipping"),
-    para: __("cargo_shipping_desc")
-  }, {
-    link: route('client.services.show', "Refrigerated"),
+    link: route("client.services.show", "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
     title: __("refrigerated_cargo"),
     para: __("refrigerated_cargo_desc")
   }, {
-    link: route('client.services.show', "CharterFlights"),
+    link: route("client.services.show", "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
     title: __("charter_flights"),
     para: __("charter_flights_desc")
   }, {
-    link: route('client.services.show', "DangerousGood"),
+    link: route("client.services.show", "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
     title: __("good_shipping"),
     para: __("good_shipping_desc")
+  }, {
+    link: route("client.services.show", "Brokrtage"),
+    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
+    title: __("customs_brokerage_services"),
+    para: __("customs_brokerage_services_desc")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pages singleService"
@@ -4866,7 +4854,7 @@ var Brokerage = function Brokerage() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Lorem ipsum"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, " ", __("customs_brokerage_services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("brokerage_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("brokerage_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -4878,8 +4866,8 @@ var Brokerage = function Brokerage() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
       link: item.link,
       icon: item.icon,
-      title: item.title,
-      para: item.para
+      title: item.title //   para={item.para}
+
     });
   })))));
 };
@@ -4900,7 +4888,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -4913,34 +4901,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var CargoShip = function CargoShip() {
-  var bullets = ["Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews", "Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews"];
+  var bullets = [__("cargoship_bullet_1"), __("cargoship_bullet_2"), __("cargoship_bullet_3"), __("cargoship_bullet_4"), __("cargoship_bullet_5"), __("cargoship_bullet_6"), __("cargoship_bullet_7"), __("cargoship_bullet_8")];
   var services = [{
-    link: route('client.services.show', "AirFreight"),
+    link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
     title: __("air_freight"),
     para: __("air_freight_desc")
   }, {
-    link: route('client.services.show', "LandFreight"),
+    link: route("client.services.show", "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
     title: __("land_freight"),
     para: __("land_freight_desc")
   }, {
-    link: route('client.services.show', "Refrigerated"),
+    link: route("client.services.show", "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
     title: __("refrigerated_cargo"),
     para: __("refrigerated_cargo_desc")
   }, {
-    link: route('client.services.show', "CharterFlights"),
+    link: route("client.services.show", "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
     title: __("charter_flights"),
     para: __("charter_flights_desc")
   }, {
-    link: route('client.services.show', "DangerousGood"),
+    link: route("client.services.show", "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
     title: __("good_shipping"),
     para: __("good_shipping_desc")
   }, {
-    link: route('client.services.show', "Brokrtage"),
+    link: route("client.services.show", "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
     title: __("customs_brokerage_services"),
     para: __("customs_brokerage_services_desc")
@@ -4978,7 +4966,7 @@ var CargoShip = function CargoShip() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Lorem ipsum"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("cargo_shipping")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -4990,8 +4978,8 @@ var CargoShip = function CargoShip() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
       link: item.link,
       icon: item.icon,
-      title: item.title,
-      para: item.para
+      title: item.title //   para={item.para}
+
     });
   })))));
 };
@@ -5012,7 +5000,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5025,34 +5013,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var CharterFlights = function CharterFlights() {
-  var bullets = ["Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews", "Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews"];
+  var bullets = [__("charter_bullet_1"), __("charter_bullet_2"), __("charter_bullet_3"), __("charter_bullet_4"), __("charter_bullet_5"), __("charter_bullet_6"), __("charter_bullet_7"), __("charter_bullet_8")];
   var services = [{
-    link: route('client.services.show', "AirFreight"),
+    link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
     title: __("air_freight"),
     para: __("air_freight_desc")
   }, {
-    link: route('client.services.show', "LandFreight"),
+    link: route("client.services.show", "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
     title: __("land_freight"),
     para: __("land_freight_desc")
   }, {
-    link: route('client.services.show', "CargoShip"),
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: __("cargo_shipping"),
-    para: __("cargo_shipping_desc")
-  }, {
-    link: route('client.services.show', "Refrigerated"),
+    link: route("client.services.show", "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
     title: __("refrigerated_cargo"),
     para: __("refrigerated_cargo_desc")
   }, {
-    link: route('client.services.show', "DangerousGood"),
+    link: route("client.services.show", "CharterFlights"),
+    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
+    title: __("charter_flights"),
+    para: __("charter_flights_desc")
+  }, {
+    link: route("client.services.show", "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
     title: __("good_shipping"),
     para: __("good_shipping_desc")
   }, {
-    link: route('client.services.show', "Brokrtage"),
+    link: route("client.services.show", "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
     title: __("customs_brokerage_services"),
     para: __("customs_brokerage_services_desc")
@@ -5090,7 +5078,7 @@ var CharterFlights = function CharterFlights() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Lorem ipsum"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("charter_flights")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("charter_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("charter_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -5102,8 +5090,8 @@ var CharterFlights = function CharterFlights() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
       link: item.link,
       icon: item.icon,
-      title: item.title,
-      para: item.para
+      title: item.title //   para={item.para}
+
     });
   })))));
 };
@@ -5124,7 +5112,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5137,34 +5125,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var DangerousGoods = function DangerousGoods() {
-  var bullets = ["Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews", "Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews"];
+  var bullets = [__("danger_bullet_1"), __("danger_bullet_2"), __("danger_bullet_3"), __("danger_bullet_4"), __("danger_bullet_5"), __("danger_bullet_6"), __("danger_bullet_7"), __("danger_bullet_8")];
   var services = [{
-    link: route('client.services.show', "AirFreight"),
+    link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
     title: __("air_freight"),
     para: __("air_freight_desc")
   }, {
-    link: route('client.services.show', "LandFreight"),
+    link: route("client.services.show", "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
     title: __("land_freight"),
     para: __("land_freight_desc")
   }, {
-    link: route('client.services.show', "CargoShip"),
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: __("cargo_shipping"),
-    para: __("cargo_shipping_desc")
-  }, {
-    link: route('client.services.show', "Refrigerated"),
+    link: route("client.services.show", "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
     title: __("refrigerated_cargo"),
     para: __("refrigerated_cargo_desc")
   }, {
-    link: route('client.services.show', "CharterFlights"),
+    link: route("client.services.show", "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
     title: __("charter_flights"),
     para: __("charter_flights_desc")
   }, {
-    link: route('client.services.show', "Brokrtage"),
+    link: route("client.services.show", "DangerousGood"),
+    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
+    title: __("good_shipping"),
+    para: __("good_shipping_desc")
+  }, {
+    link: route("client.services.show", "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
     title: __("customs_brokerage_services"),
     para: __("customs_brokerage_services_desc")
@@ -5202,7 +5190,7 @@ var DangerousGoods = function DangerousGoods() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Lorem ipsum"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("good_shipping")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("shipping_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("shipping_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -5214,8 +5202,8 @@ var DangerousGoods = function DangerousGoods() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
       link: item.link,
       icon: item.icon,
-      title: item.title,
-      para: item.para
+      title: item.title //   para={item.para}
+
     });
   })))));
 };
@@ -5236,7 +5224,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5249,34 +5237,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var LandFreight = function LandFreight() {
-  var bullets = ["Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews", "Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews"];
+  var bullets = [__("landfreight_bullet_1"), __("landfreight_bullet_2"), __("landfreight_bullet_3"), __("landfreight_bullet_4"), __("landfreight_bullet_5"), __("landfreight_bullet_6"), __("landfreight_bullet_7"), __("landfreight_bullet_8")];
   var services = [{
-    link: route('client.services.show', "AirFreight"),
+    link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
     title: __("air_freight"),
     para: __("air_freight_desc")
   }, {
-    link: route('client.services.show', "CargoShip"),
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: __("cargo_shipping"),
-    para: __("cargo_shipping_desc")
+    link: route("client.services.show", "LandFreight"),
+    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
+    title: __("land_freight"),
+    para: __("land_freight_desc")
   }, {
-    link: route('client.services.show', "Refrigerated"),
+    link: route("client.services.show", "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
     title: __("refrigerated_cargo"),
     para: __("refrigerated_cargo_desc")
   }, {
-    link: route('client.services.show', "CharterFlights"),
+    link: route("client.services.show", "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
     title: __("charter_flights"),
     para: __("charter_flights_desc")
   }, {
-    link: route('client.services.show', "DangerousGood"),
+    link: route("client.services.show", "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
     title: __("good_shipping"),
     para: __("good_shipping_desc")
   }, {
-    link: route('client.services.show', "Brokrtage"),
+    link: route("client.services.show", "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
     title: __("customs_brokerage_services"),
     para: __("customs_brokerage_services_desc")
@@ -5314,7 +5302,7 @@ var LandFreight = function LandFreight() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Lorem ipsum"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("land_freight")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("landfreight_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("landfreight_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -5326,8 +5314,8 @@ var LandFreight = function LandFreight() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
       link: item.link,
       icon: item.icon,
-      title: item.title,
-      para: item.para
+      title: item.title //   para={item.para}
+
     });
   })))));
 };
@@ -5348,7 +5336,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5361,34 +5349,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Refrigerated = function Refrigerated() {
-  var bullets = ["Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews", "Leverage agile frameworks to provide a robust", "Iterative approaches to strategy", "synopsis for high level overviews", "provide a robust synopsis for high level overviews"];
+  var bullets = [__("refrigerated_bullet_1"), __("refrigerated_bullet_2"), __("refrigerated_bullet_3"), __("refrigerated_bullet_4"), __("refrigerated_bullet_5"), __("refrigerated_bullet_6"), __("refrigerated_bullet_7"), __("refrigerated_bullet_8")];
   var services = [{
-    link: route('client.services.show', "AirFreight"),
+    link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
     title: __("air_freight"),
     para: __("air_freight_desc")
   }, {
-    link: route('client.services.show', "LandFreight"),
+    link: route("client.services.show", "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Truck, null),
     title: __("land_freight"),
     para: __("land_freight_desc")
   }, {
-    link: route('client.services.show', "CargoShip"),
-    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Shipping, null),
-    title: __("cargo_shipping"),
-    para: __("cargo_shipping_desc")
+    link: route("client.services.show", "Refrigerated"),
+    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Cool, null),
+    title: __("refrigerated_cargo"),
+    para: __("refrigerated_cargo_desc")
   }, {
-    link: route('client.services.show', "CharterFlights"),
+    link: route("client.services.show", "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Charter, null),
     title: __("charter_flights"),
     para: __("charter_flights_desc")
   }, {
-    link: route('client.services.show', "DangerousGood"),
+    link: route("client.services.show", "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Danger, null),
     title: __("good_shipping"),
     para: __("good_shipping_desc")
   }, {
-    link: route('client.services.show', "Brokrtage"),
+    link: route("client.services.show", "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Document, null),
     title: __("customs_brokerage_services"),
     para: __("customs_brokerage_services_desc")
@@ -5426,7 +5414,7 @@ var Refrigerated = function Refrigerated() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, "Lorem ipsum"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("refrigerated_cargo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("refrigerated_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("refrigerated_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -5438,8 +5426,8 @@ var Refrigerated = function Refrigerated() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
       link: item.link,
       icon: item.icon,
-      title: item.title,
-      para: item.para
+      title: item.title //   para={item.para}
+
     });
   })))));
 };
@@ -6111,7 +6099,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _ProjectBox_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ProjectBox.css */ "./resources/js/components/ProjectBox/ProjectBox.css");
-/* harmony import */ var _img_icons_other_plus_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/other/plus.svg */ "./public/img/icons/other/plus.svg");
+/* harmony import */ var _img_icons_other_plus_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/other/plus.svg */ "./public/img/icons/other/plus.svg");
 
 
 
@@ -6212,11 +6200,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_icons_form_calendar_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/icons/form/calendar.svg */ "./public/img/icons/form/calendar.svg");
-/* harmony import */ var _img_icons_form_mail_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/icons/form/mail.svg */ "./public/img/icons/form/mail.svg");
-/* harmony import */ var _img_icons_form_pin_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/form/pin.svg */ "./public/img/icons/form/pin.svg");
-/* harmony import */ var _MainButton_MainButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../MainButton/MainButton */ "./resources/js/components/MainButton/MainButton.js");
-/* harmony import */ var _RequestForm_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./RequestForm.css */ "./resources/js/components/RequestForm/RequestForm.css");
+/* harmony import */ var _img_icons_form_calendar_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/icons/form/calendar.svg */ "./public/img/icons/form/calendar.svg");
+/* harmony import */ var _img_icons_form_mail_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/icons/form/mail.svg */ "./public/img/icons/form/mail.svg");
+/* harmony import */ var _img_icons_form_pin_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/form/pin.svg */ "./public/img/icons/form/pin.svg");
+/* harmony import */ var _img_icons_form_tel_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../img/icons/form/tel.svg */ "./public/img/icons/form/tel.svg");
+/* harmony import */ var _MainButton_MainButton__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../MainButton/MainButton */ "./resources/js/components/MainButton/MainButton.js");
+/* harmony import */ var _RequestForm_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./RequestForm.css */ "./resources/js/components/RequestForm/RequestForm.css");
+
 
 
 
@@ -6241,6 +6231,10 @@ var RequestForm = function RequestForm() {
     placeholder: __("Your email"),
     icon: _img_icons_form_mail_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
     type: "text"
+  }, {
+    placeholder: __("Your phone number"),
+    icon: _img_icons_form_tel_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
+    type: "tel"
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "request_form"
@@ -6256,7 +6250,7 @@ var RequestForm = function RequestForm() {
       type: item.type,
       placeholder: item.placeholder
     }));
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_4__.MainButton, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_5__.MainButton, {
     link: "/",
     text: __("send_request")
   }));
@@ -6315,10 +6309,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
-/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
-/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
-/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
+/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
+/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
+/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
+/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _SocialMedia_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./SocialMedia.css */ "./resources/js/components/SocialMedia/SocialMedia.css");
 
@@ -6621,7 +6615,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".footer .top {\r\n  border-bottom: 3px solid #202387;\r\n  padding-bottom: 15px;\r\n  margin-bottom: 8px;\r\n}\r\n.footer .top .nav_link {\r\n  color: #222530;\r\n  text-transform: uppercase;\r\n  margin-right: 70px;\r\n}\r\n.footer .bottom {\r\n  background-color: #202387;\r\n  padding: 60px 0;\r\n}\r\n.footer .contact_info p {\r\n  opacity: 1;\r\n  font-family: \"poppins\";\r\n}\r\n\r\n@media screen and (max-width: 1000px) {\r\n  .footer .top {\r\n    padding-bottom: 10px;\r\n  }\r\n  .footer .top .nav_link {\r\n    margin-right: 33px;\r\n  }\r\n}\r\n@media screen and (max-width: 800px) {\r\n  .footer .top {\r\n    flex-direction: column-reverse;\r\n    align-items: flex-start;\r\n  }\r\n  .footer .top .nav_link {\r\n    margin-right: 22px;\r\n    font-size: 14px;\r\n  }\r\n  .footer .top .navbar {\r\n    margin-top: 10px;\r\n  }\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".footer {\r\n    position: relative;\r\n    z-index: 10;\r\n}\r\n.footer .top {\r\n    border-bottom: 3px solid #202387;\r\n    padding-bottom: 15px;\r\n    margin-bottom: 8px;\r\n}\r\n.footer .top .nav_link {\r\n    color: #222530;\r\n    text-transform: uppercase;\r\n    margin-right: 70px;\r\n}\r\n.footer .bottom {\r\n    background-color: #202387;\r\n    padding: 60px 0;\r\n}\r\n.footer .contact_info p {\r\n    opacity: 1;\r\n    font-family: \"poppins\";\r\n}\r\n\r\n@media screen and (max-width: 1000px) {\r\n    .footer .top {\r\n        padding-bottom: 10px;\r\n    }\r\n    .footer .top .nav_link {\r\n        margin-right: 33px;\r\n    }\r\n}\r\n@media screen and (max-width: 800px) {\r\n    .footer .top {\r\n        flex-direction: column-reverse;\r\n        align-items: flex-start;\r\n    }\r\n    .footer .top .nav_link {\r\n        margin-right: 22px;\r\n        font-size: 14px;\r\n    }\r\n    .footer .top .navbar {\r\n        margin-top: 10px;\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6645,7 +6639,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".header {\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  width: 100%;\r\n  z-index: 1000;\r\n  padding-top: 13px;\r\n}\r\n.menu_btn {\r\n  display: none;\r\n}\r\n.header .navbar {\r\n  margin-left: 50px;\r\n}\r\n.header .navbar .nav_link {\r\n  margin: 0 30px;\r\n  text-transform: uppercase;\r\n  opacity: 0.6;\r\n  transition: 0.3s;\r\n}\r\n.header .navbar .nav_link.active {\r\n  opacity: 1;\r\n}\r\n.header .navbar .nav_link:hover {\r\n  opacity: 1;\r\n}\r\n.header .languages {\r\n  position: relative;\r\n  cursor: default;\r\n  text-transform: uppercase;\r\n  font-family: \"poppins-bold\";\r\n}\r\n.header .languages .drop {\r\n  position: absolute;\r\n  left: 30.25px;\r\n  top: 100%;\r\n  padding-top: 5px;\r\n  opacity: 0;\r\n  transform: scaleY(0.3);\r\n  transform-origin: top;\r\n  transition: 0.3s;\r\n}\r\n.header .languages .drop button {\r\n  display: block;\r\n  font-family: \"poppins-bold\";\r\n}\r\n.header .languages .on div {\r\n  margin: 0 10px;\r\n  font-family: \"poppins-bold\";\r\n}\r\n.header .languages .arrow {\r\n  transition: 0.3s;\r\n  transform-origin: center;\r\n}\r\n.header .languages:hover .arrow {\r\n  transform: rotate(180deg) !important;\r\n}\r\n.header .languages:hover .drop {\r\n  opacity: 1;\r\n  transform: scaleY(1);\r\n}\r\n\r\n@media screen and (max-width: 1100px) {\r\n  .header .navbar {\r\n    margin-left: 5px;\r\n  }\r\n  .header .navbar .nav_link {\r\n    margin: 0 13px;\r\n  }\r\n}\r\n@media screen and (max-width: 850px) {\r\n  .header .navbar {\r\n    position: absolute;\r\n    right: -20px;\r\n    top: 45px;\r\n    padding: 20px 35px;\r\n    background: linear-gradient(to bottom, #2023874f, #02031d57);\r\n    border-radius: 3px;\r\n    transition: 0.3s;\r\n    transform: scaleX(0);\r\n    transform-origin: right;\r\n  }\r\n  .header .navbar.show {\r\n    transform: scaleX(1);\r\n    right: 0;\r\n  }\r\n  .header .navbar .nav_link {\r\n    display: block;\r\n    margin: 5px 0;\r\n    color: #fff !important;\r\n  }\r\n  .header .wrapper {\r\n    align-items: flex-start;\r\n  }\r\n  .menu_btn {\r\n    display: inline-block;\r\n    margin-left: 20px;\r\n  }\r\n  .menu_btn .span {\r\n    height: 3px;\r\n    width: 25px;\r\n    opacity: 0.6;\r\n    margin: 5px 0;\r\n    border-radius: 4px;\r\n    transition: 0.3s;\r\n  }\r\n  .menu_btn.clicked .span:first-child {\r\n    transform: rotate(-45deg);\r\n    margin: 0;\r\n  }\r\n  .menu_btn.clicked .span:last-child {\r\n    transform: rotate(45deg);\r\n    margin: -2px 0;\r\n  }\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".header {\r\n    position: absolute;\r\n    left: 0;\r\n    top: 0;\r\n    width: 100%;\r\n    z-index: 1000;\r\n    padding-top: 13px;\r\n}\r\n.menu_btn {\r\n    display: none;\r\n}\r\n.header .navbar {\r\n    margin-left: 50px;\r\n}\r\n.header .navbar .nav_link {\r\n    margin: 0 30px;\r\n    text-transform: uppercase;\r\n    opacity: 0.6;\r\n    transition: 0.3s;\r\n}\r\n.header .navbar .nav_link.active {\r\n    opacity: 1;\r\n}\r\n.header .navbar .nav_link:hover {\r\n    opacity: 1;\r\n}\r\n.header .languages {\r\n    position: relative;\r\n    cursor: default;\r\n    text-transform: uppercase;\r\n    font-family: \"poppins-bold\";\r\n}\r\n.header .languages .on a {\r\n    margin: 0 5px;\r\n}\r\n.header .languages .drop {\r\n    position: absolute;\r\n    left: 26.25px;\r\n    top: 100%;\r\n    padding-top: 5px;\r\n    opacity: 0;\r\n    transform: scaleY(0.3);\r\n    transform-origin: top;\r\n    transition: 0.3s;\r\n}\r\n.header .languages .drop button {\r\n    display: block;\r\n    font-family: \"poppins-bold\";\r\n}\r\n.header .languages .on div {\r\n    margin: 0 10px;\r\n    font-family: \"poppins-bold\";\r\n}\r\n.header .languages .arrow {\r\n    transition: 0.3s;\r\n    transform-origin: center;\r\n}\r\n.header .languages:hover .arrow {\r\n    transform: rotate(180deg) !important;\r\n}\r\n.header .languages:hover .drop {\r\n    opacity: 1;\r\n    transform: scaleY(1);\r\n}\r\n\r\n@media screen and (max-width: 1100px) {\r\n    .header .navbar {\r\n        margin-left: 5px;\r\n    }\r\n    .header .navbar .nav_link {\r\n        margin: 0 13px;\r\n    }\r\n}\r\n@media screen and (max-width: 850px) {\r\n    .header .navbar {\r\n        position: absolute;\r\n        right: -20px;\r\n        top: 45px;\r\n        padding: 20px 35px;\r\n        background: linear-gradient(to bottom, #2023874f, #02031d57);\r\n        border-radius: 3px;\r\n        transition: 0.3s;\r\n        transform: scaleX(0);\r\n        transform-origin: right;\r\n    }\r\n    .header .navbar.show {\r\n        transform: scaleX(1);\r\n        right: 0;\r\n    }\r\n    .header .navbar .nav_link {\r\n        display: block;\r\n        margin: 5px 0;\r\n        color: #fff !important;\r\n    }\r\n    .header .wrapper {\r\n        align-items: flex-start;\r\n    }\r\n    .menu_btn {\r\n        display: inline-block;\r\n        margin-left: 20px;\r\n    }\r\n    .menu_btn .span {\r\n        height: 3px;\r\n        width: 25px;\r\n        opacity: 0.6;\r\n        margin: 5px 0;\r\n        border-radius: 4px;\r\n        transition: 0.3s;\r\n    }\r\n    .menu_btn.clicked .span:first-child {\r\n        transform: rotate(-45deg);\r\n        margin: 0;\r\n    }\r\n    .menu_btn.clicked .span:last-child {\r\n        transform: rotate(45deg);\r\n        margin: -2px 0;\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6933,7 +6927,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".servicePage {\r\n  position: relative;\r\n}\r\n.servicePage .head {\r\n  margin-bottom: 44px;\r\n}\r\n.servicePage .grid .gil30 {\r\n  color: #fd5d14;\r\n  margin: 16px 0;\r\n}\r\n.servicePage .grid .main_button {\r\n  margin-left: 0;\r\n}\r\n.servicePage .grid .last {\r\n  vertical-align: middle;\r\n  margin: auto 0;\r\n}\r\n.servicePage .background {\r\n  top: 80px;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".servicePage {\r\n    position: relative;\r\n}\r\n.servicePage .head {\r\n    margin-bottom: 44px;\r\n}\r\n.servicePage .grid .gil30 {\r\n    color: #fd5d14;\r\n    margin: 16px 0;\r\n}\r\n.servicePage .grid .main_button {\r\n    margin-left: 0 !important;\r\n}\r\n.servicePage .grid .last {\r\n    vertical-align: middle;\r\n    margin: auto 0;\r\n}\r\n.servicePage .background {\r\n    top: 80px;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7912,6 +7906,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/pin.svg?e00b2cbdea8f1d5f217927d35dbf38e0");
+
+/***/ }),
+
+/***/ "./public/img/icons/form/tel.svg":
+/*!***************************************!*\
+  !*** ./public/img/icons/form/tel.svg ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/tel.svg?e182f0501d9d443a47fbf2b956f2d1db");
 
 /***/ }),
 
@@ -47182,7 +47191,7 @@ webpackContext.id = "./resources/js/Pages sync recursive ^\\.\\/.*$";
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}]}');
+module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_from":"axios@0.21.4"}');
 
 /***/ })
 

@@ -43,7 +43,7 @@
     transform-origin: top;
     transition: 0.3s;
 }
-.header .languages .drop button {
+.header .languages .drop a {
     display: block;
     font-family: "poppins-bold";
 }

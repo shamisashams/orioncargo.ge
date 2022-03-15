@@ -24,12 +24,12 @@ const RequestForm = () => {
             type: "date",
         },
         {
-            placeholder: __("Your email"),
+            placeholder: __("your_email"),
             icon: Mail,
             type: "text",
         },
         {
-            placeholder: __("Your phone number"),
+            placeholder: __("your_phone"),
             icon: Tel,
             type: "tel",
         },

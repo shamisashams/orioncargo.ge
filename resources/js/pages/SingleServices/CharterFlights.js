@@ -23,6 +23,11 @@ const CharterFlights = () => {
         __("charter_bullet_6"),
         __("charter_bullet_7"),
         __("charter_bullet_8"),
+        __("charter_bullet_9"),
+        __("charter_bullet_10"),
+        __("charter_bullet_11"),
+        __("charter_bullet_12"),
+        __("charter_bullet_13"),
     ];
     const services = [
         {
@@ -87,7 +92,7 @@ const CharterFlights = () => {
                                 {__("charter_flights")}
                             </div>
                             <p>{__("charter_para_1")}</p>
-                            <p>{__("charter_para_2")}</p>
+                            {/* <p>{__("charter_para_2")}</p> */}
                             <ul>
                                 {bullets.map((bullet) => {
                                     return <li className="bold">{bullet}</li>;

@@ -23,6 +23,7 @@ const AirFreight = () => {
         __("airfreight_bullet_6"),
         __("airfreight_bullet_7"),
         __("airfreight_bullet_8"),
+        __("airfreight_bullet_9"),
     ];
     const services = [
         {
@@ -83,7 +84,7 @@ const AirFreight = () => {
                         <div className="context">
                             <div className="gilroy">{__("air_freight")}</div>
                             <p>{__("airfreight_para_1")}</p>
-                            <p>{__("airfreight_para_2")}</p>
+                            {/* <p>{__("airfreight_para_2")}</p> */}
                             <ul>
                                 {bullets.map((bullet) => {
                                     return <li className="bold">{bullet}</li>;
@@ -92,7 +93,7 @@ const AirFreight = () => {
                         </div>
                     </div>
                     <div className="gilroy more_options_title">
-                        See more options
+                    {__("see_more_services")}
                     </div>
                     <div className="other_options">
                         {services.map((item) => {

@@ -108,9 +108,10 @@ const Header = () => {
                         >
                             <div className="on flex">
                                 <Globe color={theme} />
-                                <a href={locale_urls[currentLocale]}>
-                                    {locales[currentLocale].name}
-                                </a>
+                                {/* <a href={locale_urls[currentLocale]}>
+                                    
+                                </a> */}
+                                <div>{locales[currentLocale].name}</div>
                                 <Arrow color={theme} degree="0" />
                             </div>
                             <div className="drop">

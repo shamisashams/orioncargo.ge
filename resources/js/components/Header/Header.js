@@ -35,7 +35,7 @@ const Header = () => {
       link: route("client.about.index"),
     },
     {
-      name: __("Services"),
+      name: __("services"),
       link: route("client.services.index"),
     },
     {
@@ -43,7 +43,7 @@ const Header = () => {
       link: route("client.projects.index"),
     },
     {
-      name: __("Contact"),
+      name: __("contact"),
       link: route("client.contact.index"),
     },
   ];

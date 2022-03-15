@@ -22,7 +22,7 @@ const HeroSection = () => {
               </div>
               <div>
                   {__("watch_the")} <br />
-                  {__("video")}
+                  {/* {__("video")} */}
               </div>
             </button>
           </div>

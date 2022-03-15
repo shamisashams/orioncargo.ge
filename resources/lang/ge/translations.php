@@ -1,49 +1,98 @@
 <?php
 return [
     "home" => "მთავარი",
-    "about" => "about",
-    "services" => "Services",
-    "projects" => "Projects",
-    "contact" => "Contact",
-    "hero_title" => "something goes here ",
-    "hero_content" => "We deliever your package in no time & it has grown into one of the world's leading logistics providers.",
-    "watch_the" => "Watch the",
+    "about" => "ჩვენ შესახებ",
+    "services" => "სერვისები",
+    "projects" => "პროექტები",
+    "contact" => "კონტაქტი",
+    "hero_title" => "სწრაფი და საიმედო საერთაშორისო გადაზიდვის სერვისი",
+    "hero_content" => "საჰაერო გადაზიდვების სრული სპექტრი პარტნიორი ავიაკომპანიების მეშვეობით.",
+    "watch_the" => "ნახეთ ვიდეო",
     "video" => "video",
-    "social_links" => "Social links",
-    "working_hours" => "working hours",
-    "days" => "Monday - friday",
+    "social_links" => "სოციალური ქსელები",
+    "working_hours" => "სამუშაო საათები",
+    "days" => "ორშაბათი-პარასკევი",
     "hours" => "09:00 - 19:00",
-    "address" => "Address",
-    "street_name" => "street name #",
-    "country" => "Tbilisi, Georgia",
-    "phone" => "phone",
+    "address" => "მისამართი",
+    "street_name" => "ქუჩის სახელი #",
+    "country" => "თბილისი, საქართველო",
+    "phone" => "ტელეფონი",
     "number_1" => "+995 0322 14 15 16",
     "number_2" => "+995 0322 14 15 16",
-    "from" => "From",
-    "to" => "To",
-    "date" => "Date",
-    "your_email" => "Your email",
-    "get_a_quote" => "Get a quote",
-    "on_time_deliver" => "We deliever your package in no time",
-    "send_request" => "send request",
-    "air_freight" => "Air freight",
-    "air_freight_desc" => "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
-    "land_freight" => "land freight",
-    "land_freight_desc" => "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
+    "from" => "საიდან",
+    "to" => "სად",
+    "date" => "თარიღი",
+    "your_email" => "თქვენი ელ-ფოსტა",
+    "get_a_quote" => "გაგზავნა",
+    "on_time_deliver" => "ჩვენ ვერგებით თქვენს საჭიროებებს",
+    "send_request" => "გაგზავნა",
+    "air_freight" => "საერთაშორისო საჰაერო გადაზიდვები",
+    "air_freight_desc" => "კომპანია 'ორიონ კარგო' გთავაზობთ საჰაერო გადაზიდვების სრულ სპექტრს, პარტნიორი  ავიაკომპანიების მეშვეობით.
+    •	საერთაშორისო საჰაერო გადაზიდვები: ექსპორტი, იმპორტი, ტრანზიტი
+•	კონკურენტული ტარიფები
+•	ტვირთის დაზღვევა (კლინეტის მოთხოვნის შესაბამისად)
+•	ადგილობრივი მომსახურებების უზრუნველყოფა საქართველოს მასშტაბით
+•	კარიდან/კარამდე მიტანის მომსახურება
+•	საბაჟო-საბროკერო მომსახურება
+•	ტვირთის დასაწყობება ტერმინალში.
+•	საერთაშორისო დოკუმენტაციის დამზადება
+•	ხარისხიანი და სანდო მომსახურების უზრუნველყოფა
+",
+    "land_freight" => "სახმელეთო გადაზიდვები",
+    "land_freight_desc" => "კომპანია 'ორიონ კარგო' გთავაზობთ სახმელეთო გადაზიდვების სრულ სპექტრს:
+    •	საერთაშორისო სახმელეთო გადაზიდვები: ექსპორტი, იმპორტი, ტრანზიტი
+•	მთლიანი ავტოსატრანსპორტო საშუალება (FTL)
+•	ნაკრები ტვირთების გადაზიდვა (LTL)
+•	საკონტეინერო გადაზიდვები
+•	კონკურენტული ტარიფები
+•	ტვირთის დაზღვევა (კლინეტის მოთხოვნის შესაბამისად)
+•	ადგილობრივი მომსახურებების უზრუნველყოფა საქართველოს მასშტაბით
+•	კარიდან/კარამდე მიტანის მომსახურება
+•	საბაჟო-საბროკერო მომსახურება
+•	ტვირთის დასაწყობება ტერმინალში.
+•	საერთაშორისო დოკუმენტაციის დამზადება
+•	ტვირთის გადაზიდვისთვის სპეციალური ნებართვების დამზადება
+•	ხარისხიანი და სანდო მომსახურების უზრუნველყოფა",
     "cargo_shipping" => "Cargo shipping",
     "cargo_shipping_desc" => "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
-    "refrigerated_cargo" => "Refrigerated cargo?",
-    "refrigerated_cargo_desc" => "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
-    "charter_flights" => "Charter flights",
-    "charter_flights_desc" => "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
-    "good_shipping" => "Dangerous goods shipping?",
-    "good_shipping_desc" => "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
-    "customs_brokerage_services" => "Customs brokerage services",
-    "customs_brokerage_services_desc" => "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
-    "our_Services" => "Our services",
-    "need" => "You Have A Need,",
-    "solution" => "We Have The SOLUTION",
-    "gallery" => "Gallery",
+    "refrigerated_cargo" => "ტემპერატურული რეჟიმი",
+    "refrigerated_cargo_desc" => "კომპანია ორიონ კარგო გთავაზობთ ტემპერატურული რეჟიმებით უზრუნველყოფას სპეციალური საჭიროების ტვირთისთვის.
+    •	ტემპერატურული რეჟიმის უზრუნველყოფა ავია გადაზიდვისას
+    •	ტემპერატურული რეჟიმის უზრუნველყოფა სახმელეთო გადაზიდვისას
+    •	ტემპერატურული რეჟიმის უზრუნველყოფა როგორც გაგზავნის ასევე სატრანზიტო ტერმინალებში
+    •	მშრალი ყინულით უზრუნველყოფა
+    ",
+    "charter_flights" => "ჩარტერული რეისები",
+    "charter_flights_desc" => "კომპანია ორიონ კარგო გთავაზობთ ჩარტერული რეისებით მომსახურებას. 
+    •	ჩარტერული ავია რეისების ორგანიზება ნებისმიერი მიმართულებით
+    •	თვითმფრინავის ტიპის შერჩევა ტვირთის წონის და გაბარიტებიდან გამომდინარე
+    •	ჩარტერული ავია რეისების სახიფათო ტვირთის გადაზიდვისათვის
+    •	VIP რეისების ორგანიზება
+    •	კონკურენტული ტარიფები
+    •	ტვირთის დაზღვევა (კლინეტის მოთხოვნის შესაბამისად)
+    •	ადგილობრივი მომსახურებების უზრუნველყოფა საქართველოს მასშტაბით
+    •	კარიდან/კარამდე მიტანის მომსახურება
+    •	საბაჟო-საბროკერო მომსახურება
+    •	ტვირთის დასაწყობება ტერმინალში.
+    •	საერთაშორისო დოკუმენტაციის დამზადება
+    •	ტვირთის გადაზიდვისთვის სპეციალური ნებართვების დამზადება
+    •	ხარისხიანი და სანდო მომსახურების უზრუნველყოფა
+    ",
+    "good_shipping" => "სახიფათო ტვირთების გადაზიდვა",
+    "good_shipping_desc" => "სახიფათო ტვირთების გადაზიდვა ყველა საერთაშორისო სტანდარტის მიხედვით.",
+    "customs_brokerage_services" => "საბაჟო-საბროკერო მომსახურება",
+    "customs_brokerage_services_desc" => "კომპანია „კარგო“ გთავაზობთ საბაჟო საბროკერო მომსახურების სრულ სპექტრს.
+    •	სატრანზირო ფორმალობების განხორციელება
+    •	საექსპორტო ფორმალობების განხორციელება
+    •	საიმპორტო ფორმალობების განხორციელება
+    •	დოკუმენტაციის მომზადება
+    •	საკონსულტაციო მომსახურება
+    •	ტვირთის ჩამოსვლამდე, საბუთების წინასწარ გადამოწმება
+    ",
+    "our_Services" => "სერვისები",
+    "need" => "ჩვენ ვერგებით თქვენს საჭიროებებს",
+    // "solution" => "We Have The SOLUTION",
+    "gallery" => "გალერეა",
     "our_projects" => "Our Projects",
     "see_our_projects" => "See Our Projects",
     "see_our_projects_desc" => "Since its inception, the company has been striving to attract and
@@ -51,68 +100,60 @@ return [
               marketplace with whom we share common values, both personally and
               in business, not just in business, but in building friendly
               relationships with existing and future partners.",
-    "who_are_we" => "See Who We Are? Projects",
+    "who_are_we" => "ვინ ვართ ჩვენ",
     "who_are_we_desc" => "
-                Since its inception, the company has been striving to attract
-                and sign up for long-term partnerships with customers in the
-                marketplace with whom we share common values, both personally
-                and in business, not just in business, but in building friendly
-                relationships with existing and future partners.
+    კომპანია ორიონ კარგო საჰაერო და სახმელეთო გადაზიდვების სფეროში 2020 წლიდან ოპერირებს და მომხმარებელს სთავაზობს მის მოთხოვნებზე მორგებული სერვისების სრულ სპექტრს. 
               ",
-    "frequently_asked" => "See Frequently Asked  We Are? Projects",
+    "frequently_asked" => "ხშირად დასმული შეკითხვები",
     "question" => "Questions",
-    "question_1" => "What options exist for late, lost, or no delivery?",
-    "answer_1" => "ng-term partnerships with customers in the marketplace with whom we share common values, both personally and in business, not just in business, but in building friendly relationships with existing and future partners. We will give you a small overview of our services to new ",
-    "question_2" => "Change of address - the basics",
-    "answer_2" => "mely manner.In agreement with you, we offer several types of cargo transportation.We formulate all the necessary documents in official and legal terms.Provide cargo location status by email and telephone communication.We set flexible and individual",
-    "question_3" => "What is priority mail express?",
-    "answer_3" => "nersl give you a small overview of our services to new / potential customers at the start of the partnership.We answer questions from the customer in a timely manner",
-    "question_4" => "How do I obtain and manage premium services",
-    "answer_4" => " marketplace with whom we share common values, both personally and in business, not just in business, but in building friendly relationships with existing and future partners. We will give you a small overview of our services to new / potential customers at the start of the partnership.We answer questions from the customer in a timely manner.In agreement with you, we offer several types of cargo transportation.We formulate all the necessary documents in official and legal terms.Provide cargo location status by email and telephone communication.We set flexibl",
-    "question_5" => "What options exist for late, lost, or no delivery?",
-    "answer_5" => "ps with customers in the marketplace with whom we share common values, both personally and in business, not just in business, but in building friendly relationships with existing and future partners. We will give you a small overview of our services to new ",
-    "more_questions" => "Have Some More Questions? ",
-    "get_in_touch" => "Get In Touch!",
-    "name_surname" => "Enter your name and surname here",
-    "phone_number" => "Your phone number is",
-    "email_address" => "Tell us your email addressff",
-    "your_message_here" => "You can leave your message here",
-    "why_choose_us" => "WHY CHOOSE US",
-    "package_deliver" => "We deliver your package in no time",
-    "benefit_list_title_1" => "Time",
-    "benefit_list_description_1" => "We value our customer time and offer the best planning for each project individually, in agreement with you we go to the ideal service that is a dream come true for all customers, which means unloading and timely transportation of cargo.",
-    "benefit_list_title_2" => "Cost",
-    "benefit_list_description_2" => "effectiveness and minimization – With the help of our team, transporting your cargo will be not only safe but also economical financially, which is literally beneficial for your business.",
-    "benefit_list_title_3" => "International Partnership Network",
-    "benefit_list_description_3" => "With the help of our fleet and our partners, you will always receive the highest quality service from anywhere in the world, with constant cargo handling and status notification.",
-    "benefit_list_title_4" => "Reliability",
-    "benefit_list_description_4" => "Our team’s niche is experience and professionalism.",
-    "about_us" => "About Us",
-    "about_us_title_1" => "history",
-    "about_us_content_1" => " Leverage agile frameworks to provide a robust synopsis for high
-                              level overviews. Iterative approaches to strategy.",
-    "about_us_title_2" => "our mission",
-    "about_us_content_2" => "Leverage agile frameworks to provide a robust synopsis for high
-                              level overviews. Iterative approaches to strategy. Leverage agile
-                              frameworks to provide a robust synopsis for high level overviews.
-                              Iterative approaches to strategy. Leverage agile frameworks to
-                              provide a robust synopsis for high level overviews. Iterative
-                              approaches to strategy.",
-    "about_us_title_3" => "our vision",
-    "about_us_content_3" => "Leverage agile frameworks to provide a robust synopsis for high
-                              level overviews. Iterative approaches to strategy. Leverage agile
-                              frameworks to provide a robust synopsis for high level overviews.
-                              Iterative approaches to strategy. Leverage agile frameworks to
-                              provide a robust synopsis for high level overviews. Iterative
-                              approaches to strategy.",
-    "contact_us" => "Contact us",
-    "services_desc" => "We Offer A Wide Range Of Logistic Services To Our Clients",
-    "email_address_contact" => "email address",
+    "question_1" => "რომელი ავირჩიო: საჰაერო თუ სახმელეთო გადაზიდვა?",
+    "answer_1" => "ეს დამოკიდებულია იმაზე, თუ რამდენად სწრაფად გსურთ მიიღოთ თქვენი ტვირთი. კომპანია ორიონ კარგო ნებისმიერ შემთხვევაში შემოგთავაზებთ გადაზიდვის ოპტიმალურ დროს. ",
+    "question_2" => "აქვს თუ არა მნიშვნელობა ტვირთის წონას საჰაერო გადაზიდვის შემთხვევაში?",
+    "answer_2" => "ტვირთის წონას დიდი მნიშვნელობა აქვს. გადაზიდვის ღირებულება განისაზღვრება ბრუტო წონისა და გაბარიტული წონის მიხედვით. ",
+    "question_3" => "როგორ დგინდება გადაზიდვის ტარიფი?",
+    "answer_3" => "დაგვიკავშირდით და მიაწოდეთ შემდეგი სახის ინფორმაცია ჩვენს ოპერატორს:
+    o	წარმოშობის ქალაქი, ქვეყანა და ინდექსი;
+    o	დანიშნულების ადგილი, ქვეყანა და ინდექსი;
+    o	ტვირთის სახეობა;
+    o	ადგილების რაოდენობა;
+    o	მთლიანი წონა შეფუთვის ჩათვლით;
+    o	ზომები შეფუთვების ჩათვლით (სიგრძე, სიგანე, სიმაღლე).
+    ჩვენი თანამშრომელი ამ მონაცემების გათვალისწინებით დაგითვლით ტარიფს და მოგაწვდით ზუსტ ინფორმაციას. ",
+    "question_4" => "რა სახის დოკუმენტაცია მჭირდება ტვირთის გასაფორმებლად?",
+    "answer_4" => " ტვირთის გასაფორმებლად გჭირდებათ შემდეგი სახის დოკუმენტაცია: ზედნადები; კომერციული ინვოისი და ტვირთის ჩამონათვალი.",
+    "question_5" => "სად მდებარეობს თქვენი კომპანიის ოფისი?",
+    "answer_5" => "ჩვენი ოფისი განთავსებულია თბილისის საერთაშორისო აეროპორტში. ",
+    "more_questions" => "გაქვთ კითხვები?",
+    "get_in_touch" => "დაგვიკავშირდით:",
+    "name_surname" => "თქვენი სახელი და გვარი",
+    "phone_number" => "ტელეფონის ნომერი",
+    "email_address" => "ელ-ფოსტა",
+    "your_message_here" => "შეტყობინება...",
+    "why_choose_us" => "რატომ ჩვენ?",
+    "package_deliver" => "We will ensure the timely delivery of your freight.",
+    "benefit_list_title_1" => "დრო",
+    "benefit_list_description_1" => "ჩვენ უზრუნველვყოფთ თქვენი ტვირთის დროულ გადაზიდვას დათქმულ ვადებში.",
+    "benefit_list_title_2" => "ღირებულება",
+    "benefit_list_description_2" => "გთავაზობთ კონკურენტულ ტარიფებს ნებისმიერი ტიპის სატრანსპორტო გადაზიდვისას. ",
+    "benefit_list_title_3" => "საერთაშორისო პარტნიორული ქსელი",
+    "benefit_list_description_3" => "კომპანია ორიონ კარგოს ჰყავს პარტნიორები საერთაშორისო მასშტაბით, რაც უზრუნველყოფს ჩვენი მომხმარებლებისთვის ტვირთების გადაზიდვის სერვისის სრული და კომფორტული პაკეტის შეთავაზებას.",
+    "benefit_list_title_4" => "საიმედოობა",
+    "benefit_list_description_4" => "ჩვენი კომპეტენციიდან და საერთაშორისო პარტნიორული ქსელისგან გამომდინარე უზრუნველვყოფთ თქვენი ტვირთის საიმედო გადაზიდვას მსოფლიოს ნებისმიერი წერტილიდან.",
+    "about_us" => "ჩვენ შესახებ",
+    "about_us_title_1" => "ისტორია",
+    "about_us_content_1" => " კომპანია კარგო ქართულ ბაზარზე 2020 წლიდან მოღვაწეობს. ამ ხნის განმავლობაში ჩვენ შევძელით გამოცდილების, კომპეტენციის, სანდო პარტნიორების ქსელისა და კმაყოფილი კლიენტების უწყვეტი ნაკადის ბაზის შექმნა.",
+    "about_us_title_2" => "საქმიანობა",
+    "about_us_content_2" => "ჩვენს მომხმარებელს ვთავაზობთ სწრაფ, ხარისხიან და ინდივიდუალურად მორგებულ სერვისს თითოეულ გადაზიდვაზე. ტვირთების საერთაშორისო გადაზიდვისას ვიცავთ ყველა საერთაშორისო სტანდარტს და მომხმარებელს ვთავაზობთ გამართულ სერვისს.",
+    "about_us_title_3" => "ჩვენი უპირატესობა",
+    "about_us_content_3" => "ჩვენი კომპანია გამოირჩევა ავიაკომპანიებთან და სახმელეთო გადამზიდავებთან უშუალო პარტნიორობით, რაც განაპირობებს ტვირთების სწრაფ, უსაფრთხო და მომგებიანი პირობებით ტრანსპორტირებას.",
+    "contact_us" => "დაგვიკავშირდით",
+    "services_desc" => "ჩვენს მომხმარებლებს ვთავაზობთ სერვისების ფართო სპექტრს: ",
+    "email_address_contact" => "ელ-ფოსტა",
     "email_1" => "example@info.ge",
     "email_2" => "example@contact.ge",
-    "any_questions" => "Have Any Question? Get In Touch!",
-    "find_on_map" => "find us on map",
-    "send_message" => "send message",
+    "any_questions" => "თუ გაქვთ დამატებითი შეკითხვები, დაგვიკავშირდით",
+    "find_on_map" => "ადგილმდებარეობა",
+    "send_message" => "შეტყობინების გაგზავნა",
     "project_1" => "project sdf name",
     "project_slug_1" => "project_1",
     "project_para_1" => "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",

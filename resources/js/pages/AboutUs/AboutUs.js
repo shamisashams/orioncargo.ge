@@ -48,7 +48,7 @@ const AboutUs = () => {
                       <div className="context">
                           <div className="gil30">{__("about_us_title_3")}</div>
                           <p>
-                              {__("about_us_title_3")}
+                              {__("about_us_content_3")}
                           </p>
                       </div>
                       <div className="shape shape_5"></div>

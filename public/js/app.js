@@ -3129,8 +3129,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
-/* harmony import */ var _img_logo_dark_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/logo/dark.svg */ "./public/img/logo/dark.svg");
-/* harmony import */ var _img_logo_white_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/logo/white.svg */ "./public/img/logo/white.svg");
+/* harmony import */ var _img_logo_dark_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/logo/dark.svg */ "./public/img/logo/dark.svg");
+/* harmony import */ var _img_logo_white_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/logo/white.svg */ "./public/img/logo/white.svg");
 /* harmony import */ var _Icons_Icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Icons/Icons */ "./resources/js/Components/Icons/Icons.js");
 /* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Header.css */ "./resources/js/Components/Header/Header.css");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
@@ -3183,13 +3183,13 @@ var Header = function Header() {
     name: __('about'),
     link: route("client.about.index")
   }, {
-    name: __("Services"),
+    name: __("services"),
     link: route("client.services.index")
   }, {
     name: __("projects"),
     link: route("client.projects.index")
   }, {
-    name: __("Contact"),
+    name: __("contact"),
     link: route("client.contact.index")
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Suspense, {
@@ -3704,10 +3704,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
-/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
-/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
-/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
+/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
+/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
+/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
+/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _SocialMedia_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./SocialMedia.css */ "./resources/js/Components/SocialMedia/SocialMedia.css");
 
@@ -3915,7 +3915,7 @@ var AboutUs = function AboutUs() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, __("about_us_title_3")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("about_us_title_3"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("about_us_title_3")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("about_us_content_3"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "shape shape_5"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_2__.MainButton, {
     text: __("contact_us"),
@@ -4095,7 +4095,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _HeroSection_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HeroSection.css */ "./resources/js/Pages/Home/HeroSection/HeroSection.css");
-/* harmony import */ var _img_hero_play_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/hero/play.svg */ "./public/img/hero/play.svg");
+/* harmony import */ var _img_hero_play_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/hero/play.svg */ "./public/img/hero/play.svg");
 /* harmony import */ var _components_RequestForm_RequestForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/RequestForm/RequestForm */ "./resources/js/components/RequestForm/RequestForm.js");
 /* harmony import */ var _components_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/SocialMedia/SocialMedia */ "./resources/js/components/SocialMedia/SocialMedia.js");
 /* harmony import */ var _components_ContactInfo_ContactInfo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/ContactInfo/ContactInfo */ "./resources/js/components/ContactInfo/ContactInfo.js");
@@ -4126,7 +4126,7 @@ var HeroSection = function HeroSection() {
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "border"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, __("watch_the"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __("video")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_RequestForm_RequestForm__WEBPACK_IMPORTED_MODULE_3__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, __("watch_the"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_RequestForm_RequestForm__WEBPACK_IMPORTED_MODULE_3__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex second"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "sm flex"
@@ -4300,38 +4300,38 @@ var ServiceHome = function ServiceHome() {
   var services = [{
     link: route('client.services.show', "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Plane, null),
-    title: __("air_freight"),
-    para: __("air_freight_desc")
+    title: __("air_freight") // para: __("air_freight_desc"),
+
   }, {
     link: route('client.services.show', "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Truck, null),
-    title: __("land_freight"),
-    para: __("land_freight_desc")
+    title: __("land_freight") // para: __("land_freight_desc"),
+
   }, {
     link: route('client.services.show', "CargoShip"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Shipping, null),
-    title: __("cargo_shipping"),
-    para: __("cargo_shipping_desc")
+    title: __("cargo_shipping") // para: __("cargo_shipping_desc"),
+
   }, {
     link: route('client.services.show', "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Cool, null),
-    title: __("refrigerated_cargo"),
-    para: __("refrigerated_cargo_desc")
+    title: __("refrigerated_cargo") // para: __("refrigerated_cargo_desc"),
+
   }, {
     link: route('client.services.show', "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Charter, null),
-    title: __("charter_flights"),
-    para: __("charter_flights_desc")
+    title: __("charter_flights") // para: __("charter_flights_desc"),
+
   }, {
     link: route('client.services.show', "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Danger, null),
-    title: __("good_shipping"),
-    para: __("good_shipping_desc")
+    title: __("good_shipping") // para: __("good_shipping_desc"),
+
   }, {
     link: route('client.services.show', "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Document, null),
-    title: __("customs_brokerage_services"),
-    para: __("customs_brokerage_services_desc")
+    title: __("customs_brokerage_services") // para: __("customs_brokerage_services_desc"),
+
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "service_home"
@@ -4345,7 +4345,7 @@ var ServiceHome = function ServiceHome() {
     className: "gil30"
   }, __("our_Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     className: "gilroy"
-  }, __("need"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __("solution")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("need"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "grid"
   }, services.map(function (item) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_2__.ServiceBox, {
@@ -4508,7 +4508,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/MainButton/MainButton */ "./resources/js/components/MainButton/MainButton.js");
 /* harmony import */ var _Services_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Services.css */ "./resources/js/Pages/Services/Services.css");
 /* harmony import */ var _components_PageHead_PageHead__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/PageHead/PageHead */ "./resources/js/components/PageHead/PageHead.js");
@@ -4526,38 +4526,38 @@ var Services = function Services() {
   var services = [{
     link: route('client.services.show', "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Plane, null),
-    title: __("air_freight"),
-    para: __("air_freight_desc")
+    title: __("air_freight") // para: __("air_freight_desc"),
+
   }, {
     link: route('client.services.show', "LandFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Truck, null),
-    title: __("land_freight"),
-    para: __("land_freight_desc")
+    title: __("land_freight") // para: __("land_freight_desc"),
+
   }, {
     link: route('client.services.show', "CargoShip"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Shipping, null),
-    title: __("cargo_shipping"),
-    para: __("cargo_shipping_desc")
+    title: __("cargo_shipping") // para: __("cargo_shipping_desc"),
+
   }, {
     link: route('client.services.show', "Refrigerated"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Cool, null),
-    title: __("refrigerated_cargo"),
-    para: __("refrigerated_cargo_desc")
+    title: __("refrigerated_cargo") // para: __("refrigerated_cargo_desc"),
+
   }, {
     link: route('client.services.show', "CharterFlights"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Charter, null),
-    title: __("charter_flights"),
-    para: __("charter_flights_desc")
+    title: __("charter_flights") // para: __("charter_flights_desc"),
+
   }, {
     link: route('client.services.show', "DangerousGood"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Danger, null),
-    title: __("good_shipping"),
-    para: __("good_shipping_desc")
+    title: __("good_shipping") // para: __("good_shipping_desc"),
+
   }, {
     link: route('client.services.show', "Brokrtage"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__.Document, null),
-    title: __("customs_brokerage_services"),
-    para: __("customs_brokerage_services_desc")
+    title: __("customs_brokerage_services") // para: __("customs_brokerage_services_desc"),
+
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Layouts_Layout__WEBPACK_IMPORTED_MODULE_7__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "servicePage service_home pages"
@@ -4676,7 +4676,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -4788,7 +4788,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -4900,7 +4900,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5012,7 +5012,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5124,7 +5124,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5236,7 +5236,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5348,7 +5348,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -6111,7 +6111,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _ProjectBox_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ProjectBox.css */ "./resources/js/components/ProjectBox/ProjectBox.css");
-/* harmony import */ var _img_icons_other_plus_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/other/plus.svg */ "./public/img/icons/other/plus.svg");
+/* harmony import */ var _img_icons_other_plus_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/other/plus.svg */ "./public/img/icons/other/plus.svg");
 
 
 
@@ -6212,9 +6212,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_icons_form_calendar_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/icons/form/calendar.svg */ "./public/img/icons/form/calendar.svg");
-/* harmony import */ var _img_icons_form_mail_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/icons/form/mail.svg */ "./public/img/icons/form/mail.svg");
-/* harmony import */ var _img_icons_form_pin_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/form/pin.svg */ "./public/img/icons/form/pin.svg");
+/* harmony import */ var _img_icons_form_calendar_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/icons/form/calendar.svg */ "./public/img/icons/form/calendar.svg");
+/* harmony import */ var _img_icons_form_mail_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/icons/form/mail.svg */ "./public/img/icons/form/mail.svg");
+/* harmony import */ var _img_icons_form_pin_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/form/pin.svg */ "./public/img/icons/form/pin.svg");
 /* harmony import */ var _MainButton_MainButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../MainButton/MainButton */ "./resources/js/components/MainButton/MainButton.js");
 /* harmony import */ var _RequestForm_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./RequestForm.css */ "./resources/js/components/RequestForm/RequestForm.css");
 
@@ -6315,10 +6315,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
-/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
-/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
-/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
+/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
+/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
+/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
+/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _SocialMedia_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./SocialMedia.css */ "./resources/js/components/SocialMedia/SocialMedia.css");
 
@@ -6717,7 +6717,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".aboutPage {\n  position: relative;\n  color: #20202e;\n}\n.aboutPage .context {\n  text-align: justify;\n}\n.aboutPage .abs_1 {\n  position: absolute;\n  top: -60px;\n  right: 0;\n  width: 60%;\n}\n.aboutPage .abs_2 {\n  position: absolute;\n  left: 0;\n  bottom: -85px;\n  width: 60%;\n  z-index: -1;\n}\n.aboutPage .page_head {\n  margin-bottom: 20px !important;\n}\n.aboutPage .gil30 {\n  color: #fd5d14;\n  text-transform: uppercase;\n}\n.aboutPage .line {\n  margin-bottom: 30px;\n}\n\n/* shapes */\n.aboutPage .shape {\n  background: url(/img/about/main.png) no-repeat;\n  background-size: cover;\n  background-attachment: fixed;\n  height: 230px;\n  flex-shrink: 0;\n  width: 30%;\n}\n.aboutPage .shape_1 {\n  width: 35%;\n  margin: 0 24px;\n  border-top-left-radius: 260px;\n}\n.aboutPage .shape_2 {\n  width: 35%;\n  border-bottom-right-radius: 260px;\n}\n.aboutPage .shape_3 {\n  width: 40%;\n  border-bottom-left-radius: 260px;\n}\n.aboutPage .shape_4 {\n  width: 30%;\n  border-top-left-radius: 50px;\n  margin: 0 16px;\n}\n.aboutPage .shape_5 {\n  width: 40%;\n  margin: 0 40px;\n  border-top-left-radius: 115px;\n  border-bottom-right-radius: 260px;\n}\n\n@media screen and (max-width: 1400px) {\n  .aboutPage .shape_1 {\n    width: 26%;\n    margin: 0 15px;\n    border-top-left-radius: 197px;\n  }\n  .aboutPage .shape_2 {\n    width: 29%;\n    border-bottom-right-radius: 230px;\n  }\n  .aboutPage .shape_3 {\n    width: 31%;\n    border-bottom-left-radius: 203px;\n  }\n  .aboutPage .shape_4 {\n    width: 25%;\n    border-top-left-radius: 50px;\n    margin: 0 10px;\n  }\n  .aboutPage .shape_5 {\n    width: 40%;\n    margin: 0 24px;\n    border-top-left-radius: 100px;\n    border-bottom-right-radius: 200px;\n  }\n}\n@media screen and (max-width: 1000px) {\n  .aboutPage .line {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    margin: 0;\n    grid-gap: 20px;\n  }\n  .aboutPage .context {\n    grid-column: span 2;\n    grid-row: 1;\n  }\n  .aboutPage .shape {\n    width: 100%;\n    margin: 0;\n    margin-bottom: 20px;\n  }\n  .aboutPage a {\n    grid-row: 2;\n  }\n  .aboutPage .main_button {\n    margin: auto;\n  }\n  .aboutPage .shape_4 {\n    border-top-right-radius: 203px;\n    border-top-left-radius: 0px;\n  }\n  .aboutPage .shape_5 {\n    grid-column: 2;\n  }\n}\n@media screen and (max-width: 600px) {\n  .aboutPage .line {\n    grid-gap: 10px;\n  }\n  .aboutPage .shape {\n    height: 154px;\n  }\n  .aboutPage .shape_5 {\n    grid-column: span 2;\n  }\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".aboutPage {\r\n  position: relative;\r\n  color: #20202e;\r\n}\r\n.aboutPage .context {\r\n  text-align: justify;\r\n}\r\n.aboutPage .abs_1 {\r\n  position: absolute;\r\n  top: -60px;\r\n  right: 0;\r\n  width: 60%;\r\n}\r\n.aboutPage .abs_2 {\r\n  position: absolute;\r\n  left: 0;\r\n  bottom: -85px;\r\n  width: 60%;\r\n  z-index: -1;\r\n}\r\n.aboutPage .page_head {\r\n  margin-bottom: 20px !important;\r\n}\r\n.aboutPage .gil30 {\r\n  color: #fd5d14;\r\n  text-transform: uppercase;\r\n}\r\n.aboutPage .line {\r\n  margin-bottom: 30px;\r\n}\r\n\r\n/* shapes */\r\n.aboutPage .shape {\r\n  background: url(/img/about/main.png) no-repeat;\r\n  background-size: cover;\r\n  background-attachment: fixed;\r\n  height: 230px;\r\n  flex-shrink: 0;\r\n  width: 30%;\r\n}\r\n.aboutPage .shape_1 {\r\n  width: 35%;\r\n  margin: 0 24px;\r\n  border-top-left-radius: 260px;\r\n}\r\n.aboutPage .shape_2 {\r\n  width: 35%;\r\n  border-bottom-right-radius: 260px;\r\n}\r\n.aboutPage .shape_3 {\r\n  width: 40%;\r\n  border-bottom-left-radius: 260px;\r\n}\r\n.aboutPage .shape_4 {\r\n  width: 30%;\r\n  border-top-left-radius: 50px;\r\n  margin: 0 16px;\r\n}\r\n.aboutPage .shape_5 {\r\n  width: 40%;\r\n  margin: 0 40px;\r\n  border-top-left-radius: 115px;\r\n  border-bottom-right-radius: 260px;\r\n}\r\n\r\n@media screen and (max-width: 1400px) {\r\n  .aboutPage .shape_1 {\r\n    width: 26%;\r\n    margin: 0 15px;\r\n    border-top-left-radius: 197px;\r\n  }\r\n  .aboutPage .shape_2 {\r\n    width: 29%;\r\n    border-bottom-right-radius: 230px;\r\n  }\r\n  .aboutPage .shape_3 {\r\n    width: 31%;\r\n    border-bottom-left-radius: 203px;\r\n  }\r\n  .aboutPage .shape_4 {\r\n    width: 25%;\r\n    border-top-left-radius: 50px;\r\n    margin: 0 10px;\r\n  }\r\n  .aboutPage .shape_5 {\r\n    width: 40%;\r\n    margin: 0 24px;\r\n    border-top-left-radius: 100px;\r\n    border-bottom-right-radius: 200px;\r\n  }\r\n}\r\n@media screen and (max-width: 1000px) {\r\n  .aboutPage .line {\r\n    display: grid;\r\n    grid-template-columns: repeat(2, 1fr);\r\n    margin: 0;\r\n    grid-gap: 20px;\r\n  }\r\n  .aboutPage .context {\r\n    grid-column: span 2;\r\n    grid-row: 1;\r\n  }\r\n  .aboutPage .shape {\r\n    width: 100%;\r\n    margin: 0;\r\n    margin-bottom: 20px;\r\n  }\r\n  .aboutPage a {\r\n    grid-row: 2;\r\n  }\r\n  .aboutPage .main_button {\r\n    margin: auto;\r\n  }\r\n  .aboutPage .shape_4 {\r\n    border-top-right-radius: 203px;\r\n    border-top-left-radius: 0px;\r\n  }\r\n  .aboutPage .shape_5 {\r\n    grid-column: 2;\r\n  }\r\n}\r\n@media screen and (max-width: 600px) {\r\n  .aboutPage .line {\r\n    grid-gap: 10px;\r\n  }\r\n  .aboutPage .shape {\r\n    height: 154px;\r\n  }\r\n  .aboutPage .shape_5 {\r\n    grid-column: span 2;\r\n  }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6789,7 +6789,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".hero {\n  width: 100%;\n  height: 100vh;\n  background: url(/img/hero/1.png) no-repeat;\n  background-position: center;\n  background-size: cover;\n  position: relative;\n}\n.hero::before {\n  width: 100%;\n  height: 100%;\n  left: 0;\n  top: 0;\n  background: linear-gradient(to bottom, #202387, #02031d);\n  opacity: 0.4;\n}\n.hero .gil70 {\n  color: #fff;\n}\n.hero .wrapper {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  padding-top: 200px;\n  padding-bottom: 50px;\n}\n.hero .wrapper .first {\n  align-items: flex-start;\n}\n.hero .wrapper .first .content {\n  max-width: 540px;\n  color: #fff;\n}\n.hero .wrapper .first .content p {\n  margin: 50px 0;\n}\n.hero .play_video {\n  color: #fff;\n  text-transform: uppercase;\n  text-align: left;\n}\n.hero .play_video .circle {\n  width: 85px;\n  height: 85px;\n  border-radius: 50%;\n  background-color: #fe5e15;\n  margin-right: 30px;\n  position: relative;\n}\n.hero .play_video .circle .border {\n  position: absolute;\n  width: 105px;\n  height: 105px;\n  border-radius: 50%;\n  border: 1px solid #fe5e15;\n  transition: 0.5s;\n}\n.hero .play_video .circle::before,\n.hero .play_video .circle::after {\n  width: 85px;\n  height: 85px;\n  border-radius: 50%;\n  border: 1px solid #fe5e15;\n  transition: 0.3s;\n  opacity: 0;\n}\n.hero .play_video:hover .circle .border {\n  transform: scale(1.2);\n  opacity: 0;\n}\n.hero .play_video:hover .circle::before {\n  transform: scale(1.15);\n  opacity: 1;\n}\n.hero .play_video:hover .circle::after {\n  transition: 0.7s;\n  transform: scale(1.3);\n  opacity: 0.5;\n}\n.hero .second .sm h6 {\n  text-transform: uppercase;\n  color: #fff;\n  margin-right: 10px;\n  font-size: 16px;\n}\n\n/* height responsiveness */\n@media screen and (max-height: 900px) {\n  .hero .wrapper {\n    padding-bottom: 23px;\n  }\n  .hero .request_form {\n    padding: 18px 30px;\n  }\n  .hero .request_form p {\n    margin-bottom: 11px;\n  }\n  .hero .request_form .input {\n    height: 43px;\n    border-radius: 5px;\n    margin-bottom: 9px;\n  }\n}\n@media screen and (max-height: 770px) {\n  .hero {\n    height: auto;\n  }\n  .hero .wrapper .first {\n    margin-bottom: 80px;\n  }\n}\n\n/* width  */\n@media screen and (max-width: 1100px) {\n  .gil70 {\n    font-size: 55px;\n    line-height: 58px;\n  }\n  .hero .wrapper .first .content p {\n    margin: 32px 0;\n  }\n  .hero .wrapper .first .content {\n    margin-right: 40px;\n  }\n}\n@media screen and (max-width: 1000px) {\n  .hero .wrapper .first {\n    flex-direction: column;\n  }\n  .hero {\n    height: auto;\n  }\n  .hero .wrapper .first {\n    margin-bottom: 80px;\n  }\n  .hero .request_form {\n    margin: auto;\n    margin-top: 30px;\n  }\n  .hero .second {\n    flex-direction: column;\n    align-items: flex-start;\n  }\n  .hero .second .sm {\n    margin-bottom: 30px;\n  }\n}\n@media screen and (max-width: 700px) {\n  .gil70 {\n    font-size: 45px;\n    line-height: 50px;\n  }\n  .hero .wrapper .first .content p {\n    margin: 19px 0;\n  }\n  .hero .wrapper .first {\n    margin-bottom: 56px;\n  }\n}\n@media screen and (max-width: 420px) {\n  .hero .wrapper {\n    padding-top: 177px;\n  }\n  .gil70 {\n    font-size: 38px;\n    line-height: 44px;\n  }\n  .hero .second .sm {\n    flex-direction: column;\n    align-items: flex-start;\n  }\n  .hero .second .sm h6 {\n    margin-right: 0;\n    margin-bottom: 10px;\n  }\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".hero {\r\n  width: 100%;\r\n  height: 100vh;\r\n  background: url(/img/hero/1.png) no-repeat;\r\n  background-position: center;\r\n  background-size: cover;\r\n  position: relative;\r\n}\r\n.hero::before {\r\n  width: 100%;\r\n  height: 100%;\r\n  left: 0;\r\n  top: 0;\r\n  background: linear-gradient(to bottom, #202387, #02031d);\r\n  opacity: 0.4;\r\n}\r\n.hero .gil70 {\r\n  color: #fff;\r\n}\r\n.hero .wrapper {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n  padding-top: 200px;\r\n  padding-bottom: 50px;\r\n}\r\n.hero .wrapper .first {\r\n  align-items: flex-start;\r\n}\r\n.hero .wrapper .first .content {\r\n  max-width: 540px;\r\n  color: #fff;\r\n}\r\n.hero .wrapper .first .content p {\r\n  margin: 50px 0;\r\n}\r\n.hero .play_video {\r\n  color: #fff;\r\n  text-transform: uppercase;\r\n  text-align: left;\r\n}\r\n.hero .play_video .circle {\r\n  width: 85px;\r\n  height: 85px;\r\n  border-radius: 50%;\r\n  background-color: #fe5e15;\r\n  margin-right: 30px;\r\n  position: relative;\r\n}\r\n.hero .play_video .circle .border {\r\n  position: absolute;\r\n  width: 105px;\r\n  height: 105px;\r\n  border-radius: 50%;\r\n  border: 1px solid #fe5e15;\r\n  transition: 0.5s;\r\n}\r\n.hero .play_video .circle::before,\r\n.hero .play_video .circle::after {\r\n  width: 85px;\r\n  height: 85px;\r\n  border-radius: 50%;\r\n  border: 1px solid #fe5e15;\r\n  transition: 0.3s;\r\n  opacity: 0;\r\n}\r\n.hero .play_video:hover .circle .border {\r\n  transform: scale(1.2);\r\n  opacity: 0;\r\n}\r\n.hero .play_video:hover .circle::before {\r\n  transform: scale(1.15);\r\n  opacity: 1;\r\n}\r\n.hero .play_video:hover .circle::after {\r\n  transition: 0.7s;\r\n  transform: scale(1.3);\r\n  opacity: 0.5;\r\n}\r\n.hero .second .sm h6 {\r\n  text-transform: uppercase;\r\n  color: #fff;\r\n  margin-right: 10px;\r\n  font-size: 16px;\r\n}\r\n\r\n/* height responsiveness */\r\n@media screen and (max-height: 900px) {\r\n  .hero .wrapper {\r\n    padding-bottom: 23px;\r\n  }\r\n  .hero .request_form {\r\n    padding: 18px 30px;\r\n  }\r\n  .hero .request_form p {\r\n    margin-bottom: 11px;\r\n  }\r\n  .hero .request_form .input {\r\n    height: 43px;\r\n    border-radius: 5px;\r\n    margin-bottom: 9px;\r\n  }\r\n}\r\n@media screen and (max-height: 770px) {\r\n  .hero {\r\n    height: auto;\r\n  }\r\n  .hero .wrapper .first {\r\n    margin-bottom: 80px;\r\n  }\r\n}\r\n\r\n/* width  */\r\n@media screen and (max-width: 1100px) {\r\n  .gil70 {\r\n    font-size: 55px;\r\n    line-height: 58px;\r\n  }\r\n  .hero .wrapper .first .content p {\r\n    margin: 32px 0;\r\n  }\r\n  .hero .wrapper .first .content {\r\n    margin-right: 40px;\r\n  }\r\n}\r\n@media screen and (max-width: 1000px) {\r\n  .hero .wrapper .first {\r\n    flex-direction: column;\r\n  }\r\n  .hero {\r\n    height: auto;\r\n  }\r\n  .hero .wrapper .first {\r\n    margin-bottom: 80px;\r\n  }\r\n  .hero .request_form {\r\n    margin: auto;\r\n    margin-top: 30px;\r\n  }\r\n  .hero .second {\r\n    flex-direction: column;\r\n    align-items: flex-start;\r\n  }\r\n  .hero .second .sm {\r\n    margin-bottom: 30px;\r\n  }\r\n}\r\n@media screen and (max-width: 700px) {\r\n  .gil70 {\r\n    font-size: 45px;\r\n    line-height: 50px;\r\n  }\r\n  .hero .wrapper .first .content p {\r\n    margin: 19px 0;\r\n  }\r\n  .hero .wrapper .first {\r\n    margin-bottom: 56px;\r\n  }\r\n}\r\n@media screen and (max-width: 420px) {\r\n  .hero .wrapper {\r\n    padding-top: 177px;\r\n  }\r\n  .gil70 {\r\n    font-size: 38px;\r\n    line-height: 44px;\r\n  }\r\n  .hero .second .sm {\r\n    flex-direction: column;\r\n    align-items: flex-start;\r\n  }\r\n  .hero .second .sm h6 {\r\n    margin-right: 0;\r\n    margin-bottom: 10px;\r\n  }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6837,7 +6837,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".middle_section {\n  padding: 75px 0;\n  background: url(/img/other/lines.png) no-repeat;\n  background-position: center;\n}\n.middle_section .gil30 {\n  margin-bottom: 25px;\n}\n.middle_section p {\n  margin-bottom: 30px;\n  max-width: 536px;\n}\n.middle_section .project_flex {\n  margin-bottom: 75px;\n  align-items: flex-start;\n  justify-content: flex-start;\n}\n.middle_section .gallery_grid {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  grid-gap: 16px;\n  width: 45%;\n  flex-shrink: 0;\n  overflow: hidden;\n  margin-right: 60px;\n  height: 600px;\n}\n.middle_section .gallery_grid .img {\n  width: 100%;\n  height: 100%;\n}\n.middle_section .gallery_grid .img:first-child {\n  grid-row: span 2;\n}\n.middle_section .who_we_are {\n  align-items: flex-start;\n}\n.middle_section .who_we_are .left {\n  width: 674px;\n  margin-right: 40px;\n}\n.middle_section .who_we_are .left .img {\n  margin-top: 40px;\n  width: 100%;\n}\n.middle_section .who_we_are .right .img {\n  width: 100%;\n}\n.middle_section .who_we_are .form {\n  margin: auto;\n  margin-right: 0;\n  margin-top: 50px;\n}\n.middle_section .who_we_are .margin_bottom {\n  margin-bottom: 50px;\n}\n\n@media screen and (max-width: 1300px) {\n  .middle_section .gallery_grid {\n    height: 410px;\n  }\n}\n@media screen and (max-width: 1100px) {\n  .middle_section .who_we_are .left {\n    width: 485px;\n    margin-right: 30px;\n    flex-shrink: 0;\n  }\n}\n@media screen and (max-width: 1000px) {\n  .middle_section .who_we_are {\n    flex-direction: column;\n  }\n  .middle_section .who_we_are .left {\n    width: 100%;\n    margin-right: 0;\n    margin-bottom: 30px;\n  }\n  .middle_section .who_we_are .right {\n    width: 100%;\n  }\n  .middle_section .who_we_are .form {\n    margin: auto;\n    margin-top: 25px;\n  }\n  .middle_section .gallery_grid {\n    margin-right: 30px;\n  }\n}\n@media screen and (max-width: 800px) {\n  .middle_section .gallery_grid {\n    height: 281px;\n    grid-gap: 6px;\n    margin-right: 17px;\n  }\n  .middle_section .gil30 {\n    margin-bottom: 13px;\n  }\n  .middle_section p {\n    margin-bottom: 10px;\n    font-size: 14px;\n  }\n}\n@media screen and (max-width: 600px) {\n  .middle_section {\n    padding: 44px 0;\n  }\n  .middle_section .project_flex {\n    margin-bottom: 44px;\n    flex-direction: column-reverse;\n  }\n  .middle_section .gallery_grid {\n    height: auto;\n    width: 100%;\n    margin: 0;\n    margin-top: 30px;\n  }\n  .gil30 {\n    font-size: 24px;\n  }\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".middle_section {\r\n  padding: 75px 0;\r\n  background: url(/img/other/lines.png) no-repeat;\r\n  background-position: center;\r\n}\r\n.middle_section .gil30 {\r\n  margin-bottom: 25px;\r\n}\r\n.middle_section p {\r\n  margin-bottom: 30px;\r\n  max-width: 536px;\r\n}\r\n.middle_section .project_flex {\r\n  margin-bottom: 75px;\r\n  align-items: flex-start;\r\n  justify-content: flex-start;\r\n}\r\n.middle_section .gallery_grid {\r\n  display: grid;\r\n  grid-template-columns: repeat(2, 1fr);\r\n  grid-gap: 16px;\r\n  width: 45%;\r\n  flex-shrink: 0;\r\n  overflow: hidden;\r\n  margin-right: 60px;\r\n  height: 600px;\r\n}\r\n.middle_section .gallery_grid .img {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n.middle_section .gallery_grid .img:first-child {\r\n  grid-row: span 2;\r\n}\r\n.middle_section .who_we_are {\r\n  align-items: flex-start;\r\n}\r\n.middle_section .who_we_are .left {\r\n  width: 674px;\r\n  margin-right: 40px;\r\n}\r\n.middle_section .who_we_are .left .img {\r\n  margin-top: 40px;\r\n  width: 100%;\r\n}\r\n.middle_section .who_we_are .right .img {\r\n  width: 100%;\r\n}\r\n.middle_section .who_we_are .form {\r\n  margin: auto;\r\n  margin-right: 0;\r\n  margin-top: 50px;\r\n}\r\n.middle_section .who_we_are .margin_bottom {\r\n  margin-bottom: 50px;\r\n}\r\n\r\n@media screen and (max-width: 1300px) {\r\n  .middle_section .gallery_grid {\r\n    height: 410px;\r\n  }\r\n}\r\n@media screen and (max-width: 1100px) {\r\n  .middle_section .who_we_are .left {\r\n    width: 485px;\r\n    margin-right: 30px;\r\n    flex-shrink: 0;\r\n  }\r\n}\r\n@media screen and (max-width: 1000px) {\r\n  .middle_section .who_we_are {\r\n    flex-direction: column;\r\n  }\r\n  .middle_section .who_we_are .left {\r\n    width: 100%;\r\n    margin-right: 0;\r\n    margin-bottom: 30px;\r\n  }\r\n  .middle_section .who_we_are .right {\r\n    width: 100%;\r\n  }\r\n  .middle_section .who_we_are .form {\r\n    margin: auto;\r\n    margin-top: 25px;\r\n  }\r\n  .middle_section .gallery_grid {\r\n    margin-right: 30px;\r\n  }\r\n}\r\n@media screen and (max-width: 800px) {\r\n  .middle_section .gallery_grid {\r\n    height: 281px;\r\n    grid-gap: 6px;\r\n    margin-right: 17px;\r\n  }\r\n  .middle_section .gil30 {\r\n    margin-bottom: 13px;\r\n  }\r\n  .middle_section p {\r\n    margin-bottom: 10px;\r\n    font-size: 14px;\r\n  }\r\n}\r\n@media screen and (max-width: 600px) {\r\n  .middle_section {\r\n    padding: 44px 0;\r\n  }\r\n  .middle_section .project_flex {\r\n    margin-bottom: 44px;\r\n    flex-direction: column-reverse;\r\n  }\r\n  .middle_section .gallery_grid {\r\n    height: auto;\r\n    width: 100%;\r\n    margin: 0;\r\n    margin-top: 30px;\r\n  }\r\n  .gil30 {\r\n    font-size: 24px;\r\n  }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6885,7 +6885,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".why_choose_us {\n  background: url(/img/other/bg1.png) no-repeat;\n  background-position: center;\n  background-size: cover;\n  padding: 63px 0 112px 0;\n  position: relative;\n  margin-bottom: 30px;\n}\n.why_choose_us::before {\n  width: 100%;\n  height: 100%;\n  left: 0;\n  top: 0;\n  background-color: #2023877c;\n}\n.why_choose_us .head {\n  color: #fff;\n  text-align: center;\n  margin-bottom: 40px;\n}\n.why_choose_us .head .gil30 {\n  margin-bottom: 10px;\n}\n.why_choose_us .grid {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  grid-gap: 40px;\n}\n\n@media screen and (max-width: 1300px) {\n  .why_choose_us .grid {\n    grid-gap: 16px;\n  }\n  .benefit_box {\n    padding: 22px 16px;\n  }\n}\n@media screen and (max-width: 1200px) {\n  .why_choose_us .grid {\n    grid-template-columns: repeat(3, 1fr);\n  }\n}\n@media screen and (max-width: 1000px) {\n  .why_choose_us .grid {\n    grid-template-columns: repeat(2, 1fr);\n  }\n}\n@media screen and (max-width: 650px) {\n  .why_choose_us .grid {\n    grid-template-columns: 1fr;\n  }\n  .why_choose_us {\n    padding: 23px 0 58px 0;\n  }\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".why_choose_us {\r\n  background: url(/img/other/bg1.png) no-repeat;\r\n  background-position: center;\r\n  background-size: cover;\r\n  padding: 63px 0 112px 0;\r\n  position: relative;\r\n  margin-bottom: 30px;\r\n}\r\n.why_choose_us::before {\r\n  width: 100%;\r\n  height: 100%;\r\n  left: 0;\r\n  top: 0;\r\n  background-color: #2023877c;\r\n}\r\n.why_choose_us .head {\r\n  color: #fff;\r\n  text-align: center;\r\n  margin-bottom: 40px;\r\n}\r\n.why_choose_us .head .gil30 {\r\n  margin-bottom: 10px;\r\n}\r\n.why_choose_us .grid {\r\n  display: grid;\r\n  grid-template-columns: repeat(4, 1fr);\r\n  grid-gap: 40px;\r\n}\r\n\r\n@media screen and (max-width: 1300px) {\r\n  .why_choose_us .grid {\r\n    grid-gap: 16px;\r\n  }\r\n  .benefit_box {\r\n    padding: 22px 16px;\r\n  }\r\n}\r\n@media screen and (max-width: 1200px) {\r\n  .why_choose_us .grid {\r\n    grid-template-columns: repeat(3, 1fr);\r\n  }\r\n}\r\n@media screen and (max-width: 1000px) {\r\n  .why_choose_us .grid {\r\n    grid-template-columns: repeat(2, 1fr);\r\n  }\r\n}\r\n@media screen and (max-width: 650px) {\r\n  .why_choose_us .grid {\r\n    grid-template-columns: 1fr;\r\n  }\r\n  .why_choose_us {\r\n    padding: 23px 0 58px 0;\r\n  }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6981,7 +6981,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".singleService {\n  position: relative;\n}\n.singleService .background {\n  position: absolute;\n  width: 100%;\n  top: 80px;\n  left: 0;\n  z-index: -1;\n}\n.singleService .headline {\n  width: 100%;\n  background: url(/img/service/bg2.png) no-repeat;\n  background-position: center;\n  background-size: cover;\n  padding: 42px 0;\n  color: #fff;\n}\n.singleService .headline .title {\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  font-size: 50px;\n  margin-bottom: 15px;\n}\n.singleService .headline .title svg {\n  margin-right: 20px;\n  height: 35px;\n}\n.singleService .container {\n  width: 1360px;\n  margin: auto;\n}\n.singleService .main .img {\n  width: 640px;\n  height: 660px;\n  margin-right: 50px;\n  flex-shrink: 0;\n}\n.singleService .main {\n  color: #20202e;\n  margin: 50px 0;\n  align-items: flex-start;\n}\n.singleService .main .gilroy {\n  font-size: 30px;\n  text-transform: uppercase;\n  margin-bottom: 15px;\n}\n.singleService .main p {\n  margin-bottom: 30px;\n}\n.singleService .main ul li {\n  padding-left: 35px;\n  margin-bottom: 11px;\n  text-transform: uppercase;\n  position: relative;\n}\n.singleService .main ul li::before {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  left: 0;\n  top: 1px;\n  background-color: #20202e;\n}\n.singleService .more_options_title {\n  font-size: 30px;\n  text-transform: uppercase;\n  margin-bottom: 30px;\n  text-align: center;\n  color: #202387;\n}\n.singleService .other_options {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 16px;\n  margin-bottom: 60px;\n}\n.singleService .other_options .service_box .gilroy,\n.singleService .other_options .service_box .icon {\n  text-align: center;\n}\n\n/* responsiveness */\n@media screen and (max-width: 1420px) {\n  .singleService .container {\n    width: 95%;\n  }\n}\n@media screen and (max-width: 1250px) {\n  .singleService .main .img {\n    width: 50%;\n    height: auto;\n    margin-right: 30px;\n  }\n}\n@media screen and (max-width: 1000px) {\n  .singleService .headline .title {\n    font-size: 34px;\n    margin-bottom: 10px;\n  }\n\n  .singleService .headline .title svg {\n    margin-right: 4px;\n    height: 31px;\n  }\n  .singleService .headline {\n    padding: 30px 0;\n  }\n  .singleService .main {\n    flex-direction: column-reverse;\n  }\n  .singleService .main .img {\n    width: 600px;\n    margin-right: 0;\n    margin: auto;\n    margin-top: 30px;\n  }\n  .singleService .other_options {\n    grid-template-columns: repeat(2, 1fr);\n  }\n}\n@media screen and (max-width: 660px) {\n  .singleService .headline .title {\n    font-size: 28px;\n  }\n  .singleService .headline {\n    padding: 21px 0;\n  }\n  .singleService .main {\n    margin: 29px 0;\n  }\n  .singleService .main .gilroy {\n    font-size: 28px;\n    margin-bottom: 9px;\n  }\n  .singleService .main p {\n    margin-bottom: 17px;\n  }\n  .singleService .main ul li {\n    padding-left: 26px;\n    margin-bottom: 9px;\n    font-size: 14px;\n  }\n  .singleService .main .img {\n    width: 90%;\n  }\n  .singleService .more_options_title {\n    font-size: 25px;\n  }\n  .singleService .other_options {\n    grid-template-columns: 1fr;\n  }\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".singleService {\r\n  position: relative;\r\n}\r\n.singleService .background {\r\n  position: absolute;\r\n  width: 100%;\r\n  top: 80px;\r\n  left: 0;\r\n  z-index: -1;\r\n}\r\n.singleService .headline {\r\n  width: 100%;\r\n  background: url(/img/service/bg2.png) no-repeat;\r\n  background-position: center;\r\n  background-size: cover;\r\n  padding: 42px 0;\r\n  color: #fff;\r\n}\r\n.singleService .headline .title {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: flex-start;\r\n  font-size: 50px;\r\n  margin-bottom: 15px;\r\n}\r\n.singleService .headline .title svg {\r\n  margin-right: 20px;\r\n  height: 35px;\r\n}\r\n.singleService .container {\r\n  width: 1360px;\r\n  margin: auto;\r\n}\r\n.singleService .main .img {\r\n  width: 640px;\r\n  height: 660px;\r\n  margin-right: 50px;\r\n  flex-shrink: 0;\r\n}\r\n.singleService .main {\r\n  color: #20202e;\r\n  margin: 50px 0;\r\n  align-items: flex-start;\r\n}\r\n.singleService .main .gilroy {\r\n  font-size: 30px;\r\n  text-transform: uppercase;\r\n  margin-bottom: 15px;\r\n}\r\n.singleService .main p {\r\n  margin-bottom: 30px;\r\n}\r\n.singleService .main ul li {\r\n  padding-left: 35px;\r\n  margin-bottom: 11px;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n}\r\n.singleService .main ul li::before {\r\n  width: 15px;\r\n  height: 15px;\r\n  border-radius: 50%;\r\n  left: 0;\r\n  top: 1px;\r\n  background-color: #20202e;\r\n}\r\n.singleService .more_options_title {\r\n  font-size: 30px;\r\n  text-transform: uppercase;\r\n  margin-bottom: 30px;\r\n  text-align: center;\r\n  color: #202387;\r\n}\r\n.singleService .other_options {\r\n  display: grid;\r\n  grid-template-columns: repeat(3, 1fr);\r\n  grid-gap: 16px;\r\n  margin-bottom: 60px;\r\n}\r\n.singleService .other_options .service_box .gilroy,\r\n.singleService .other_options .service_box .icon {\r\n  text-align: center;\r\n}\r\n\r\n/* responsiveness */\r\n@media screen and (max-width: 1420px) {\r\n  .singleService .container {\r\n    width: 95%;\r\n  }\r\n}\r\n@media screen and (max-width: 1250px) {\r\n  .singleService .main .img {\r\n    width: 50%;\r\n    height: auto;\r\n    margin-right: 30px;\r\n  }\r\n}\r\n@media screen and (max-width: 1000px) {\r\n  .singleService .headline .title {\r\n    font-size: 34px;\r\n    margin-bottom: 10px;\r\n  }\r\n\r\n  .singleService .headline .title svg {\r\n    margin-right: 4px;\r\n    height: 31px;\r\n  }\r\n  .singleService .headline {\r\n    padding: 30px 0;\r\n  }\r\n  .singleService .main {\r\n    flex-direction: column-reverse;\r\n  }\r\n  .singleService .main .img {\r\n    width: 600px;\r\n    margin-right: 0;\r\n    margin: auto;\r\n    margin-top: 30px;\r\n  }\r\n  .singleService .other_options {\r\n    grid-template-columns: repeat(2, 1fr);\r\n  }\r\n}\r\n@media screen and (max-width: 660px) {\r\n  .singleService .headline .title {\r\n    font-size: 28px;\r\n  }\r\n  .singleService .headline {\r\n    padding: 21px 0;\r\n  }\r\n  .singleService .main {\r\n    margin: 29px 0;\r\n  }\r\n  .singleService .main .gilroy {\r\n    font-size: 28px;\r\n    margin-bottom: 9px;\r\n  }\r\n  .singleService .main p {\r\n    margin-bottom: 17px;\r\n  }\r\n  .singleService .main ul li {\r\n    padding-left: 26px;\r\n    margin-bottom: 9px;\r\n    font-size: 14px;\r\n  }\r\n  .singleService .main .img {\r\n    width: 90%;\r\n  }\r\n  .singleService .more_options_title {\r\n    font-size: 25px;\r\n  }\r\n  .singleService .other_options {\r\n    grid-template-columns: 1fr;\r\n  }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

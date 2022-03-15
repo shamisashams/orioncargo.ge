@@ -21,44 +21,44 @@ const Services = () => {
             link: route('client.services.show', "AirFreight"),
             icon: <Plane />,
             title: __("air_freight"),
-            para: __("air_freight_desc"),
+            // para: __("air_freight_desc"),
         },
         {
             link: route('client.services.show', "LandFreight"),
             icon: <Truck />,
             title: __("land_freight"),
-            para: __("land_freight_desc"),
+            // para: __("land_freight_desc"),
         },
         {
             link: route('client.services.show', "CargoShip"),
             icon: <Shipping />,
             title: __("cargo_shipping"),
-            para: __("cargo_shipping_desc"),
+            // para: __("cargo_shipping_desc"),
         },
         {
             link: route('client.services.show', "Refrigerated"),
             icon: <Cool />,
             title: __("refrigerated_cargo"),
-            para: __("refrigerated_cargo_desc"),
+            // para: __("refrigerated_cargo_desc"),
         },
         {
             link: route('client.services.show', "CharterFlights"),
             icon: <Charter />,
             title: __("charter_flights"),
-            para: __("charter_flights_desc"),
+            // para: __("charter_flights_desc"),
         },
         {
             link: route('client.services.show', "DangerousGood"),
             icon: <Danger />,
             title: __("good_shipping"),
-            para: __("good_shipping_desc"),
+            // para: __("good_shipping_desc"),
 
         },
         {
             link: route('client.services.show', "Brokrtage"),
             icon: <Document />,
             title: __("customs_brokerage_services"),
-            para: __("customs_brokerage_services_desc"),
+            // para: __("customs_brokerage_services_desc"),
         },
     ];
   return (

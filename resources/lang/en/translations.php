@@ -7,7 +7,7 @@ return [
     "contact" => "Contact",
     "hero_title" => "Fast and reliable international shipping service",
     "hero_content" => "A full range of air transportation jointly by partner airlines.",
-    "watch_the" => "Watch the",
+    "watch_the" => "Watch the video",
     "video" => "video",
     "social_links" => "Social links",
     "working_hours" => "working hours",
@@ -27,19 +27,73 @@ return [
     "on_time_deliver" => "We deliever your package in no time",
     "send_request" => "send request",
     "air_freight" => "International Air Freight",
-    "air_freight_desc" => "The company Cargo provides a full range of services related to air freight.",
+    "air_freight_desc" => "Orion Cargo offers a full range of air transportation through partner airlines. • International air transportation: export, import, transit
+    • Competitive rates
+    • Cargo insurance (at the request of the customer)
+    • Provision of local services throughout Georgia
+    • Door to door delivery
+    • Customs brokerage services
+    • Storage of goods in the terminal.
+    • Preparation of international documentation
+    • Providing quality and reliable services",
     "land_freight" => "Road transportation",
-    "land_freight_desc" => "Orion Cargo provides a full range of road transportation services.",
+    "land_freight_desc" => "Orion Cargo provides a full range of road transportation services.
+    •	International road transport: export, import, transit
+•	Full truckload shipping
+•	Less-than-truckload shipping (LTL)
+•	Container Shipping
+•	Competitive rates
+•	Cargo insurance (at the request of the customer)
+•	Provision of local services throughout Georgia
+•	Door to door delivery
+•	Customs brokerage services
+•	Storage of goods in the terminal.
+•	Preparation of international documentation
+•	Preparation of special permits for the carriage of goods
+•	Providing quality and reliable services
+",
     "cargo_shipping" => "Cargo shipping",
     "cargo_shipping_desc" => "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
-    "refrigerated_cargo" => "Refrigerated cargo?",
-    "refrigerated_cargo_desc" => "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
+    "refrigerated_cargo" => "Temperature regime",
+    "refrigerated_cargo_desc" => "Orion Cargo offers temperature regimes for special purpose freights.
+    • Provide temperature control during air transportation
+• Provide temperature control during road transportation
+• Ensure temperature conditions both in the dispatch and transit terminals
+• Provide dry ice
+",
     "charter_flights" => "Charter flights",
-    "charter_flights_desc" => "Orion Cargo organizes a full range of global air charter solutions.",
+    "charter_flights_desc" => "Orion Cargo provides charter flights to our customers.
+    •	Organize charter flights to any destination
+•	Selection of the type of aircraft based on the weight and dimensions of the cargo
+•	Charter flights for the transport of dangerous goods
+•	Organization of VIP flights
+•	Competitive rates
+•	Cargo insurance (at the request of the customer)
+•	Provision of local services throughout Georgia
+•	Door to door delivery
+•	Customs brokerage services
+•	Storage of goods in the terminal.
+•	Preparation of international documentation
+•	Preparation of special permits for the carriage of goods
+•	Providing quality and reliable services
+",
     "good_shipping" => "Transportation of dangerous goods",
-    "good_shipping_desc" => "Orion Cargo provides transportation of dangerous goods in compliance with all standarts.",
+    "good_shipping_desc" => "Transportation of dangerous goods according to all international standards.
+    • Analysis and classification of freight
+• Preparation of a dangerous goods declaration
+• Labeling and storage under appropriate conditions
+• Accompanying with an escort
+• Delivery from door to door
+",
     "customs_brokerage_services" => "Customs brokerage services",
-    "customs_brokerage_services_desc" => "Orion Cargo provides a full range of customs brokerage services.",
+    "customs_brokerage_services_desc" => "The company offers a full range of customs brokerage services.
+    • Fulfillment of transit formalities
+• Fulfillment of export formalities
+• Fulfillment of import formalities
+•Preparation of documentation
+•Consulting services
+• Preliminary check of documents before cargo arrival
+",
     "our_Services" => "Our services",
     "need" => "We will meet your needs",
     // "solution" => "We Have The SOLUTION",
@@ -79,42 +133,31 @@ Dimensions including packaging (length, width, height)
     Commercial Invoice; Packing List.",
     "question_5" => "Where your company office is located?",
     "answer_5" => "Our office is located at Tbilisi International Airport.",
-    "more_questions" => "Have Some More Questions? ",
-    "get_in_touch" => "Get In Touch!",
-    "name_surname" => "Enter your name and surname here",
-    "phone_number" => "Your phone number is",
-    "email_address" => "Tell us your email addressff",
-    "your_message_here" => "You can leave your message here",
-    "why_choose_us" => "WHY CHOOSE US",
-    "package_deliver" => "We deliver your package in no time",
+    "more_questions" => "More questions?",
+    "get_in_touch" => "Contact us:",
+    "name_surname" => "Full Name",
+    "phone_number" => "Phone Number",
+    "email_address" => "Email:",
+    "your_message_here" => "Your message...",
+    "why_choose_us" => "Why us?",
+    "package_deliver" => "We will ensure the timely delivery of your freight.",
     "benefit_list_title_1" => "Time",
-    "benefit_list_description_1" => "We value our customer time and offer the best planning for each project individually, in agreement with you we go to the ideal service that is a dream come true for all customers, which means unloading and timely transportation of cargo.",
+    "benefit_list_description_1" => "We will ensure the timely delivery of your freight.",
     "benefit_list_title_2" => "Cost",
-    "benefit_list_description_2" => "effectiveness and minimization – With the help of our team, transporting your cargo will be not only safe but also economical financially, which is literally beneficial for your business.",
+    "benefit_list_description_2" => "We offer competitive rates for any type of transport.",
     "benefit_list_title_3" => "International Partnership Network",
-    "benefit_list_description_3" => "With the help of our fleet and our partners, you will always receive the highest quality service from anywhere in the world, with constant cargo handling and status notification.",
+    "benefit_list_description_3" => "Orion Cargo has partners all over the world, which provides our customers with a complete and convenient package of cargo delivery services.",
     "benefit_list_title_4" => "Reliability",
-    "benefit_list_description_4" => "Our team’s niche is experience and professionalism.",
+    "benefit_list_description_4" => "Due to our competence and international partner network, we ensure reliable shipment of your cargo.",
     "about_us" => "About Us",
-    "about_us_title_1" => "history",
-    "about_us_content_1" => " Leverage agile frameworks to provide a robust synopsis for high
-                              level overviews. Iterative approaches to strategy.",
-    "about_us_title_2" => "our mission",
-    "about_us_content_2" => "Leverage agile frameworks to provide a robust synopsis for high
-                              level overviews. Iterative approaches to strategy. Leverage agile
-                              frameworks to provide a robust synopsis for high level overviews.
-                              Iterative approaches to strategy. Leverage agile frameworks to
-                              provide a robust synopsis for high level overviews. Iterative
-                              approaches to strategy.",
-    "about_us_title_3" => "our vision",
-    "about_us_content_3" => "Leverage agile frameworks to provide a robust synopsis for high
-                              level overviews. Iterative approaches to strategy. Leverage agile
-                              frameworks to provide a robust synopsis for high level overviews.
-                              Iterative approaches to strategy. Leverage agile frameworks to
-                              provide a robust synopsis for high level overviews. Iterative
-                              approaches to strategy.",
+    "about_us_title_1" => "History",
+    "about_us_content_1" => " Orion Cargo has been operating in the field of air and road transportation since 2020 and provides its customers with a full range of services tailored to their requirements. During this time we have been able to build experience, competence, a network of trusted partners, and a satisfied customer base.",
+    "about_us_title_2" => "Activities",
+    "about_us_content_2" => "We provide our customers individual, fast, high-quality service for each consignment. We adhere to all international standards and offer our clients a full service.",
+    "about_us_title_3" => "Our advantages",
+    "about_us_content_3" => "Our company is distinguished by a direct partnership with airlines and ground carriers, which ensures fast, safe, and profitable cargo transportation.",
     "contact_us" => "Contact us",
-    "services_desc" => "We Offer A Wide Range Of Logistic Services To Our Clients",
+    "services_desc" => "We provide a wide range of services to our customers.",
     "email_address_contact" => "email address",
     "email_1" => "example@info.ge",
     "email_2" => "example@contact.ge",
@@ -134,6 +177,15 @@ Dimensions including packaging (length, width, height)
     "project_slug_4" => "project_4",
     "project_para_4" => "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy.",
     "we_offer" => "We Offer A Wide Range Of Logistic Services To Our Clients",
+
+
+
+
+
+
+"int_head_1" => ""
+
+
 
 
 ];?>

@@ -4677,7 +4677,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AirFreight = function AirFreight() {
-  var bullets = [__("airfreight_bullet_1"), __("airfreight_bullet_2"), __("airfreight_bullet_3"), __("airfreight_bullet_4"), __("airfreight_bullet_5"), __("airfreight_bullet_6"), __("airfreight_bullet_7"), __("airfreight_bullet_8")];
+  var bullets = [__("airfreight_bullet_1"), __("airfreight_bullet_2"), __("airfreight_bullet_3"), __("airfreight_bullet_4"), __("airfreight_bullet_5"), __("airfreight_bullet_6"), __("airfreight_bullet_7"), __("airfreight_bullet_8"), __("airfreight_bullet_9")];
   var services = [{
     link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
@@ -4742,13 +4742,13 @@ var AirFreight = function AirFreight() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("air_freight")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("airfreight_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("airfreight_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("air_freight")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("airfreight_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy more_options_title"
-  }, "See more options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("see_more_services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "other_options"
   }, services.map(function (item) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
@@ -4789,7 +4789,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Brokerage = function Brokerage() {
-  var bullets = [__("brokerage_bullet_1"), __("brokerage_bullet_2"), __("brokerage_bullet_3"), __("brokerage_bullet_4"), __("brokerage_bullet_5"), __("brokerage_bullet_6"), __("brokerage_bullet_7"), __("brokerage_bullet_8")];
+  var bullets = [// __("brokerage_bullet_1"),
+  __("brokerage_bullet_2"), __("brokerage_bullet_3"), __("brokerage_bullet_4"), __("brokerage_bullet_5"), __("brokerage_bullet_6"), __("brokerage_bullet_7") // __("brokerage_bullet_8"),
+  ];
   var services = [{
     link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
@@ -4854,7 +4856,7 @@ var Brokerage = function Brokerage() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("customs_brokerage_services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("brokerage_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("brokerage_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("customs_brokerage_services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("brokerage_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -5013,7 +5015,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var CharterFlights = function CharterFlights() {
-  var bullets = [__("charter_bullet_1"), __("charter_bullet_2"), __("charter_bullet_3"), __("charter_bullet_4"), __("charter_bullet_5"), __("charter_bullet_6"), __("charter_bullet_7"), __("charter_bullet_8")];
+  var bullets = [__("charter_bullet_1"), __("charter_bullet_2"), __("charter_bullet_3"), __("charter_bullet_4"), __("charter_bullet_5"), __("charter_bullet_6"), __("charter_bullet_7"), __("charter_bullet_8"), __("charter_bullet_9"), __("charter_bullet_10"), __("charter_bullet_11"), __("charter_bullet_12"), __("charter_bullet_13")];
   var services = [{
     link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
@@ -5078,7 +5080,7 @@ var CharterFlights = function CharterFlights() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("charter_flights")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("charter_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("charter_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("charter_flights")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("charter_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -5125,7 +5127,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var DangerousGoods = function DangerousGoods() {
-  var bullets = [__("danger_bullet_1"), __("danger_bullet_2"), __("danger_bullet_3"), __("danger_bullet_4"), __("danger_bullet_5"), __("danger_bullet_6"), __("danger_bullet_7"), __("danger_bullet_8")];
+  var bullets = [__("danger_bullet_1"), __("danger_bullet_2"), __("danger_bullet_3"), __("danger_bullet_4"), __("danger_bullet_5") // __("danger_bullet_6"),
+  // __("danger_bullet_7"),
+  // __("danger_bullet_8"),
+  ];
   var services = [{
     link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
@@ -5190,7 +5195,7 @@ var DangerousGoods = function DangerousGoods() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("good_shipping")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("shipping_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("shipping_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("good_shipping")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("shipping_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -5237,7 +5242,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var LandFreight = function LandFreight() {
-  var bullets = [__("landfreight_bullet_1"), __("landfreight_bullet_2"), __("landfreight_bullet_3"), __("landfreight_bullet_4"), __("landfreight_bullet_5"), __("landfreight_bullet_6"), __("landfreight_bullet_7"), __("landfreight_bullet_8")];
+  var bullets = [__("landfreight_bullet_1"), __("landfreight_bullet_2"), __("landfreight_bullet_3"), __("landfreight_bullet_4"), __("landfreight_bullet_5"), __("landfreight_bullet_6"), __("landfreight_bullet_7"), __("landfreight_bullet_9"), __("landfreight_bullet_10"), __("landfreight_bullet_11"), __("landfreight_bullet_12"), __("landfreight_bullet_13")];
   var services = [{
     link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
@@ -5302,7 +5307,7 @@ var LandFreight = function LandFreight() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("land_freight")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("landfreight_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("landfreight_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("land_freight")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("landfreight_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);
@@ -5349,7 +5354,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Refrigerated = function Refrigerated() {
-  var bullets = [__("refrigerated_bullet_1"), __("refrigerated_bullet_2"), __("refrigerated_bullet_3"), __("refrigerated_bullet_4"), __("refrigerated_bullet_5"), __("refrigerated_bullet_6"), __("refrigerated_bullet_7"), __("refrigerated_bullet_8")];
+  var bullets = [__("refrigerated_bullet_1"), __("refrigerated_bullet_2"), __("refrigerated_bullet_3"), __("refrigerated_bullet_4") // __("refrigerated_bullet_5"),
+  // __("refrigerated_bullet_6"),
+  // __("refrigerated_bullet_7"),
+  // __("refrigerated_bullet_8"),
+  ];
   var services = [{
     link: route("client.services.show", "AirFreight"),
     icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__.Plane, null),
@@ -5414,7 +5423,7 @@ var Refrigerated = function Refrigerated() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("refrigerated_cargo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("refrigerated_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("refrigerated_para_2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("refrigerated_cargo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("refrigerated_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
       className: "bold"
     }, bullet);

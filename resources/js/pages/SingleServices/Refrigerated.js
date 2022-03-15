@@ -19,10 +19,10 @@ const Refrigerated = () => {
         __("refrigerated_bullet_2"),
         __("refrigerated_bullet_3"),
         __("refrigerated_bullet_4"),
-        __("refrigerated_bullet_5"),
-        __("refrigerated_bullet_6"),
-        __("refrigerated_bullet_7"),
-        __("refrigerated_bullet_8"),
+        // __("refrigerated_bullet_5"),
+        // __("refrigerated_bullet_6"),
+        // __("refrigerated_bullet_7"),
+        // __("refrigerated_bullet_8"),
     ];
     const services = [
         {
@@ -87,7 +87,7 @@ const Refrigerated = () => {
                                 {__("refrigerated_cargo")}
                             </div>
                             <p>{__("refrigerated_para_1")}</p>
-                            <p>{__("refrigerated_para_2")}</p>
+                            {/* <p>{__("refrigerated_para_2")}</p> */}
                             <ul>
                                 {bullets.map((bullet) => {
                                     return <li className="bold">{bullet}</li>;

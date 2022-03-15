@@ -15,14 +15,14 @@ import Layout from "../../Layouts/Layout";
 
 const Brokerage = () => {
     const bullets = [
-        __("brokerage_bullet_1"),
+        // __("brokerage_bullet_1"),
         __("brokerage_bullet_2"),
         __("brokerage_bullet_3"),
         __("brokerage_bullet_4"),
         __("brokerage_bullet_5"),
         __("brokerage_bullet_6"),
         __("brokerage_bullet_7"),
-        __("brokerage_bullet_8"),
+        // __("brokerage_bullet_8"),
     ];
     const services = [
         {
@@ -87,7 +87,7 @@ const Brokerage = () => {
                                 {__("customs_brokerage_services")}
                             </div>
                             <p>{__("brokerage_para_1")}</p>
-                            <p>{__("brokerage_para_2")}</p>
+                            {/* <p>{__("brokerage_para_2")}</p> */}
                             <ul>
                                 {bullets.map((bullet) => {
                                     return <li className="bold">{bullet}</li>;

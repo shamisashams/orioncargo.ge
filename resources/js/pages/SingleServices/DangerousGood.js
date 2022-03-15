@@ -20,9 +20,9 @@ const DangerousGoods = () => {
         __("danger_bullet_3"),
         __("danger_bullet_4"),
         __("danger_bullet_5"),
-        __("danger_bullet_6"),
-        __("danger_bullet_7"),
-        __("danger_bullet_8"),
+        // __("danger_bullet_6"),
+        // __("danger_bullet_7"),
+        // __("danger_bullet_8"),
     ];
     const services = [
         {
@@ -84,7 +84,7 @@ const DangerousGoods = () => {
                         <div className="context">
                             <div className="gilroy">{__("good_shipping")}</div>
                             <p>{__("shipping_para_1")}</p>
-                            <p>{__("shipping_para_2")}</p>
+                            {/* <p>{__("shipping_para_2")}</p> */}
                             <ul>
                                 {bullets.map((bullet) => {
                                     return <li className="bold">{bullet}</li>;

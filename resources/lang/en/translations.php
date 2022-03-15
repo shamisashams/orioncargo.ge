@@ -249,8 +249,4 @@ Dimensions including packaging (length, width, height)
     "refrigerated_bullet_8" => "",
     "refrigerated_para_1" => "",
     "refrigerated_para_2" => "",
-
-
-
-
 ];?>

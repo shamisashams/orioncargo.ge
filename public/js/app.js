@@ -3130,8 +3130,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
-/* harmony import */ var _img_logo_dark_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/logo/dark.svg */ "./public/img/logo/dark.svg");
-/* harmony import */ var _img_logo_white_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/logo/white.svg */ "./public/img/logo/white.svg");
+/* harmony import */ var _img_logo_dark_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/logo/dark.svg */ "./public/img/logo/dark.svg");
+/* harmony import */ var _img_logo_white_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/logo/white.svg */ "./public/img/logo/white.svg");
 /* harmony import */ var _Icons_Icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Icons/Icons */ "./resources/js/Components/Icons/Icons.js");
 /* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Header.css */ "./resources/js/Components/Header/Header.css");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
@@ -3706,10 +3706,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
-/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
-/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
-/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
+/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
+/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
+/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
+/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _SocialMedia_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./SocialMedia.css */ "./resources/js/Components/SocialMedia/SocialMedia.css");
 
@@ -4097,7 +4097,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _HeroSection_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HeroSection.css */ "./resources/js/Pages/Home/HeroSection/HeroSection.css");
-/* harmony import */ var _img_hero_play_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/hero/play.svg */ "./public/img/hero/play.svg");
+/* harmony import */ var _img_hero_play_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/hero/play.svg */ "./public/img/hero/play.svg");
 /* harmony import */ var _components_RequestForm_RequestForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/RequestForm/RequestForm */ "./resources/js/components/RequestForm/RequestForm.js");
 /* harmony import */ var _components_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/SocialMedia/SocialMedia */ "./resources/js/components/SocialMedia/SocialMedia.js");
 /* harmony import */ var _components_ContactInfo_ContactInfo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/ContactInfo/ContactInfo */ "./resources/js/components/ContactInfo/ContactInfo.js");
@@ -4493,7 +4493,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/MainButton/MainButton */ "./resources/js/components/MainButton/MainButton.js");
 /* harmony import */ var _Services_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Services.css */ "./resources/js/Pages/Services/Services.css");
 /* harmony import */ var _Home_ServiceHome_ServiceHome_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Home/ServiceHome/ServiceHome.css */ "./resources/js/Pages/Home/ServiceHome/ServiceHome.css");
@@ -4664,7 +4664,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -4776,7 +4776,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -4888,7 +4888,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5000,7 +5000,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5112,7 +5112,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5224,7 +5224,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -5336,7 +5336,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/service/bg.png */ "./public/img/service/bg.png");
+/* harmony import */ var _img_service_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/service/bg.png */ "./public/img/service/bg.png");
 /* harmony import */ var _components_Icons_Icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Icons/Icons */ "./resources/js/components/Icons/Icons.js");
 /* harmony import */ var _components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ServiceBox/ServiceBox */ "./resources/js/components/ServiceBox/ServiceBox.js");
 /* harmony import */ var _SingleServices_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleServices.css */ "./resources/js/Pages/SingleServices/SingleServices.css");
@@ -6099,7 +6099,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _ProjectBox_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ProjectBox.css */ "./resources/js/components/ProjectBox/ProjectBox.css");
-/* harmony import */ var _img_icons_other_plus_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/other/plus.svg */ "./public/img/icons/other/plus.svg");
+/* harmony import */ var _img_icons_other_plus_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/other/plus.svg */ "./public/img/icons/other/plus.svg");
 
 
 
@@ -6200,10 +6200,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_icons_form_calendar_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/icons/form/calendar.svg */ "./public/img/icons/form/calendar.svg");
-/* harmony import */ var _img_icons_form_mail_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/icons/form/mail.svg */ "./public/img/icons/form/mail.svg");
-/* harmony import */ var _img_icons_form_pin_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/form/pin.svg */ "./public/img/icons/form/pin.svg");
-/* harmony import */ var _img_icons_form_tel_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../img/icons/form/tel.svg */ "./public/img/icons/form/tel.svg");
+/* harmony import */ var _img_icons_form_calendar_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/icons/form/calendar.svg */ "./public/img/icons/form/calendar.svg");
+/* harmony import */ var _img_icons_form_mail_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/icons/form/mail.svg */ "./public/img/icons/form/mail.svg");
+/* harmony import */ var _img_icons_form_pin_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/form/pin.svg */ "./public/img/icons/form/pin.svg");
+/* harmony import */ var _img_icons_form_tel_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../img/icons/form/tel.svg */ "./public/img/icons/form/tel.svg");
 /* harmony import */ var _MainButton_MainButton__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../MainButton/MainButton */ "./resources/js/components/MainButton/MainButton.js");
 /* harmony import */ var _RequestForm_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./RequestForm.css */ "./resources/js/components/RequestForm/RequestForm.css");
 
@@ -6309,10 +6309,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
-/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
-/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
-/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
+/* harmony import */ var _img_icons_sm_fb_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../img/icons/sm/fb.svg */ "./public/img/icons/sm/fb.svg");
+/* harmony import */ var _img_icons_sm_tw_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../img/icons/sm/tw.svg */ "./public/img/icons/sm/tw.svg");
+/* harmony import */ var _img_icons_sm_gp_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../img/icons/sm/gp.svg */ "./public/img/icons/sm/gp.svg");
+/* harmony import */ var _img_icons_sm_in_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../img/icons/sm/in.svg */ "./public/img/icons/sm/in.svg");
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _SocialMedia_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./SocialMedia.css */ "./resources/js/components/SocialMedia/SocialMedia.css");
 
@@ -47191,7 +47191,7 @@ webpackContext.id = "./resources/js/Pages sync recursive ^\\.\\/.*$";
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_from":"axios@0.21.4"}');
+module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}]}');
 
 /***/ })
 

@@ -21,26 +21,9 @@ body {
     font-family: "imedi";
 }
 .gil70 {
-    font-size: 57px;
-    line-height: 100% !important;
     font-family: "imedi";
 }
 .gil30 {
     font-family: "imedi";
 }
-.hero .wrapper .first .content {
-    max-width: 800px !important;
-}
-@media screen and (max-width: 1300px) {
-    .gil70 {
-        font-size: 39px !important;
-    }
-    .hero .wrapper .first .content {
-        max-width: 560px !important;
-    }
-}
-@media screen and (max-width: 600px) {
-    .gil70 {
-        font-size: 29px !important;
-    }
-}
+

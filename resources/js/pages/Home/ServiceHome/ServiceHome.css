@@ -1,59 +1,59 @@
 .service_home {
-  position: relative;
-  padding-top: 38px;
-  padding-bottom: 75px;
+    position: relative;
+    padding-top: 38px;
+    padding-bottom: 75px;
 }
 .service_home .background {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  left: 0;
-  top: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
 }
 .service_home h3 {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  font-size: 40px;
-  color: #949fcd;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #949fcd;
 }
 .service_home .grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 40px 34px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px 34px;
 }
 .service_home .grid a:last-child {
-  height: fit-content;
-  margin: auto;
+    height: fit-content;
+    margin: auto;
 }
 .service_home .grid .main_button {
-  margin: auto;
+    margin: auto;
 }
 
 @media screen and (max-width: 1400px) {
-  .service_box {
-    padding: 20px;
-  }
-  .service_home .grid {
-    grid-gap: 22px 18px;
-  }
+    .service_home .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .service_box {
+        padding: 20px;
+    }
+    .service_home .grid {
+        grid-gap: 22px 18px;
+    }
 }
 @media screen and (max-width: 1250px) {
-  .service_home .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 @media screen and (max-width: 850px) {
-  .service_home .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .service_home .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media screen and (max-width: 600px) {
-  .service_home .grid {
-    grid-template-columns: 1fr;
-  }
-  .service_home h3 {
-    margin-top: 4px;
-    margin-bottom: 24px;
-    font-size: 24px;
-  }
+    .service_home .grid {
+        grid-template-columns: 1fr;
+    }
+    .service_home h3 {
+        margin-top: 4px;
+        margin-bottom: 24px;
+        font-size: 24px;
+    }
 }

@@ -101,7 +101,7 @@
         margin-bottom: 9px;
     }
 }
-@media screen and (max-height: 770px) {
+@media screen and (max-height: 750px) {
     .hero {
         height: auto;
     }
@@ -111,6 +111,25 @@
 }
 
 /* width  */
+@media screen and (max-width: 1400px) {
+    .gil70 {
+        font-size: 63px;
+        line-height: 63px;
+    }
+    .hero .request_form {
+        width: 334px;
+        padding: 18px;
+    }
+    .hero .main_button {
+        width: 201px;
+        height: 51px;
+        font-size: 15px;
+        margin-top: 12px;
+    }
+    .hero .wrapper {
+        padding-top: 166px;
+    }
+}
 @media screen and (max-width: 1100px) {
     .gil70 {
         font-size: 55px;

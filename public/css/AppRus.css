@@ -22,8 +22,27 @@ body {
 }
 .gil70 {
     font-family: "akziden";
+    font-size: 50px !important;
+    line-height: 100% !important;
 }
 .gil30 {
     font-family: "akziden";
 }
 
+.hero .wrapper .first .content {
+    max-width: 800px !important;
+}
+
+@media screen and (max-width: 1400px) {
+    .gil70 {
+        font-size: 40px !important;
+    }
+    .hero .wrapper .first .content {
+        max-width: 600px !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .gil70 {
+        font-size: 30px !important;
+    }
+}

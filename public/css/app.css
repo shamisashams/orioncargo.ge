@@ -135,7 +135,17 @@ img {
     padding-top: 166px !important;
 }
 
-@media screen and (max-width: 1650px) {
+@media screen and (max-width: 1800px) {
+    .wrapper {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1260px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 900px) {
     .wrapper {
         width: 95%;
     }

@@ -7,31 +7,41 @@ import { MainButton } from "../MainButton/MainButton";
 import "./RequestForm.css";
 
 const RequestForm = () => {
+    const onFocus = (e) => {
+        e.currentTarget.type = "date";
+    };
     const inputs = [
         {
             placeholder: __("from"),
             icon: Pin,
             type: "text",
+            onFocus: "",
         },
         {
             placeholder: __("to"),
             icon: Pin,
             type: "text",
+            onFocus: "",
         },
         {
-            placeholder: __("Date"),
+            placeholder: __("date"),
             icon: Calendar,
-            type: "date",
+            type: "text",
+            onFocus: (e) => {
+                e.currentTarget.type = "date";
+            },
         },
         {
             placeholder: __("your_email"),
             icon: Mail,
             type: "text",
+            onFocus: "",
         },
         {
             placeholder: __("your_phone"),
             icon: Tel,
             type: "tel",
+            onFocus: "",
         },
     ];
     return (
@@ -45,6 +55,10 @@ const RequestForm = () => {
                         <input
                             type={item.type}
                             placeholder={item.placeholder}
+                            onFocus={item.onFocus}
+                            onBlur={(e) => {
+                                e.currentTarget.type = "text";
+                            }}
                         />
                     </div>
                 );

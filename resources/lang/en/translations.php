@@ -11,7 +11,7 @@ return [
     "video" => "video",
     "social_links" => "Social links",
     "working_hours" => "working hours",
-    "days" => "Monday - friday",
+    "days" => "Monday - Sunday",
     "hours" => "09:00 - 19:00",
     "address" => "Address",
     "street_name" => "Tbilisi",

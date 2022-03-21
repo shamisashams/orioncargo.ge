@@ -4114,22 +4114,9 @@ var HeroSection = function HeroSection() {
     className: "content"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil70"
-  }, __("hero_title")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("hero_content")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "play_video flex"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "circle flex centered"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _img_hero_play_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
-    alt: ""
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "border"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, __("watch_the"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_RequestForm_RequestForm__WEBPACK_IMPORTED_MODULE_3__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, __("hero_title")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("hero_content"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_RequestForm_RequestForm__WEBPACK_IMPORTED_MODULE_3__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex second"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "sm flex"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, __('social_links')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    background: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ContactInfo_ContactInfo__WEBPACK_IMPORTED_MODULE_5__.ContactInfo, null))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ContactInfo_ContactInfo__WEBPACK_IMPORTED_MODULE_5__.ContactInfo, null))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HeroSection);
@@ -6218,26 +6205,37 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var RequestForm = function RequestForm() {
+  var onFocus = function onFocus(e) {
+    e.currentTarget.type = "date";
+  };
+
   var inputs = [{
     placeholder: __("from"),
     icon: _img_icons_form_pin_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
-    type: "text"
+    type: "text",
+    onFocus: ""
   }, {
     placeholder: __("to"),
     icon: _img_icons_form_pin_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
-    type: "text"
+    type: "text",
+    onFocus: ""
   }, {
-    placeholder: __("Date"),
+    placeholder: __("date"),
     icon: _img_icons_form_calendar_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
-    type: "date"
+    type: "text",
+    onFocus: function onFocus(e) {
+      e.currentTarget.type = "date";
+    }
   }, {
     placeholder: __("your_email"),
     icon: _img_icons_form_mail_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
-    type: "text"
+    type: "text",
+    onFocus: ""
   }, {
     placeholder: __("your_phone"),
     icon: _img_icons_form_tel_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
-    type: "tel"
+    type: "tel",
+    onFocus: ""
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "request_form"
@@ -6251,7 +6249,11 @@ var RequestForm = function RequestForm() {
       alt: ""
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
       type: item.type,
-      placeholder: item.placeholder
+      placeholder: item.placeholder,
+      onFocus: item.onFocus,
+      onBlur: function onBlur(e) {
+        e.currentTarget.type = "text";
+      }
     }));
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_MainButton_MainButton__WEBPACK_IMPORTED_MODULE_5__.MainButton, {
     link: "/",

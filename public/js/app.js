@@ -3041,8 +3041,9 @@ var ContactInfo = function ContactInfo() {
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "contact_info flex"
-  }, info.map(function (item) {
+  }, info.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      key: i,
       className: "column"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, item.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
       className: "bold"
@@ -3100,12 +3101,13 @@ var Footer = function Footer() {
     className: "wrapper flex top"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "navbar"
-  }, navs.map(function (item) {
+  }, navs.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+      key: i,
       href: item.link,
       className: "bold nav_link"
     }, item.name);
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_3__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "bottom"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "wrapper"
@@ -3169,7 +3171,6 @@ var Header = function Header() {
       locales = _usePage$props.locales,
       currentLocale = _usePage$props.currentLocale,
       locale_urls = _usePage$props.locale_urls;
-  console.log(locales);
   var theme = "#202387";
 
   if (pathname === route("client.home.index")) {
@@ -3222,8 +3223,9 @@ var Header = function Header() {
     alt: ""
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: showNav ? "navbar show" : "navbar"
-  }, navs.map(function (item) {
+  }, navs.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+      key: i,
       href: item.link,
       className: pathname === item.link ? "bold nav_link active" : "bold nav_link"
     }, item.name);
@@ -3243,7 +3245,7 @@ var Header = function Header() {
     degree: "0"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "drop"
-  }, Object.keys(locales).map(function (lng) {
+  }, Object.keys(locales).map(function (lng, i) {
     if (lng !== currentLocale) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
         href: locale_urls[lng],
@@ -3983,26 +3985,28 @@ var Contact = function Contact() {
   }, __("find_on_map")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "map"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("iframe", {
-    src: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11909.044506590086!2d44.7621418!3d41.7364602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sge!4v1645099669885!5m2!1sen!2sge",
-    width: "600",
-    height: "450",
+    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.1035984428245!2d44.95507431543482!3d41.67510597923883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40441109b4aeade7%3A0xe8de2fcf148a8bae!2sOrion%20Cargo!5e0!3m2!1sen!2sge!4v1647869760136!5m2!1sen!2sge",
+    style: {
+      border: "none"
+    },
     allowFullScreen: "",
     loading: "lazy"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex contact_details"
-  }, contactDets.map(function (i) {
+  }, contactDets.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-      className: "column"
+      className: "column",
+      key: i
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-      src: i.icon,
+      src: item.icon,
       alt: ""
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
       className: "bold"
-    }, i.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    }, item.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
       className: "bold"
-    }, i.p1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    }, item.p1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
       className: "bold"
-    }, i.p2));
+    }, item.p2));
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Form_Form__WEBPACK_IMPORTED_MODULE_2__["default"], null)))));
 };
 
@@ -4065,9 +4069,10 @@ var GallerySlide = function GallerySlide() {
     className: "gil30"
   }, __("gallery"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_slick__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({}, settings, {
     className: "gallery_slide"
-  }), sliderData.map(function (img) {
+  }), sliderData.map(function (img, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-      className: "img"
+      className: "img",
+      key: i
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
       src: img,
       alt: ""
@@ -4216,8 +4221,9 @@ var MiddleSection = function MiddleSection() {
     link: route("client.about.index")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, __("frequently_asked")), questions.map(function (item) {
+  }, __("frequently_asked")), questions.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Question_Question__WEBPACK_IMPORTED_MODULE_3__.Question, {
+      key: i,
       question: item.q,
       answer: item.a
     });
@@ -4314,8 +4320,9 @@ var ServiceHome = function ServiceHome() {
     className: "gilroy"
   }, __("need"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "grid"
-  }, services.map(function (item) {
+  }, services.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_2__.ServiceBox, {
+      key: i,
       bg: true,
       link: item.link,
       icon: item.icon,
@@ -4378,8 +4385,9 @@ var WhyUs = function WhyUs() {
     className: "gil30"
   }, __("why_choose_us")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("package_deliver"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "grid"
-  }, benefitList.map(function (item) {
+  }, benefitList.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_BenefitBox_BenefitBox__WEBPACK_IMPORTED_MODULE_1__.BenefitBox, {
+      key: i,
       icon: item.icon,
       title: item.title,
       para: item.para
@@ -4446,9 +4454,10 @@ var Projects = function Projects() {
     para: "See The Projects Done By Your Teem"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "project_track"
-  }, projectList.map(function (item) {
+  }, projectList.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_5__.Link, {
-      href: route('client.projects.show', item.slug)
+      key: i,
+      href: route("client.projects.show", item.slug)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ProjectBox_ProjectBox__WEBPACK_IMPORTED_MODULE_2__.ProjectBox, {
       img: item.img,
       name: item.name,
@@ -4542,8 +4551,9 @@ var Services = function Services() {
     para: __("services_desc")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "grid"
-  }, services.map(function (item) {
+  }, services.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_2__.ServiceBox, {
+      key: i,
       link: item.link,
       icon: item.icon,
       title: item.title,
@@ -4732,8 +4742,9 @@ var AirFreight = function AirFreight() {
     className: "gilroy more_options_title"
   }, __("see_more_services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "other_options"
-  }, services.map(function (item) {
+  }, services.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
+      key: i,
       link: item.link,
       icon: item.icon,
       title: item.title //   para={item.para}
@@ -4838,16 +4849,18 @@ var Brokerage = function Brokerage() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("customs_brokerage_services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("brokerage_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("customs_brokerage_services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("brokerage_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+      key: i,
       className: "bold"
     }, bullet);
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy more_options_title"
   }, "See more options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "other_options"
-  }, services.map(function (item) {
+  }, services.map(function (item, icons) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
+      key: i,
       link: item.link,
       icon: item.icon,
       title: item.title //   para={item.para}
@@ -4950,16 +4963,18 @@ var CargoShip = function CargoShip() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("cargo_shipping")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("cargo_shipping")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to strategy. Leverage agile frameworks to provide a robust synopsis for high"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+      key: i,
       className: "bold"
     }, bullet);
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy more_options_title"
   }, "See more options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "other_options"
-  }, services.map(function (item) {
+  }, services.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
+      key: i,
       link: item.link,
       icon: item.icon,
       title: item.title //   para={item.para}
@@ -5062,16 +5077,18 @@ var CharterFlights = function CharterFlights() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("charter_flights")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("charter_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("charter_flights")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("charter_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+      key: i,
       className: "bold"
     }, bullet);
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy more_options_title"
   }, "See more options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "other_options"
-  }, services.map(function (item) {
+  }, services.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
+      key: i,
       link: item.link,
       icon: item.icon,
       title: item.title //   para={item.para}
@@ -5177,16 +5194,18 @@ var DangerousGoods = function DangerousGoods() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("good_shipping")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("shipping_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("good_shipping")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("shipping_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+      key: i,
       className: "bold"
     }, bullet);
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy more_options_title"
   }, "See more options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "other_options"
-  }, services.map(function (item) {
+  }, services.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
+      key: i,
       link: item.link,
       icon: item.icon,
       title: item.title //   para={item.para}
@@ -5289,16 +5308,18 @@ var LandFreight = function LandFreight() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("land_freight")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("landfreight_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("land_freight")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("landfreight_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+      key: i,
       className: "bold"
     }, bullet);
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy more_options_title"
   }, "See more options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "other_options"
-  }, services.map(function (item) {
+  }, services.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
+      key: i,
       link: item.link,
       icon: item.icon,
       title: item.title //   para={item.para}
@@ -5405,16 +5426,18 @@ var Refrigerated = function Refrigerated() {
     className: "context"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy"
-  }, __("refrigerated_cargo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("refrigerated_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet) {
+  }, __("refrigerated_cargo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, __("refrigerated_para_1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, bullets.map(function (bullet, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+      key: i,
       className: "bold"
     }, bullet);
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gilroy more_options_title"
   }, "See more options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "other_options"
-  }, services.map(function (item) {
+  }, services.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ServiceBox_ServiceBox__WEBPACK_IMPORTED_MODULE_3__.ServiceBox, {
+      key: i,
       link: item.link,
       icon: item.icon,
       title: item.title //   para={item.para}
@@ -5525,8 +5548,9 @@ var ContactInfo = function ContactInfo() {
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "contact_info flex"
-  }, info.map(function (item) {
+  }, info.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      key: i,
       className: "column"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, item.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
       className: "bold"
@@ -5571,8 +5595,9 @@ var Form = function Form() {
     className: "form"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "gil30"
-  }, __("more_questions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __("get_in_touch")), inputs.map(function (item) {
+  }, __("more_questions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), __("get_in_touch")), inputs.map(function (item, i) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+      key: i,
       type: item.type,
       placeholder: item.placeholder
     });

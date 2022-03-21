@@ -34,21 +34,22 @@ const Contact = () => {
                             <div className="bold head">{__("find_on_map")}</div>
                             <div className="map">
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11909.044506590086!2d44.7621418!3d41.7364602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sge!4v1645099669885!5m2!1sen!2sge"
-                                    width="600"
-                                    height="450"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.1035984428245!2d44.95507431543482!3d41.67510597923883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40441109b4aeade7%3A0xe8de2fcf148a8bae!2sOrion%20Cargo!5e0!3m2!1sen!2sge!4v1647869760136!5m2!1sen!2sge"
+                                    style={{ border: "none" }}
                                     allowFullScreen=""
                                     loading="lazy"
                                 ></iframe>
                             </div>
                             <div className="flex contact_details">
-                                {contactDets.map((i) => {
+                                {contactDets.map((item, i) => {
                                     return (
-                                        <div className="column">
-                                            <img src={i.icon} alt="" />
-                                            <h6 className="bold">{i.title}</h6>
-                                            <p className="bold">{i.p1}</p>
-                                            <p className="bold">{i.p2}</p>
+                                        <div className="column" key={i}>
+                                            <img src={item.icon} alt="" />
+                                            <h6 className="bold">
+                                                {item.title}
+                                            </h6>
+                                            <p className="bold">{item.p1}</p>
+                                            <p className="bold">{item.p2}</p>
                                         </div>
                                     );
                                 })}

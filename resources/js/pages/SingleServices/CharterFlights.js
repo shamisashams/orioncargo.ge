@@ -94,8 +94,12 @@ const CharterFlights = () => {
                             <p>{__("charter_para_1")}</p>
                             {/* <p>{__("charter_para_2")}</p> */}
                             <ul>
-                                {bullets.map((bullet) => {
-                                    return <li className="bold">{bullet}</li>;
+                                {bullets.map((bullet, i) => {
+                                    return (
+                                        <li key={i} className="bold">
+                                            {bullet}
+                                        </li>
+                                    );
                                 })}
                             </ul>
                         </div>
@@ -104,9 +108,10 @@ const CharterFlights = () => {
                         See more options
                     </div>
                     <div className="other_options">
-                        {services.map((item) => {
+                        {services.map((item, i) => {
                             return (
                                 <ServiceBox
+                                    key={i}
                                     link={item.link}
                                     icon={item.icon}
                                     title={item.title}

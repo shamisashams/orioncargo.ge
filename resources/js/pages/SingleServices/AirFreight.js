@@ -93,12 +93,13 @@ const AirFreight = () => {
                         </div>
                     </div>
                     <div className="gilroy more_options_title">
-                    {__("see_more_services")}
+                        {__("see_more_services")}
                     </div>
                     <div className="other_options">
-                        {services.map((item) => {
+                        {services.map((item, i) => {
                             return (
                                 <ServiceBox
+                                    key={i}
                                     link={item.link}
                                     icon={item.icon}
                                     title={item.title}

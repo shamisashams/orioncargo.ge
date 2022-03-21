@@ -67,9 +67,10 @@ const ServiceHome = () => {
                     {/* {__("solution")} */}
                 </h3>
                 <div className="grid">
-                    {services.map((item) => {
+                    {services.map((item, i) => {
                         return (
                             <ServiceBox
+                                key={i}
                                 bg
                                 link={item.link}
                                 icon={item.icon}

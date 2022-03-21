@@ -31,15 +31,19 @@ const Footer = () => {
         <div className="footer">
             <div className="wrapper flex top">
                 <div className="navbar">
-                    {navs.map((item) => {
+                    {navs.map((item, i) => {
                         return (
-                            <Link href={item.link} className="bold nav_link">
+                            <Link
+                                key={i}
+                                href={item.link}
+                                className="bold nav_link"
+                            >
                                 {item.name}
                             </Link>
                         );
                     })}
                 </div>
-                <SocialMedia />
+                {/* <SocialMedia /> */}
             </div>
             <div className="bottom">
                 <div className="wrapper">

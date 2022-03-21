@@ -99,8 +99,12 @@ const CargoShip = () => {
                                 frameworks to provide a robust synopsis for high
                             </p>
                             <ul>
-                                {bullets.map((bullet) => {
-                                    return <li className="bold">{bullet}</li>;
+                                {bullets.map((bullet, i) => {
+                                    return (
+                                        <li key={i} className="bold">
+                                            {bullet}
+                                        </li>
+                                    );
                                 })}
                             </ul>
                         </div>
@@ -109,9 +113,10 @@ const CargoShip = () => {
                         See more options
                     </div>
                     <div className="other_options">
-                        {services.map((item) => {
+                        {services.map((item, i) => {
                             return (
                                 <ServiceBox
+                                    key={i}
                                     link={item.link}
                                     icon={item.icon}
                                     title={item.title}

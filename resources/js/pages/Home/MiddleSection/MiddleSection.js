@@ -90,9 +90,13 @@ const MiddleSection = () => {
                             />
                         </div>
                         <div className="gil30">{__("frequently_asked")}</div>
-                        {questions.map((item) => {
+                        {questions.map((item, i) => {
                             return (
-                                <Question question={item.q} answer={item.a} />
+                                <Question
+                                    key={i}
+                                    question={item.q}
+                                    answer={item.a}
+                                />
                             );
                         })}
                         <div className="img">

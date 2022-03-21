@@ -16,7 +16,6 @@ const Header = () => {
         setShowNav(!showNav);
     };
     const { pathname, locales, currentLocale, locale_urls } = usePage().props;
-    console.log(locales);
 
     let theme = "#202387";
 
@@ -79,9 +78,10 @@ const Header = () => {
                             />
                         </Link>
                         <div className={showNav ? "navbar show" : "navbar"}>
-                            {navs.map((item) => {
+                            {navs.map((item, i) => {
                                 return (
                                     <Link
+                                        key={i}
                                         href={item.link}
                                         className={
                                             pathname === item.link
@@ -115,7 +115,7 @@ const Header = () => {
                                 <Arrow color={theme} degree="0" />
                             </div>
                             <div className="drop">
-                                {Object.keys(locales).map((lng) => {
+                                {Object.keys(locales).map((lng, i) => {
                                     if (lng !== currentLocale) {
                                         return (
                                             <a

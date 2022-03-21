@@ -71,9 +71,10 @@ const Services = () => {
                         para={__("services_desc")}
                     />
                     <div className="grid">
-                        {services.map((item) => {
+                        {services.map((item, i) => {
                             return (
                                 <ServiceBox
+                                    key={i}
                                     link={item.link}
                                     icon={item.icon}
                                     title={item.title}

@@ -20,9 +20,9 @@ export const ContactInfo = () => {
     ];
     return (
         <div className="contact_info flex">
-            {info.map((item) => {
+            {info.map((item, i) => {
                 return (
-                    <div className="column">
+                    <div key={i} className="column">
                         <h6>{item.title}</h6>
                         <p className="bold">{item.p1}</p>
                         <p className="bold">{item.p2}</p>
